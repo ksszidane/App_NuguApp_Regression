@@ -16,7 +16,7 @@ import unit.TestCase;
 
 public class 실행_01_앱시작 extends TestCase {
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_004")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_004")
 	public void TC_004_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "AppActivity으로 화면 확인");
@@ -34,7 +34,7 @@ public class 실행_01_앱시작 extends TestCase {
 
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_005")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_005")
 	public void TC_005_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
@@ -49,7 +49,7 @@ public class 실행_01_앱시작 extends TestCase {
         
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_007")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_007")
 	public void TC_007_앱실행(Method method) throws Exception {
 		
 		
@@ -83,7 +83,7 @@ public class 실행_01_앱시작 extends TestCase {
         */
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_008")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_008")
 	public void TC_008_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
@@ -96,7 +96,7 @@ public class 실행_01_앱시작 extends TestCase {
         
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_010")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_010")
 	public void TC_010_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -122,7 +122,7 @@ public class 실행_01_앱시작 extends TestCase {
 
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_011")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_011")
 	public void TC_011_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -197,11 +197,14 @@ public class 실행_01_앱시작 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃");
 	    util.click(By.id("userNameTextView"));
+	    util.scroll(0, 2000, 0, 0);
+	    util.click(By.id("btnSettingLogout"));
+	    
 	    
 
     }
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_014~15")
+	@Test(description = "누구앱 리그레이션 TC : 실행_014~15")
 	public void TC_014_015_앱실행(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -214,9 +217,9 @@ public class 실행_01_앱시작 extends TestCase {
         util.click(By.className("btn-secondary-text"));
         
         test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 해제");
-        util.click(By.id("c-ick"));
+        util.click(By.className("c-ick"));
         
-        test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 전화번호 아이디 입력");
+        test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 이메일 아이디입력");
         util.type(By.id("userId"), "01032450613");
         
         test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '비유효' 암호입력");
@@ -227,13 +230,30 @@ public class 실행_01_앱시작 extends TestCase {
 		
 		test.log(Status.INFO, "계정 유효 값 처리 확인");
 	    String 유효성체크텍스트 = util.getText(By.className("form-msg"));
-	    System.out.println("계정 유효 값 처리 확인 : "+ 유효성체크텍스트);
 	    
 	    Assert.assertEquals(유효성체크텍스트, "아이디 또는 비밀번호를 정확하게 입력해주세요.\n" + 
 	    		"(10회 이상 실패하면 비밀번호를 다시 설정하셔야 합니다.)");
-	  
-		util.Android_BackKey();
-		util.switchContext("NATIVE_APP");
+
+	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
+        util.type(By.id("password"), "rlatjdtn10!!");
+        
+        test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
+		util.click(By.id("authLogin"));
+		
+		test.log(Status.INFO, "정상로그인 확인"); 
+	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
+    	
+	    test.log(Status.INFO, "아이디 영역 확인");
+	    String userName = util.getText(By.id("userNameTextView"));
+	    Assert.assertTrue(userName.contains("ksszidane"));
+	    
+	    test.log(Status.INFO, "로그아웃");
+	    util.click(By.id("userNameTextView"));
+	    util.scroll(0, 2000, 0, 0);
+	    util.click(By.id("btnSettingLogout"));
 		
 		
 		
