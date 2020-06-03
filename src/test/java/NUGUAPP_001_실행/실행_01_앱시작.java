@@ -3,9 +3,6 @@ package NUGUAPP_001_실행;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 
@@ -16,7 +13,7 @@ import unit.TestCase;
 
 public class 실행_01_앱시작 extends TestCase {
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_004")
+	@Test(description = "누구앱 리그레이션 TC : 실행_004")
 	public void TC_004_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "AppActivity으로 화면 확인");
@@ -34,7 +31,7 @@ public class 실행_01_앱시작 extends TestCase {
 
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_005")
+	@Test(description = "누구앱 리그레이션 TC : 실행_005")
 	public void TC_005_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
@@ -49,7 +46,7 @@ public class 실행_01_앱시작 extends TestCase {
         
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_007")
+	@Test(description = "누구앱 리그레이션 TC : 실행_007")
 	public void TC_007_앱실행(Method method) throws Exception {
 		
 		
@@ -83,7 +80,7 @@ public class 실행_01_앱시작 extends TestCase {
         */
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_008")
+	@Test(description = "누구앱 리그레이션 TC : 실행_008")
 	public void TC_008_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
@@ -96,7 +93,7 @@ public class 실행_01_앱시작 extends TestCase {
         
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_010")
+	@Test(description = "누구앱 리그레이션 TC : 실행_010")
 	public void TC_010_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -122,7 +119,7 @@ public class 실행_01_앱시작 extends TestCase {
 
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 실행_011")
+	@Test(description = "누구앱 리그레이션 TC : 실행_011")
 	public void TC_011_앱실행(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -255,44 +252,165 @@ public class 실행_01_앱시작 extends TestCase {
 	    util.scroll(0, 2000, 0, 0);
 	    util.click(By.id("btnSettingLogout"));
 		
-		
-		
     }
 	
-	
-	public void TC_02_앱실행_로그인_Test(Method method) throws Exception {
+	@Test(description = "누구앱 리그레이션 TC : 실행_016")
+	public void TC_016_앱실행(Method method) throws Exception {
 		
-		test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
-	    WebElement 다른아이디로그인 = util.findElement(By.xpath("//a[@data-click-id='link_gotoLogin']"));
-	    다른아이디로그인.click();
-	    Thread.sleep(2000);
-	            
-	    test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 해제");
-	    WebElement 자동로그인체크해제 = util.findElement(By.xpath("//span[@class='c-ick']"));
-	    자동로그인체크해제.click();
-	    
-	    test.log(Status.INFO, "아이디입력필드 유효성 체크 및 아이디입력");
-	    WebElement 아이디입력 = util.findElement(By.xpath("//input[@id='userId']"));
-	    아이디입력.sendKeys("ksszidane@naver.com");
-	    
-	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및 패스워드입력");
-	    WebElement 패스워드입력 = util.findElement(By.xpath("//input[@id='password']"));
-	    패스워드입력.sendKeys("tjdtn10!!");
-	    
-	    test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
-		WebElement 로그인하기 = util.findElement(By.xpath("//button[@id='authLogin']"));
-	    로그인하기.click();
+		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
+        util.click(By.id("loginButton"));
+        
+        test.log(Status.INFO, "WEBVIEW로 화면 전환");
+        util.switchContext("WEBVIEW");
+        
+        test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
+        util.click(By.className("btn-secondary-text"));
+        
+        test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 해제");
+        util.click(By.className("c-ick"));
+        
+        test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 이메일 아이디입력");
+        util.type(By.id("userId"), "ksszidane10@naver.com");
 
-	    test.log(Status.INFO, "NATIVE_APP으로 화면 전환");
+	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
+        util.type(By.id("password"), "tjdtn10!!");
+        
+        test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
+		util.click(By.id("authLogin"));
+		
+		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
-	    Thread.sleep(5000);
-			
-	    test.log(Status.INFO, "퍼미션 확인");
-	    util.switchTo().alert().accept();
-    	Thread.sleep(2000);
+	    
+	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
+    	
+	    test.log(Status.INFO, "아이디 영역 확인");
+	    String userName = util.getText(By.id("userNameTextView"));
+	    Assert.assertTrue(userName.contains("ksszidane10"));
+	    
+	    test.log(Status.INFO, "로그아웃");
+	    util.click(By.id("userNameTextView"));
+	    util.scroll(0, 2000, 0, 0);
+	    util.click(By.id("btnSettingLogout"));
+	    
+	    test.log(Status.INFO, "인트로 화면에서 로그인 이동");
+        util.click(By.id("loginButton"));
+        
+        test.log(Status.INFO, "WEBVIEW로 화면 전환");
+        util.switchContext("WEBVIEW");
+        
+        test.log(Status.INFO, "자동로그인 저장 여부 확인(시나리오상 저장 안됨 확인)");
+        String 자동저장ID = util.getText(By.className("id-email"));
+        Assert.assertNotSame(자동저장ID, "ksszidane10@naver.com");
+
     }
 	
+	@Test(description = "누구앱 리그레이션 TC : 실행_017~018")
+	public void TC_017_018_앱실행(Method method) throws Exception {
+        
+        test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
+        util.click(By.className("btn-secondary-text"));
+        
+        test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 없음");
+        
+        test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 이메일 아이디입력");
+        util.type(By.id("userId"), "ksszidane@naver.com");
+
+	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
+        util.type(By.id("password"), "rlatjdtn10!!");
+        
+        test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
+		util.click(By.id("authLogin"));
+		
+		test.log(Status.INFO, "정상로그인 확인"); 
+	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
+    	
+	    test.log(Status.INFO, "아이디 영역 확인");
+	    String userName = util.getText(By.id("userNameTextView"));
+	    Assert.assertTrue(userName.contains("ksszidane"));
+	    
+	    test.log(Status.INFO, "로그아웃");
+	    util.click(By.id("userNameTextView"));
+	    util.scroll(0, 2000, 0, 0);
+	    util.click(By.id("btnSettingLogout"));
+	    
+	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");
+        String 팝업메세지 = util.getText(By.id("contentTextView"));
+        Assert.assertTrue(팝업메세지.contains("로그아웃하시려면 자동 로그인 해제에 체크 후 로그아웃 버튼을 눌러주세요."));
+        
+        test.log(Status.INFO, "취소버튼 확인 및 클릭");
+        util.click(By.id("negativeButton"));
+        
+        test.log(Status.INFO, "로그아웃 재 클릭 로그아웃 하기");
+        util.click(By.id("btnSettingLogout"));
+        util.click(By.id("positiveButton"));
+	    
+	    test.log(Status.INFO, "인트로 화면에서 로그인 이동");
+        util.click(By.id("loginButton"));
+        
+        test.log(Status.INFO, "WEBVIEW로 화면 전환");
+        util.switchContext("WEBVIEW");
+        
+        test.log(Status.INFO, "자동로그인 저장 여부 확인(시나리오상 저장 확인)");
+        String 자동저장ID = util.getText(By.className("id-email"));
+        Assert.assertEquals(자동저장ID, "ksszidane@naver.com");
+
+    }
 	
+	@Test(description = "누구앱 리그레이션 TC : 실행_020")
+	public void TC_20_앱실행(Method method) throws Exception {
+        
+        test.log(Status.INFO, "저장된 간편로그인 유효성 체크 및 클릭");
+        util.click(By.className("account-item"));
+
+		test.log(Status.INFO, "정상로그인 확인"); 
+	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
+    	
+	    test.log(Status.INFO, "아이디 영역 확인");
+	    String userName = util.getText(By.id("userNameTextView"));
+	    Assert.assertTrue(userName.contains("ksszidane"));
+	    
+	    test.log(Status.INFO, "로그아웃");
+	    util.click(By.id("userNameTextView"));
+	    util.scroll(0, 2000, 0, 0);
+	    util.click(By.id("btnSettingLogout"));
+	    
+	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");
+        String 팝업메세지 = util.getText(By.id("contentTextView"));
+        Assert.assertTrue(팝업메세지.contains("로그아웃하시려면 자동 로그인 해제에 체크 후 로그아웃 버튼을 눌러주세요."));
+        
+        test.log(Status.INFO, "취소버튼 확인 및 클릭");
+        util.click(By.id("negativeButton"));
+        
+        test.log(Status.INFO, "로그아웃 재 클릭 로그아웃 하기");
+        util.click(By.id("btnSettingLogout"));
+        util.click(By.id("positiveButton"));
+
+    }
 	
+	@Test(description = "누구앱 리그레이션 TC : 실행_021")
+	public void TC_21_앱실행(Method method) throws Exception {
+        
+        test.log(Status.INFO, "와이파이 / 셀룰러 데이터 Off");
+        adb.ADB_WiFi_Off(udid);
+        adb.ADB_cellular_Off(udid);
+        
+        
+        test.log(Status.INFO, "앱 재 실행 후 네트워크 연결상태 팝업 확인");
+        util.resetApp();
+        String 팝업메세지 = util.getText(By.id("contentTextView"));
+        Assert.assertTrue(팝업메세지.contains("데이터 네트워크 연결상태를 확인하고 다시 시도해주세요."));
+        
+        test.log(Status.INFO, "와이파이 / 셀룰러 데이터 On");
+        adb.ADB_WiFi_On(udid);
+        adb.ADB_cellular_On(udid);
+        
+    }
 
 }
