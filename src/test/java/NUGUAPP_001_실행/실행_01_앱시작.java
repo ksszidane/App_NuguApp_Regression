@@ -65,6 +65,8 @@ public class 실행_01_앱시작 extends TestCase {
         test.log(Status.INFO, "NATIVE_APP으로 화면 전환");
 	    util.switchContext("NATIVE_APP");
 		
+	    Thread.sleep(1500);
+	    test.log(Status.INFO, "화면캡쳐");
         String screenShotPath = util.ErrorScreenshots(util, "screenShotName");
         test.log(Status.INFO, "Snapshot below: " + test.addScreenCaptureFromPath(screenShotPath));
         
@@ -111,6 +113,8 @@ public class 실행_01_앱시작 extends TestCase {
         test.log(Status.INFO, "NATIVE_APP으로 화면 전환");
 	    util.switchContext("NATIVE_APP");
 		
+	    Thread.sleep(1500);
+	    test.log(Status.INFO, "화면캡쳐");
         String screenShotPath = util.ErrorScreenshots(util, "screenShotName");
         test.log(Status.INFO, "Snapshot below: " + test.addScreenCaptureFromPath(screenShotPath));
         
@@ -137,6 +141,8 @@ public class 실행_01_앱시작 extends TestCase {
         test.log(Status.INFO, "NATIVE_APP으로 화면 전환");
 	    util.switchContext("NATIVE_APP");
 		
+	    Thread.sleep(1500);
+	    test.log(Status.INFO, "화면캡쳐");
         String screenShotPath = util.ErrorScreenshots(util, "screenShotName");
         test.log(Status.INFO, "Snapshot below: " + test.addScreenCaptureFromPath(screenShotPath));
         
@@ -146,7 +152,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_012~13")
-	public void TC_012_013_앱실행(Method method) throws Exception {
+	public void TC_012_from_013_앱실행(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -183,6 +189,8 @@ public class 실행_01_앱시작 extends TestCase {
 		
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "퍼미션 위치 권한 확인"); 
 	    util.switchTo().alert().accept();
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
@@ -194,7 +202,8 @@ public class 실행_01_앱시작 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃");
 	    util.click(By.id("userNameTextView"));
-	    util.scroll(0, 2000, 0, 0);
+	    //util.swipe(0, 2000, 0, 0);
+	    util.scrollDown(3);
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    
@@ -202,7 +211,7 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_014~15")
-	public void TC_014_015_앱실행(Method method) throws Exception {
+	public void TC_014_from_015_앱실행(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -249,7 +258,7 @@ public class 실행_01_앱시작 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃");
 	    util.click(By.id("userNameTextView"));
-	    util.scroll(0, 2000, 0, 0);
+	    util.scrollDown(3);
 	    util.click(By.id("btnSettingLogout"));
 		
     }
@@ -290,7 +299,7 @@ public class 실행_01_앱시작 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃");
 	    util.click(By.id("userNameTextView"));
-	    util.scroll(0, 2000, 0, 0);
+	    util.scrollDown(3);
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -306,7 +315,7 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_017~018")
-	public void TC_017_018_앱실행(Method method) throws Exception {
+	public void TC_017_from_018_앱실행(Method method) throws Exception {
         
         test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
         util.click(By.className("btn-secondary-text"));
@@ -334,7 +343,7 @@ public class 실행_01_앱시작 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃");
 	    util.click(By.id("userNameTextView"));
-	    util.scroll(0, 2000, 0, 0);
+	    util.scrollDown(3);
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");
@@ -378,7 +387,7 @@ public class 실행_01_앱시작 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃");
 	    util.click(By.id("userNameTextView"));
-	    util.scroll(0, 2000, 0, 0);
+	    util.scrollDown(3);
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");

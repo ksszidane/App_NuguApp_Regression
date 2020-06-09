@@ -8,19 +8,19 @@
 		<parameter name="OS" value="Android" />
 		<parameter name="Server" value="PRD" />
 		<parameter name="Place" value="out" /> <!-- 사내 : in  // 사외 : out-->
-		<parameter name="oAuth_Token" value="985794BECBD144A9B4480F54E97848E3" /> 
+		<parameter name="oAuth_Token" value="184E1F41A9C640A1A8FAFEE723D8993D" /> 
 		<parameter name="userID" value="ALDF3NYA6C0D0C654DD2"/>
 		<parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
 		<parameter name="Device" value="ce12160cb994301d04"/>
 		<classes>
 		
-			<class name="NUGUAPP_001_실행.실행_01_앱시작" />
-
-			
 			<!--
-				<class name="Test.Test_01_GNB_로그인_로그아웃" />
-			<class name="Test.Test_02_GNB_바로가기" />
+			<class name="NUGUAPP_001_실행.실행_01_앱시작" />
+			<class name="NUGUAPP_002_연결.연결_01_NUGU연결" />
 			-->
+			
+			<class name="NUGUAPP_002_연결.연결_01_NUGU연결" />
+			
 			
 		</classes>
 	</test>
