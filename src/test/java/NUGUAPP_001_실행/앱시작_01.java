@@ -11,10 +11,10 @@ import com.aventstack.extentreports.Status;
 import junit.framework.Assert;
 import unit.TestCase;
 
-public class 실행_01_앱시작 extends TestCase {
+public class 앱시작_01 extends TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_004")
-	public void TC_004_앱실행(Method method) throws Exception {
+	public void TC_앱실행_004(Method method) throws Exception {
 
 		test.log(Status.INFO, "AppActivity으로 화면 확인");
 	    util.switchContext("NATIVE_APP");
@@ -32,7 +32,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_005")
-	public void TC_005_앱실행(Method method) throws Exception {
+	public void TC_앱실행_005(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
 		util.Android_BackKey();
@@ -47,7 +47,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_007")
-	public void TC_007_앱실행(Method method) throws Exception {
+	public void TC_앱실행_007(Method method) throws Exception {
 		
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -83,7 +83,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_008")
-	public void TC_008_앱실행(Method method) throws Exception {
+	public void TC_앱실행_008(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
 		util.Android_BackKey();
@@ -96,7 +96,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_010")
-	public void TC_010_앱실행(Method method) throws Exception {
+	public void TC_앱실행_010(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -124,7 +124,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_011")
-	public void TC_011_앱실행(Method method) throws Exception {
+	public void TC_앱실행_011(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -152,7 +152,7 @@ public class 실행_01_앱시작 extends TestCase {
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_012~13")
-	public void TC_012_from_013_앱실행(Method method) throws Exception {
+	public void TC_앱실행_012_from_013(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -211,7 +211,7 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_014~15")
-	public void TC_014_from_015_앱실행(Method method) throws Exception {
+	public void TC_앱실행_014_from_015(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -264,7 +264,7 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_016")
-	public void TC_016_앱실행(Method method) throws Exception {
+	public void TC_앱실행_016(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -315,7 +315,7 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_017~018")
-	public void TC_017_from_018_앱실행(Method method) throws Exception {
+	public void TC_앱실행_017_from_018(Method method) throws Exception {
         
         test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
         util.click(By.className("btn-secondary-text"));
@@ -370,7 +370,7 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_020")
-	public void TC_20_앱실행(Method method) throws Exception {
+	public void TC_앱실행_020(Method method) throws Exception {
         
         test.log(Status.INFO, "저장된 간편로그인 유효성 체크 및 클릭");
         util.click(By.className("account-item"));
@@ -404,13 +404,12 @@ public class 실행_01_앱시작 extends TestCase {
     }
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_021")
-	public void TC_21_앱실행(Method method) throws Exception {
+	public void TC_앱실행_021(Method method) throws Exception {
         
         test.log(Status.INFO, "와이파이 / 셀룰러 데이터 Off");
         adb.ADB_WiFi_Off(udid);
         adb.ADB_cellular_Off(udid);
-        
-        
+              
         test.log(Status.INFO, "앱 재 실행 후 네트워크 연결상태 팝업 확인");
         util.resetApp();
         String 팝업메세지 = util.getText(By.id("contentTextView"));

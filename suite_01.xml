@@ -8,18 +8,25 @@
 		<parameter name="OS" value="Android" />
 		<parameter name="Server" value="PRD" />
 		<parameter name="Place" value="out" /> <!-- 사내 : in  // 사외 : out-->
-		<parameter name="oAuth_Token" value="184E1F41A9C640A1A8FAFEE723D8993D" /> 
+		<parameter name="oAuth_Token" value="90D1A0AA6A3E47A68650377A23AEB0BC" /> 
 		<parameter name="userID" value="ALDF3NYA6C0D0C654DD2"/>
 		<parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
 		<parameter name="Device" value="ce12160cb994301d04"/>
 		<classes>
 		
 			<!--
-			<class name="NUGUAPP_001_실행.실행_01_앱시작" />
-			<class name="NUGUAPP_002_연결.연결_01_NUGU연결" />
+			<class name="NUGUAPP_001_실행.앱시작_01" />
+			<class name="NUGUAPP_002_연결.연결_01_NUGU_연결" />
+			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini_연결" />
+			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle_연결" />
 			-->
 			
-			<class name="NUGUAPP_002_연결.연결_01_NUGU연결" />
+			<class name="NUGUAPP_001_실행.앱시작_01" />
+			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
+			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini" />
+			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
+			
+			
 			
 			
 		</classes>

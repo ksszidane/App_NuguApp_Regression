@@ -3,18 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="NUGUAPP_002_연결.연결_01_디바이스연결화면"/>
+      <class name="NUGUAPP_001_실행.실행_01_앱시작">
+        <methods>
+          <include name="TC_005_앱실행"/>
+        </methods>
+      </class> <!-- NUGUAPP_001_실행.실행_01_앱시작 -->
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)" parallel="none">
-    <classes>
-      <class name="NUGUAPP_002_연결.연결_01_디바이스연결화면">
-        <methods>
-          <include name="TC_004_연결"/>
-          <include name="TC_003_연결"/>
-          <include name="TC_001_002_연결"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_01_디바이스연결화면 -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

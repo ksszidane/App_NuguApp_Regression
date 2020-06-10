@@ -12,8 +12,8 @@ import unit.TestCase;
 
 public class 디폴트로그인 extends TestCase {
 	
-	@Test(description = "디폴트 로그인 완료")
-	public void TC_000_로그인(Method method) throws Exception {
+	
+	public void 로그인() throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -26,9 +26,6 @@ public class 디폴트로그인 extends TestCase {
 
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
-	    
-	    test.log(Status.INFO, "퍼미션 권한 획득 "); 
-	    util.switchTo().alert().accept();
 
 	}
 
