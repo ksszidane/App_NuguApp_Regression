@@ -16,16 +16,14 @@
 		
 			<!--
 			<class name="NUGUAPP_001_실행.앱시작_01" />
-			<class name="NUGUAPP_002_연결.연결_01_NUGU_연결" />
-			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini_연결" />
-			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle_연결" />
-			-->
-			
-			<class name="NUGUAPP_001_실행.앱시작_01" />
 			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
 			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini" />
 			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
-			
+			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
+			<class name="NUGUAPP_002_연결.연결_05_NUGU_Btv" />
+			-->
+		
+			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
 			
 			
 			

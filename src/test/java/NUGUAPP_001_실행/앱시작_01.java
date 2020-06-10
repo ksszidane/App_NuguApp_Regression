@@ -26,7 +26,7 @@ public class 앱시작_01 extends TestCase {
         util.switchContext("WEBVIEW");
         
         test.log(Status.INFO, "로그인 화면 이동 확인");
-        String 로그인타이틀 = util.getText(By.className("title-main"));
+        String 로그인타이틀 = util.getTextWait(By.className("title-main"));
         Assert.assertEquals(로그인타이틀, "T아이디 로그인");
 
 	}

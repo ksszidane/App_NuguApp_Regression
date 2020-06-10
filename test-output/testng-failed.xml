@@ -19,10 +19,30 @@
     <parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
     <parameter name="Place" value="out"/>
     <classes>
-      <class name="NUGUAPP_001_실행.실행_01_앱시작"/>
-      <class name="NUGUAPP_002_연결.연결_01_NUGU_연결"/>
-      <class name="NUGUAPP_002_연결.연결_02_NUGU_mini_연결"/>
-      <class name="NUGUAPP_002_연결.연결_03_NUGU_candle_연결"/>
+      <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv"/>
     </classes>
   </test> <!-- Test_Project -->
+  <test name="Test_Project(failed)" parallel="tests">
+    <parameter name="OS" value="Android"/>
+    <parameter name="Server" value="PRD"/>
+    <parameter name="Device" value="ce12160cb994301d04"/>
+    <parameter name="oAuth_Token" value="90D1A0AA6A3E47A68650377A23AEB0BC"/>
+    <parameter name="userID" value="ALDF3NYA6C0D0C654DD2"/>
+    <parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
+    <parameter name="Place" value="out"/>
+    <classes>
+      <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv">
+        <methods>
+          <include name="TC_연결_224" invocation-numbers="0"/>
+          <include name="AfterMethod"/>
+          <include name="TC_연결_220" invocation-numbers="0"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="TC_연결_218" invocation-numbers="0"/>
+          <include name="BeforeMethod"/>
+          <include name="TC_연결_124" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_05_NUGU_Btv -->
+    </classes>
+  </test> <!-- Test_Project(failed) -->
 </suite> <!-- Failed suite [ExtentReport] -->
