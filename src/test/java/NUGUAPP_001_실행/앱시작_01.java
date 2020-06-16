@@ -26,7 +26,7 @@ public class 앱시작_01 extends TestCase {
         util.switchContext("WEBVIEW");
         
         test.log(Status.INFO, "로그인 화면 이동 확인");
-        String 로그인타이틀 = util.getTextWait(By.className("title-main"));
+        String 로그인타이틀 = util.getText(By.className("title-main"));
         Assert.assertEquals(로그인타이틀, "T아이디 로그인");
 
 	}
@@ -176,7 +176,7 @@ public class 앱시작_01 extends TestCase {
 		util.click(By.id("authLogin"));
 		
 		test.log(Status.INFO, "계정 유효 값 처리 확인");
-	    String 유효성체크텍스트 = util.getText(By.className("form-msg"));
+	    String 유효성체크텍스트 = util.getTextWait(By.className("form-msg"));
 	    
 	    Assert.assertEquals(유효성체크텍스트, "아이디 또는 비밀번호를 정확하게 입력해주세요.\n" + 
 	    		"(10회 이상 실패하면 비밀번호를 다시 설정하셔야 합니다.)");
@@ -200,10 +200,17 @@ public class 앱시작_01 extends TestCase {
 	    String userName = util.getText(By.id("userNameTextView"));
 	    Assert.assertTrue(userName.contains("ksszidane"));
 	    
-	    test.log(Status.INFO, "로그아웃");
+	    test.log(Status.INFO, "개인정보 리스트 확인 ");
 	    util.click(By.id("userNameTextView"));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "스크롤 이동");
 	    //util.swipe(0, 2000, 0, 0);
 	    util.scrollDown(3);
+	    
+	    test.log(Status.INFO, "로그아웃 버튼 클릭");
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    
@@ -256,9 +263,17 @@ public class 앱시작_01 extends TestCase {
 	    String userName = util.getText(By.id("userNameTextView"));
 	    Assert.assertTrue(userName.contains("ksszidane"));
 	    
-	    test.log(Status.INFO, "로그아웃");
+	    test.log(Status.INFO, "개인정보 리스트 확인 ");
 	    util.click(By.id("userNameTextView"));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "스크롤 이동");
+	    //util.swipe(0, 2000, 0, 0);
 	    util.scrollDown(3);
+	    
+	    test.log(Status.INFO, "로그아웃 버튼 클릭");
 	    util.click(By.id("btnSettingLogout"));
 		
     }
@@ -297,9 +312,17 @@ public class 앱시작_01 extends TestCase {
 	    String userName = util.getText(By.id("userNameTextView"));
 	    Assert.assertTrue(userName.contains("ksszidane10"));
 	    
-	    test.log(Status.INFO, "로그아웃");
+	    test.log(Status.INFO, "개인정보 리스트 확인 ");
 	    util.click(By.id("userNameTextView"));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "스크롤 이동");
+	    //util.swipe(0, 2000, 0, 0);
 	    util.scrollDown(3);
+	    
+	    test.log(Status.INFO, "로그아웃 버튼 클릭");
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -341,9 +364,17 @@ public class 앱시작_01 extends TestCase {
 	    String userName = util.getText(By.id("userNameTextView"));
 	    Assert.assertTrue(userName.contains("ksszidane"));
 	    
-	    test.log(Status.INFO, "로그아웃");
+	    test.log(Status.INFO, "개인정보 리스트 확인 ");
 	    util.click(By.id("userNameTextView"));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "스크롤 이동");
+	    //util.swipe(0, 2000, 0, 0);
 	    util.scrollDown(3);
+	    
+	    test.log(Status.INFO, "로그아웃 버튼 클릭");
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");
@@ -385,9 +416,17 @@ public class 앱시작_01 extends TestCase {
 	    String userName = util.getText(By.id("userNameTextView"));
 	    Assert.assertTrue(userName.contains("ksszidane"));
 	    
-	    test.log(Status.INFO, "로그아웃");
+	    test.log(Status.INFO, "개인정보 리스트 확인 ");
 	    util.click(By.id("userNameTextView"));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "스크롤 이동");
+	    //util.swipe(0, 2000, 0, 0);
 	    util.scrollDown(3);
+	    
+	    test.log(Status.INFO, "로그아웃 버튼 클릭");
 	    util.click(By.id("btnSettingLogout"));
 	    
 	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");

@@ -12,7 +12,7 @@
 <body>
 <h1>Test_Project</h1>
 <p>
-  Test duration: 89.598s
+  Test duration: 1605.931s
 </p>
 
 
@@ -20,28 +20,128 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">NUGUAPP_002_연결.연결_05_NUGU_Btv</td>
+        <td colspan="3" class="group">NUGUAPP_001_실행.앱시작_01</td>
       </tr>
             
 <tr>
   <td class="method">
-                  <span class="description" title="누구앱 리그레이션 TC : 연결_124">TC_연결_124</span>
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_004">TC_앱실행_004</span>
       </td>
   <td class="duration">
-    1.935s
+    19.204s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_124(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: title-main (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
     <div class="stackTrace" id="exception-0">
-              junit.framework.Assert.fail(Assert.java:47)<br />
-              junit.framework.Assert.assertTrue(Assert.java:20)<br />
-              junit.framework.Assert.assertTrue(Assert.java:27)<br />
-              NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_124(연결_05_NUGU_Btv.java:60)<br />
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.getText(Utilities.java:871)<br />
+              NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(앱시작_01.java:29)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: title-main<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-1">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Unknown Source)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.getText(Utilities.java:871)<br />
+                      NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(앱시작_01.java:29)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_014~15">TC_앱실행_014_from_015</span>
+      </td>
+  <td class="duration">
+    9.085s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_014_from_015(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\kei\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s ce12160cb994301d04 shell cat /proc/net/unix&apos; exited with code 3221225477&apos;; Stderr: &apos;&apos;; Code: &apos;3221225477&apos;<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: unit.Utilities<br/>
+Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, autoAcceptAlerts: true, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, autoAcceptAlerts: true, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}<br/>
+Session ID: 2f0e0932-3788-4b68-9629-5c4ebda77042</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)<br />
+              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
+              unit.Utilities.execute(Utilities.java:1)<br />
+              io.appium.java_client.AppiumDriver.getContextHandles(AppiumDriver.java:237)<br />
+              unit.Utilities.switchContext(Utilities.java:975)<br />
+              NUGUAPP_001_실행.앱시작_01.TC_앱실행_014_from_015(앱시작_01.java:227)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -67,106 +167,24 @@
 </tr>
 <tr>
   <td class="method">
-                  <span class="description" title="누구앱 리그레이션 TC : 연결_218">TC_연결_218</span>
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_016">TC_앱실행_016</span>
       </td>
   <td class="duration">
-    11.394s
+    20.665s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginButton (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
-              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
-              unit.Utilities.WaitfindElement(Utilities.java:131)<br />
-              unit.Utilities.click(Utilities.java:719)<br />
-              NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218(연결_05_NUGU_Btv.java:19)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
-              org.testng.TestRunner.run(TestRunner.java:632)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
-              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-              java.util.concurrent.FutureTask.run(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-              java.lang.Thread.run(Unknown Source)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: loginButton<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
-Driver info: driver.version: unknown</a><br />
-        <div class="stackTrace" id="exception-2">
-                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
-                      java.util.Optional.orElseThrow(Unknown Source)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
-                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
-                      unit.Utilities.WaitfindElement(Utilities.java:131)<br />
-                      unit.Utilities.click(Utilities.java:719)<br />
-                      NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218(연결_05_NUGU_Btv.java:19)<br />
-                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-                      java.lang.reflect.Method.invoke(Unknown Source)<br />
-                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
-                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
-                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
-                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
-                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
-                      org.testng.TestRunner.run(TestRunner.java:632)<br />
-                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
-                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
-                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
-                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
-                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
-                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
-                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
-                      java.lang.Thread.run(Unknown Source)<br />
-                  </div>
-          </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  <span class="description" title="누구앱 리그레이션 TC : 연결_220">TC_연결_220</span>
-      </td>
-  <td class="duration">
-    11.439s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220(java.lang.reflect.Method) throws java.lang.Exception</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: helpButton (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginButton (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
     <div class="stackTrace" id="exception-3">
               org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
               org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
-              unit.Utilities.WaitfindElement(Utilities.java:131)<br />
-              unit.Utilities.getText(Utilities.java:814)<br />
-              NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220(연결_05_NUGU_Btv.java:70)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.click(Utilities.java:776)<br />
+              NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(앱시작_01.java:285)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -187,7 +205,7 @@ Driver info: driver.version: unknown</a><br />
               java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
               java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
               java.lang.Thread.run(Unknown Source)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: helpButton<br/>
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: loginButton<br/>
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
 System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
@@ -202,9 +220,9 @@ Driver info: driver.version: unknown</a><br />
                       org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
                       org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
                       org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
-                      unit.Utilities.WaitfindElement(Utilities.java:131)<br />
-                      unit.Utilities.getText(Utilities.java:814)<br />
-                      NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220(연결_05_NUGU_Btv.java:70)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.click(Utilities.java:776)<br />
+                      NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(앱시작_01.java:285)<br />
                       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
                       sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
                       sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -231,24 +249,24 @@ Driver info: driver.version: unknown</a><br />
 </tr>
 <tr>
   <td class="method">
-                  <span class="description" title="누구앱 리그레이션 TC : 연결_224">TC_연결_224</span>
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_017~018">TC_앱실행_017_from_018</span>
       </td>
   <td class="duration">
-    11.670s
+    20.651s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_017_from_018(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 
-        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: nextButton (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: btn-secondary-text (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
     <div class="stackTrace" id="exception-5">
               org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
               org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
-              unit.Utilities.WaitfindElement(Utilities.java:131)<br />
-              unit.Utilities.click(Utilities.java:719)<br />
-              NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224(연결_05_NUGU_Btv.java:92)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.click(Utilities.java:776)<br />
+              NUGUAPP_001_실행.앱시작_01.TC_앱실행_017_from_018(앱시작_01.java:344)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -269,7 +287,7 @@ Driver info: driver.version: unknown</a><br />
               java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
               java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
               java.lang.Thread.run(Unknown Source)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: nextButton<br/>
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: btn-secondary-text<br/>
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
 System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
@@ -284,9 +302,9 @@ Driver info: driver.version: unknown</a><br />
                       org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
                       org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
                       org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
-                      unit.Utilities.WaitfindElement(Utilities.java:131)<br />
-                      unit.Utilities.click(Utilities.java:719)<br />
-                      NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224(연결_05_NUGU_Btv.java:92)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.click(Utilities.java:776)<br />
+                      NUGUAPP_001_실행.앱시작_01.TC_앱실행_017_from_018(앱시작_01.java:344)<br />
                       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
                       sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
                       sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -311,9 +329,2276 @@ Driver info: driver.version: unknown</a><br />
           </div>
       </td>
 </tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_020">TC_앱실행_020</span>
+      </td>
+  <td class="duration">
+    20.702s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_020(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: account-item (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.click(Utilities.java:776)<br />
+              NUGUAPP_001_실행.앱시작_01.TC_앱실행_020(앱시작_01.java:407)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.className: account-item<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-8">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Unknown Source)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.click(Utilities.java:776)<br />
+                      NUGUAPP_001_실행.앱시작_01.TC_앱실행_020(앱시작_01.java:407)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_07_NUGU_Tmap</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_336">TC_연결_336</span>
+      </td>
+  <td class="duration">
+    3.988s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_336(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>junit.framework.ComparisonFailure: expected:&lt;NUGU 서비스 연결을 위해 T map 인증을 해주...&gt; but was:&lt;연결이 완료되었습니다.<br/>
+이제 T map에서 NUGU와 대화해보...&gt;</b></a><br />
+    <div class="stackTrace" id="exception-9">
+              junit.framework.Assert.assertEquals(Assert.java:81)<br />
+              junit.framework.Assert.assertEquals(Assert.java:87)<br />
+              NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_336(연결_07_NUGU_Tmap.java:64)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_08_NUGU_TmapforCar</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_343">TC_연결_343_and_362_form_371</span>
+      </td>
+  <td class="duration">
+    23.817s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: descriptionTextView (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.getText(Utilities.java:871)<br />
+              NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(연결_08_NUGU_TmapforCar.java:156)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: descriptionTextView<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-11">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Unknown Source)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.getText(Utilities.java:871)<br />
+                      NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(연결_08_NUGU_TmapforCar.java:156)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_344">TC_연결_344</span>
+      </td>
+  <td class="duration">
+    20.620s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-12', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ibDeviceFab (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-12">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.click(Utilities.java:776)<br />
+              NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(연결_08_NUGU_TmapforCar.java:223)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-13', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: ibDeviceFab<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-13">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Unknown Source)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.click(Utilities.java:776)<br />
+                      NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(연결_08_NUGU_TmapforCar.java:223)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_346 ~ 연결_349">TC_연결_346_form_349</span>
+      </td>
+  <td class="duration">
+    20.855s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-14', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: nextButton (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-14">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+              unit.Utilities.click(Utilities.java:776)<br />
+              NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(연결_08_NUGU_TmapforCar.java:256)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-15', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: nextButton<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;192.168.55.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-15">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Unknown Source)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:138)<br />
+                      unit.Utilities.click(Utilities.java:776)<br />
+                      NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(연결_08_NUGU_TmapforCar.java:256)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_01_홈카드</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_09">TC_홈_001_09</span>
+      </td>
+  <td class="duration">
+    6.994s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-16', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-16">
+              junit.framework.Assert.fail(Assert.java:47)<br />
+              junit.framework.Assert.assertTrue(Assert.java:20)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(홈_01_홈카드.java:139)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
       </table>
 
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_001_실행.앱시작_01</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_005">TC_앱실행_005</span>
+      </td>
+  <td class="duration">
+    1.925s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_005(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_007">TC_앱실행_007</span>
+      </td>
+  <td class="duration">
+    22.196s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_007(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_008">TC_앱실행_008</span>
+      </td>
+  <td class="duration">
+    2.244s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_008(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_010">TC_앱실행_010</span>
+      </td>
+  <td class="duration">
+    24.772s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_010(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_011">TC_앱실행_011</span>
+      </td>
+  <td class="duration">
+    22.256s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_011(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_012~13">TC_앱실행_012_from_013</span>
+      </td>
+  <td class="duration">
+    50.788s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_012_from_013(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_021">TC_앱실행_021</span>
+      </td>
+  <td class="duration">
+    13.452s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_021(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_01_NUGU</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_001~002">TC_연결_001_from_002</span>
+      </td>
+  <td class="duration">
+    36.783s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_001_from_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_003">TC_연결_003</span>
+      </td>
+  <td class="duration">
+    27.460s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_004">TC_연결_004</span>
+      </td>
+  <td class="duration">
+    9.063s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_009">TC_연결_009</span>
+      </td>
+  <td class="duration">
+    3.730s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_009(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_010">TC_연결_010</span>
+      </td>
+  <td class="duration">
+    1.461s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_010(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_011">TC_연결_011</span>
+      </td>
+  <td class="duration">
+    5.137s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_011(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_012">TC_연결_012</span>
+      </td>
+  <td class="duration">
+    8.310s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_012(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_013">TC_연결_013</span>
+      </td>
+  <td class="duration">
+    2.031s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_013(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_014 ~ 연결_016">TC_연결_014_form_016</span>
+      </td>
+  <td class="duration">
+    13.634s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_014_form_016(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_017">TC_연결_017</span>
+      </td>
+  <td class="duration">
+    2.353s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_017(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_019">TC_연결_019</span>
+      </td>
+  <td class="duration">
+    5.470s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_019(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_020">TC_연결_020</span>
+      </td>
+  <td class="duration">
+    3.112s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_020(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_021">TC_연결_021</span>
+      </td>
+  <td class="duration">
+    2.903s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_021(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_022">TC_연결_022</span>
+      </td>
+  <td class="duration">
+    7.038s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_022(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_023">TC_연결_023</span>
+      </td>
+  <td class="duration">
+    3.702s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_023(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_024">TC_연결_024</span>
+      </td>
+  <td class="duration">
+    3.482s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_024(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_025 / 연결_039">TC_연결_025_and_039</span>
+      </td>
+  <td class="duration">
+    5.244s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_025_and_039(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_040">TC_연결_040</span>
+      </td>
+  <td class="duration">
+    1.476s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_040(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_041">TC_연결_041</span>
+      </td>
+  <td class="duration">
+    3.396s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_041(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_042">TC_연결_042</span>
+      </td>
+  <td class="duration">
+    3.264s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_042(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_044">TC_연결_044</span>
+      </td>
+  <td class="duration">
+    19.071s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_044(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_045">TC_연결_045</span>
+      </td>
+  <td class="duration">
+    11.963s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_045(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_02_NUGU_mini</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_068">TC_연결_068</span>
+      </td>
+  <td class="duration">
+    22.699s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_068(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_069">TC_연결_069</span>
+      </td>
+  <td class="duration">
+    2.851s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_069(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_070">TC_연결_070</span>
+      </td>
+  <td class="duration">
+    3.741s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_070(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_070">TC_연결_071</span>
+      </td>
+  <td class="duration">
+    4.724s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_071(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_072">TC_연결_072</span>
+      </td>
+  <td class="duration">
+    2.034s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_072(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_073 ~ 연결_74">TC_연결_073_form_074</span>
+      </td>
+  <td class="duration">
+    11.708s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_073_form_074(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_074">TC_연결_075</span>
+      </td>
+  <td class="duration">
+    2.557s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_075(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_076">TC_연결_076</span>
+      </td>
+  <td class="duration">
+    5.752s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_076(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_077">TC_연결_077</span>
+      </td>
+  <td class="duration">
+    6.492s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_077(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_078 / 연결_079">TC_연결_078_and_079</span>
+      </td>
+  <td class="duration">
+    13.674s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_078_and_079(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_080">TC_연결_080</span>
+      </td>
+  <td class="duration">
+    5.471s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_080(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_089">TC_연결_089</span>
+      </td>
+  <td class="duration">
+    1.688s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_089(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_090">TC_연결_090</span>
+      </td>
+  <td class="duration">
+    2.547s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_090(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_091">TC_연결_091</span>
+      </td>
+  <td class="duration">
+    18.634s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_091(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_092">TC_연결_092</span>
+      </td>
+  <td class="duration">
+    12.317s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_092(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_03_NUGU_candle</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_123">TC_연결_123</span>
+      </td>
+  <td class="duration">
+    23.798s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_123(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_124">TC_연결_124</span>
+      </td>
+  <td class="duration">
+    2.678s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_124(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_125">TC_연결_125</span>
+      </td>
+  <td class="duration">
+    4.163s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_125(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_126">TC_연결_126</span>
+      </td>
+  <td class="duration">
+    4.012s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_126(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_127">TC_연결_127</span>
+      </td>
+  <td class="duration">
+    1.599s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_127(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_128 ~ 연결 130">TC_연결_128_form_130</span>
+      </td>
+  <td class="duration">
+    11.635s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_128_form_130(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_131">TC_연결_131</span>
+      </td>
+  <td class="duration">
+    2.550s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_131(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_133">TC_연결_133</span>
+      </td>
+  <td class="duration">
+    6.330s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_133(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_134">TC_연결_134</span>
+      </td>
+  <td class="duration">
+    3.262s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_134(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_135">TC_연결_135</span>
+      </td>
+  <td class="duration">
+    2.995s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_135(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_136">TC_연결_136</span>
+      </td>
+  <td class="duration">
+    6.994s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_136(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_137">TC_연결_137</span>
+      </td>
+  <td class="duration">
+    4.022s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_137(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_138">TC_연결_138</span>
+      </td>
+  <td class="duration">
+    2.993s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_138(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_139">TC_연결_139</span>
+      </td>
+  <td class="duration">
+    5.804s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_139(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_149">TC_연결_149</span>
+      </td>
+  <td class="duration">
+    1.546s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_149(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_150">TC_연결_150</span>
+      </td>
+  <td class="duration">
+    2.297s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_150(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_151">TC_연결_151</span>
+      </td>
+  <td class="duration">
+    18.157s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_151(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_154 ~ 155">TC_연결_154_form_155</span>
+      </td>
+  <td class="duration">
+    12.300s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_154_form_155(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_04_NUGU_nemo</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_178_준비001">TC_연결_178_001</span>
+      </td>
+  <td class="duration">
+    23.079s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_001(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_178_준비002">TC_연결_178_002</span>
+      </td>
+  <td class="duration">
+    3.406s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_178">TC_연결_178_003</span>
+      </td>
+  <td class="duration">
+    4.566s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비001">TC_연결_179_001</span>
+      </td>
+  <td class="duration">
+    1.485s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_001(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비002">TC_연결_179_002</span>
+      </td>
+  <td class="duration">
+    11.492s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비003">TC_연결_179_003</span>
+      </td>
+  <td class="duration">
+    2.500s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비004">TC_연결_179_004</span>
+      </td>
+  <td class="duration">
+    5.759s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비005">TC_연결_179_005</span>
+      </td>
+  <td class="duration">
+    3.182s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_005(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비006">TC_연결_179_006</span>
+      </td>
+  <td class="duration">
+    2.981s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_006(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비007">TC_연결_179_007</span>
+      </td>
+  <td class="duration">
+    9.868s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_007(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비008">TC_연결_179_008</span>
+      </td>
+  <td class="duration">
+    3.389s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_008(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179">TC_연결_179_009</span>
+      </td>
+  <td class="duration">
+    2.877s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_009(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_180">TC_연결_180</span>
+      </td>
+  <td class="duration">
+    5.099s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_180(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_189">TC_연결_189</span>
+      </td>
+  <td class="duration">
+    1.256s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_189(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_190">TC_연결_190</span>
+      </td>
+  <td class="duration">
+    2.313s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_190(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_191">TC_연결_191</span>
+      </td>
+  <td class="duration">
+    16.089s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_191(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_192 ~ 194">TC_연결_192_form_194</span>
+      </td>
+  <td class="duration">
+    11.974s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_192_form_194(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_05_NUGU_Btv</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_218 | 중복 : 연결_248, 연결_260, 연결_267">TC_연결_218</span>
+      </td>
+  <td class="duration">
+    22.088s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_219 | 중복 : 연결_246, 연결_261, 연결_268">TC_연결_219</span>
+      </td>
+  <td class="duration">
+    2.654s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_219(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_220 | 중복 : 연결_247, 연결_270, 연결_271">TC_연결_220</span>
+      </td>
+  <td class="duration">
+    4.618s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_224 | 중복 : 연결_248, 연결_262, 연결_260, 연결_276">TC_연결_224</span>
+      </td>
+  <td class="duration">
+    2.583s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_225 | 중복 : 연결_249, 연결_263, 연결_277">TC_연결_225</span>
+      </td>
+  <td class="duration">
+    12.493s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_225(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_226 | 중복 : 연결_250, 연결_264, 연결_278">TC_연결_226</span>
+      </td>
+  <td class="duration">
+    3.992s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_226(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_06_NUGU_albertAI</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_281">TC_연결_281</span>
+      </td>
+  <td class="duration">
+    22.495s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_281(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_282">TC_연결_282</span>
+      </td>
+  <td class="duration">
+    3.249s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_282(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_283">TC_연결_283</span>
+      </td>
+  <td class="duration">
+    3.870s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_283(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_284">TC_연결_284</span>
+      </td>
+  <td class="duration">
+    4.046s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_284(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_285">TC_연결_285</span>
+      </td>
+  <td class="duration">
+    1.848s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_285(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_286 ~ 연결 288">TC_연결_286_form_288</span>
+      </td>
+  <td class="duration">
+    11.839s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_286_form_288(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_289">TC_연결_289</span>
+      </td>
+  <td class="duration">
+    2.598s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_289(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_291">TC_연결_291</span>
+      </td>
+  <td class="duration">
+    5.981s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_291(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_292">TC_연결_292</span>
+      </td>
+  <td class="duration">
+    3.251s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_292(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_293">TC_연결_293</span>
+      </td>
+  <td class="duration">
+    2.961s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_293(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_294">TC_연결_294</span>
+      </td>
+  <td class="duration">
+    7.011s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_294(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_295">TC_연결_295</span>
+      </td>
+  <td class="duration">
+    3.800s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_295(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_296">TC_연결_296</span>
+      </td>
+  <td class="duration">
+    3.324s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_296(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_297">TC_연결_297</span>
+      </td>
+  <td class="duration">
+    5.249s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_297(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_307">TC_연결_307</span>
+      </td>
+  <td class="duration">
+    1.599s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_307(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_308">TC_연결_308</span>
+      </td>
+  <td class="duration">
+    2.274s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_308(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_309">TC_연결_309</span>
+      </td>
+  <td class="duration">
+    18.115s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_309(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_310 ~ 311">TC_연결_310_form_311</span>
+      </td>
+  <td class="duration">
+    12.885s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_310_form_311(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_07_NUGU_Tmap</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_334">TC_연결_334</span>
+      </td>
+  <td class="duration">
+    23.654s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_334(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_08_NUGU_TmapforCar</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_338">TC_연결_338</span>
+      </td>
+  <td class="duration">
+    25.557s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_338(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_339">TC_연결_339</span>
+      </td>
+  <td class="duration">
+    2.634s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_339(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_340">TC_연결_340</span>
+      </td>
+  <td class="duration">
+    6.912s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_340(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_341">TC_연결_341</span>
+      </td>
+  <td class="duration">
+    4.654s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_341(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_342">TC_연결_342</span>
+      </td>
+  <td class="duration">
+    3.550s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_342(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_01_홈카드</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_01">TC_홈_001_01</span>
+      </td>
+  <td class="duration">
+    18.232s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001-02">TC_홈_001_02</span>
+      </td>
+  <td class="duration">
+    5.577s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001-03">TC_홈_001_03</span>
+      </td>
+  <td class="duration">
+    5.699s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_03(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_04">TC_홈_001_04</span>
+      </td>
+  <td class="duration">
+    2.674s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_04(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_05">TC_홈_001_05</span>
+      </td>
+  <td class="duration">
+    6.960s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_05(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_06">TC_홈_001_06</span>
+      </td>
+  <td class="duration">
+    6.232s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_07">TC_홈_001_07</span>
+      </td>
+  <td class="duration">
+    6.829s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_07(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_08">TC_홈_001_08</span>
+      </td>
+  <td class="duration">
+    6.816s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_08(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_10">TC_홈_001_10</span>
+      </td>
+  <td class="duration">
+    1.503s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_10(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_11">TC_홈_001_11</span>
+      </td>
+  <td class="duration">
+    7.586s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_11(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_12">TC_홈_001_12</span>
+      </td>
+  <td class="duration">
+    9.226s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_12(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
   
 </body>
 </html>

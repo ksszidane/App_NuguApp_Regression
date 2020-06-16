@@ -19,7 +19,16 @@
     <parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
     <parameter name="Place" value="out"/>
     <classes>
+      <class name="NUGUAPP_001_실행.앱시작_01"/>
+      <class name="NUGUAPP_002_연결.연결_01_NUGU"/>
+      <class name="NUGUAPP_002_연결.연결_02_NUGU_mini"/>
+      <class name="NUGUAPP_002_연결.연결_03_NUGU_candle"/>
+      <class name="NUGUAPP_002_연결.연결_04_NUGU_nemo"/>
       <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv"/>
+      <class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI"/>
+      <class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap"/>
+      <class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar"/>
+      <class name="NUGUAPP_003_홈.홈_01_홈카드"/>
     </classes>
   </test> <!-- Test_Project -->
   <test name="Test_Project(failed)" parallel="tests">
@@ -31,16 +40,94 @@
     <parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
     <parameter name="Place" value="out"/>
     <classes>
-      <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv">
+      <class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI">
         <methods>
-          <include name="TC_연결_224" invocation-numbers="0"/>
           <include name="AfterMethod"/>
-          <include name="TC_연결_220" invocation-numbers="0"/>
           <include name="setupClass"/>
           <include name="tearDownClass"/>
-          <include name="TC_연결_218" invocation-numbers="0"/>
           <include name="BeforeMethod"/>
-          <include name="TC_연결_124" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_06_NUGU_albertAI -->
+      <class name="NUGUAPP_002_연결.연결_02_NUGU_mini">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_02_NUGU_mini -->
+      <class name="NUGUAPP_003_홈.홈_01_홈카드">
+        <methods>
+          <include name="TC_홈_001_09" invocation-numbers="0"/>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_003_홈.홈_01_홈카드 -->
+      <class name="NUGUAPP_002_연결.연결_01_NUGU">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_01_NUGU -->
+      <class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar">
+        <methods>
+          <include name="TC_연결_343_and_362_form_371" invocation-numbers="0"/>
+          <include name="AfterMethod"/>
+          <include name="TC_연결_346_form_349" invocation-numbers="0"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+          <include name="TC_연결_344" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_08_NUGU_TmapforCar -->
+      <class name="NUGUAPP_002_연결.연결_03_NUGU_candle">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_03_NUGU_candle -->
+      <class name="NUGUAPP_002_연결.연결_04_NUGU_nemo">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_04_NUGU_nemo -->
+      <class name="NUGUAPP_001_실행.앱시작_01">
+        <methods>
+          <include name="TC_앱실행_016" invocation-numbers="0"/>
+          <include name="AfterMethod"/>
+          <include name="TC_앱실행_004" invocation-numbers="0"/>
+          <include name="TC_앱실행_017_from_018" invocation-numbers="0"/>
+          <include name="TC_앱실행_020" invocation-numbers="0"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="TC_앱실행_014_from_015" invocation-numbers="0"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_001_실행.앱시작_01 -->
+      <class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="TC_연결_336" invocation-numbers="0"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_002_연결.연결_07_NUGU_Tmap -->
+      <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
         </methods>
       </class> <!-- NUGUAPP_002_연결.연결_05_NUGU_Btv -->
     </classes>

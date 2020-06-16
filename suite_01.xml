@@ -21,9 +21,16 @@
 			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
 			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
 			<class name="NUGUAPP_002_연결.연결_05_NUGU_Btv" />
+			<class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI" />
+			<class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap" />
+			<class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar" />
+			<class name="NUGUAPP_003_홈.홈_01_홈카드" />
 			-->
 		
-			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
+			
+			<class name="NUGUAPP_001_실행.앱시작_01" />
+		
+			
 			
 			
 			
