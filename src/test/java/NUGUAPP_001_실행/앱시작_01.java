@@ -294,10 +294,10 @@ public class 앱시작_01 extends TestCase {
         util.click(By.className("c-ick"));
         
         test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 이메일 아이디입력");
-        util.type(By.id("userId"), "ksszidane10@naver.com");
+        util.type(By.id("userId"), "ksszidane1@naver.com");
 
 	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
-        util.type(By.id("password"), "tjdtn10!!");
+        util.type(By.id("password"), "rlatjdtn10!!");
         
         test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
 		util.click(By.id("authLogin"));
@@ -310,7 +310,7 @@ public class 앱시작_01 extends TestCase {
     	
 	    test.log(Status.INFO, "아이디 영역 확인");
 	    String userName = util.getText(By.id("userNameTextView"));
-	    Assert.assertTrue(userName.contains("ksszidane10"));
+	    Assert.assertTrue(userName.contains("ksszidane1"));
 	    
 	    test.log(Status.INFO, "개인정보 리스트 확인 ");
 	    util.click(By.id("userNameTextView"));
@@ -333,7 +333,7 @@ public class 앱시작_01 extends TestCase {
         
         test.log(Status.INFO, "자동로그인 저장 여부 확인(시나리오상 저장 안됨 확인)");
         String 자동저장ID = util.getText(By.className("id-email"));
-        Assert.assertNotSame(자동저장ID, "ksszidane10@naver.com");
+        Assert.assertNotSame(자동저장ID, "ksszidane1@naver.com");
 
     }
 	

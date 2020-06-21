@@ -8,7 +8,7 @@
 		<parameter name="OS" value="Android" />
 		<parameter name="Server" value="PRD" />
 		<parameter name="Place" value="out" /> <!-- 사내 : in  // 사외 : out-->
-		<parameter name="oAuth_Token" value="90D1A0AA6A3E47A68650377A23AEB0BC" /> 
+		<parameter name="oAuth_Token" value="15F42AF9FF6F4099827D12877DCDB8AA" /> 
 		<parameter name="userID" value="ALDF3NYA6C0D0C654DD2"/>
 		<parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
 		<parameter name="Device" value="ce12160cb994301d04"/>
@@ -25,10 +25,11 @@
 			<class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap" />
 			<class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar" />
 			<class name="NUGUAPP_003_홈.홈_01_홈카드" />
+			<class name="NUGUAPP_003_홈.홈_02_홈카드" />
 			-->
 		
 			
-			<class name="NUGUAPP_001_실행.앱시작_01" />
+			<class name="NUGUAPP_003_홈.홈_03_디바이스메시지" />
 		
 			
 			

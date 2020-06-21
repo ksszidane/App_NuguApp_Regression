@@ -30,10 +30,10 @@ public class 연결_01_NUGU extends TestCase {
         test.log(Status.INFO, "디바이스 연결없는 계정 로그인");
         
         test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 이메일 아이디입력");
-        util.type(By.id("userId"), "ksszidane10@naver.com");
+        util.type(By.id("userId"), "ksszidane1@naver.com");
 
 	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
-        util.type(By.id("password"), "tjdtn10!!");
+        util.type(By.id("password"), "rlatjdtn10!!");
         
         test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
 		util.click(By.id("authLogin"));

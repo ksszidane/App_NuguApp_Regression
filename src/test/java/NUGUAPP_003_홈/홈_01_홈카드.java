@@ -131,7 +131,7 @@ public class 홈_01_홈카드 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_001_09")
 	public void TC_홈_001_09(Method method) throws Exception {
 		
-		test.log(Status.INFO, "홈카드 스크롤 다운 (y-55 0) "); 
+		test.log(Status.INFO, "홈카드 스크롤 다운 (y-550) "); 
 	    util.swipe(550, 1700, 550, 1150);
 		    
 		 test.log(Status.INFO, "미디어 카드 유무 확인 "); 
