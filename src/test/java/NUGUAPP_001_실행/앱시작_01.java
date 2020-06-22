@@ -193,6 +193,9 @@ public class 앱시작_01 extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 확인"); 
 	    util.switchTo().alert().accept();
 	    
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
+	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
     	
@@ -256,6 +259,9 @@ public class 앱시작_01 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
+	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
     	
@@ -275,6 +281,7 @@ public class 앱시작_01 extends TestCase {
 	    
 	    test.log(Status.INFO, "로그아웃 버튼 클릭");
 	    util.click(By.id("btnSettingLogout"));
+	    
 		
     }
 	
@@ -304,6 +311,9 @@ public class 앱시작_01 extends TestCase {
 		
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
@@ -357,6 +367,9 @@ public class 앱시작_01 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
+	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
     	
@@ -408,6 +421,9 @@ public class 앱시작_01 extends TestCase {
 
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
