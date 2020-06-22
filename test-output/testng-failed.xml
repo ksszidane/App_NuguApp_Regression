@@ -22,4 +22,24 @@
       <class name="NUGUAPP_001_실행.실행_01_앱시작"/>
     </classes>
   </test> <!-- Test_Project -->
+  <test name="Test_Project(failed)" parallel="tests">
+    <parameter name="OS" value="Android"/>
+    <parameter name="Server" value="PRD"/>
+    <parameter name="Device" value="ce12160cb994301d04"/>
+    <parameter name="oAuth_Token" value="985794BECBD144A9B4480F54E97848E3"/>
+    <parameter name="userID" value="ALDF3NYA6C0D0C654DD2"/>
+    <parameter name="deviceID" value="ALDEPCKHWOK47386BED6"/>
+    <parameter name="Place" value="out"/>
+    <classes>
+      <class name="NUGUAPP_001_실행.실행_01_앱시작">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="TC_014_015_앱실행" invocation-numbers="0"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_001_실행.실행_01_앱시작 -->
+    </classes>
+  </test> <!-- Test_Project(failed) -->
 </suite> <!-- Failed suite [ExtentReport] -->
