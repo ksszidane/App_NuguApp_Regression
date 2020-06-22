@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-ExtentReport">
-              <span class="suite-name border-failed">ExtentReport</span>
+              <span class="suite-name border-passed">ExtentReport</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-ExtentReport">
-                    <span>C:\Users\SKTelecom\git\App_NuguApp_Regression\suite_01.xml</span>
+                    <span>C:\Users\kei\git\App_NuguApp_Regression\suite_01.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-ExtentReport" class="hide-methods failed suite-ExtentReport"> (hide)</a> <!-- hide-methods failed suite-ExtentReport -->
-                      <a href="#" panel-name="suite-ExtentReport" class="show-methods failed suite-ExtentReport"> (show)</a> <!-- show-methods failed suite-ExtentReport -->
-                    </span>
-                    <div class="method-list-content failed suite-ExtentReport">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ExtentReport" title="NUGUAPP_001_실행.실행_01_앱시작" hash-for-method="TC_014_015_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)">TC_014_015_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-ExtentReport -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,7 @@
                     <div class="method-list-content passed suite-ExtentReport">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ExtentReport" title="NUGUAPP_001_실행.실행_01_앱시작" hash-for-method="TC_012_013_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)">TC_012_013_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-ExtentReport" title="NUGUAPP_003_홈.홈_03_디바이스메시지" hash-for-method="TC_홈_006(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception)">TC_홈_006(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ExtentReport -->
@@ -131,65 +117,20 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ExtentReport" class="panel ExtentReport">
-          <div class="suite-ExtentReport-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">NUGUAPP_001_실행.실행_01_앱시작</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_014_015_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)">
-                  </a> <!-- TC_014_015_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Excep...) -->
-                  <span class="method-name">TC_014_015_앱실행</span>
-                  <span class="parameters">(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Exception)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: userNameTextView (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:123)
-	at unit.Utilities.getText(Utilities.java:670)
-	at NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(실행_01_앱시작.java:250)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: userNameTextView
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;SKT1112049PN002&apos;, ip: &apos;172.23.174.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(누구앱 리그레이션 TC : 실행_014~15)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ExtentReport-class-failed -->
           <div class="suite-ExtentReport-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">NUGUAPP_001_실행.실행_01_앱시작</span>
+              <span class="class-name">NUGUAPP_003_홈.홈_03_디바이스메시지</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_012_013_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)">
-                  </a> <!-- TC_012_013_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Excep...) -->
-                  <span class="method-name">TC_012_013_앱실행</span>
-                  <span class="parameters">(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <a name="TC_홈_006(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception)">
+                  </a> <!-- TC_홈_006(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception) -->
+                  <span class="method-name">TC_홈_006</span>
+                  <span class="parameters">(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception)</span>
                   <em>
-(누구앱 리그레이션 TC : 실행_012~13)                  </em>
+(누구앱 리그레이션 TC : 연결_001~002)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,7 +138,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel ExtentReport -->
         <div panel-name="test-xml-ExtentReport" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\SKTelecom\git\App_NuguApp_Regression\suite_01.xml</span>
+            <span class="header-content">C:\Users\kei\git\App_NuguApp_Regression\suite_01.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,12 +151,12 @@ Driver info: driver.version: unknown
     &lt;parameter name=&quot;OS&quot; value=&quot;Android&quot;/&gt;
     &lt;parameter name=&quot;Server&quot; value=&quot;PRD&quot;/&gt;
     &lt;parameter name=&quot;Device&quot; value=&quot;ce12160cb994301d04&quot;/&gt;
-    &lt;parameter name=&quot;oAuth_Token&quot; value=&quot;985794BECBD144A9B4480F54E97848E3&quot;/&gt;
+    &lt;parameter name=&quot;oAuth_Token&quot; value=&quot;15F42AF9FF6F4099827D12877DCDB8AA&quot;/&gt;
     &lt;parameter name=&quot;userID&quot; value=&quot;ALDF3NYA6C0D0C654DD2&quot;/&gt;
     &lt;parameter name=&quot;deviceID&quot; value=&quot;ALDEPCKHWOK47386BED6&quot;/&gt;
     &lt;parameter name=&quot;Place&quot; value=&quot;out&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;NUGUAPP_001_실행.실행_01_앱시작&quot;/&gt;
+      &lt;class name=&quot;NUGUAPP_003_홈.홈_03_디바이스메시지&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test_Project --&gt;
 &lt;/suite&gt; &lt;!-- ExtentReport --&gt;
@@ -255,20 +196,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_014_015_앱실행')
-data.setCell(0, 2, 'NUGUAPP_001_실행.실행_01_앱시작')
-data.setCell(0, 3, 38006);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC_012_013_앱실행')
-data.setCell(1, 2, 'NUGUAPP_001_실행.실행_01_앱시작')
-data.setCell(1, 3, 32315);
+data.setCell(0, 1, 'TC_홈_006')
+data.setCell(0, 2, 'NUGUAPP_003_홈.홈_03_디바이스메시지')
+data.setCell(0, 3, 37930);
 window.suiteTableData['ExtentReport']= { tableData: data, tableDiv: 'times-div-ExtentReport'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-ExtentReport">
               </div> <!-- times-div-ExtentReport -->
             </div> <!-- times-div -->
@@ -294,40 +231,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">NUGUAPP_001_실행.실행_01_앱시작</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">NUGUAPP_003_홈.홈_03_디바이스메시지</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupClass(Android, http://0.0.0.0:4723/wd/hub, PRD, NUGU_App, ALDF3NYA6C0D0C654DD2, ALDEPCKHWOK47386BED6, out,...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">BeforeMethod(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)</span>
-                <span class="method-start">34616 ms</span>
+                <span class="method-name">BeforeMethod(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                <span class="method-start">44225 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC_012_013_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)</span>
-                <span class="method-start">34629 ms</span>
+                <span class="method-name">TC_홈_006(public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                <span class="method-start">44231 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">AfterMethod([TestResult name=TC_012_013_앱실행 status=SUCCESS method=실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Met...)</span>
-                <span class="method-start">66947 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">BeforeMethod(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)</span>
-                <span class="method-start">66949 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TC_014_015_앱실행(public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Excep...)</span>
-                <span class="method-start">66949 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">AfterMethod([TestResult name=TC_014_015_앱실행 status=FAILURE method=실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Met...)</span>
-                <span class="method-start">104961 ms</span>
+                <span class="method-name">AfterMethod([TestResult name=TC_홈_006 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method)[pri:...)</span>
+                <span class="method-start">82162 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">tearDownClass(ALDF3NYA6C0D0C654DD2, ALDEPCKHWOK47386BED6, PRD, out, 985794BECBD144A9B4480F54E97848E3, ce12160cb994...)</span>
-                <span class="method-start">105769 ms</span>
+                <span class="method-name">tearDownClass(ALDF3NYA6C0D0C654DD2, ALDEPCKHWOK47386BED6, PRD, out, 15F42AF9FF6F4099827D12877DCDB8AA, ce12160cb994...)</span>
+                <span class="method-start">82162 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

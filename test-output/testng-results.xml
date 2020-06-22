@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ExtentReport" duration-ms="109019" started-at="2020-06-03T09:01:57Z" finished-at="2020-06-03T09:03:46Z">
+  <suite name="ExtentReport" duration-ms="88594" started-at="2020-06-17T09:44:44Z" finished-at="2020-06-17T09:46:13Z">
     <groups>
     </groups>
-    <test name="Test_Project" duration-ms="109019" started-at="2020-06-03T09:01:57Z" finished-at="2020-06-03T09:03:46Z">
-      <class name="NUGUAPP_001_실행.실행_01_앱시작">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="setupClass" is-config="true" duration-ms="34609" started-at="2020-06-03T18:01:57Z" finished-at="2020-06-03T18:02:31Z">
+    <test name="Test_Project" duration-ms="88594" started-at="2020-06-17T09:44:44Z" finished-at="2020-06-17T09:46:13Z">
+      <class name="NUGUAPP_003_홈.홈_03_디바이스메시지">
+        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="setupClass" is-config="true" duration-ms="44221" started-at="2020-06-17T18:44:44Z" finished-at="2020-06-17T18:45:28Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[985794BECBD144A9B4480F54E97848E3]]>
+                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
               </value>
             </param>
             <param index="8">
@@ -58,122 +58,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="12" started-at="2020-06-03T18:02:31Z" finished-at="2020-06-03T18:02:31Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="BeforeMethod" is-config="true" duration-ms="6" started-at="2020-06-17T18:45:28Z" finished-at="2020-06-17T18:45:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_012_013_앱실행(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="TC_012_013_앱실행" duration-ms="32315" started-at="2020-06-03T18:02:31Z" description="누구앱 리그레이션 TC : 실행_012~13" finished-at="2020-06-03T18:03:04Z">
+        <test-method status="PASS" signature="TC_홈_006(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="TC_홈_006" duration-ms="37930" started-at="2020-06-17T18:45:28Z" description="누구앱 리그레이션 TC : 연결_001~002" finished-at="2020-06-17T18:46:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_001_실행.실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_012_013_앱실행 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-06-03T18:03:04Z" finished-at="2020-06-03T18:03:04Z">
+        </test-method> <!-- TC_홈_006 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-06-17T18:46:06Z" finished-at="2020-06-17T18:46:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_012_013_앱실행 status=SUCCESS method=실행_01_앱시작.TC_012_013_앱실행(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_014_015_앱실행(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="TC_014_015_앱실행" duration-ms="38006" started-at="2020-06-03T18:03:04Z" description="누구앱 리그레이션 TC : 실행_014~15" finished-at="2020-06-03T18:03:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: userNameTextView (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: userNameTextView (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:123)
-	at unit.Utilities.getText(Utilities.java:670)
-	at NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(실행_01_앱시작.java:250)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: userNameTextView
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SKT1112049PN002', ip: '172.23.174.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_014_015_앱실행 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-06-03T18:03:04Z" finished-at="2020-06-03T18:03:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_001_실행.실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="AfterMethod" is-config="true" duration-ms="808" started-at="2020-06-03T18:03:42Z" finished-at="2020-06-03T18:03:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_014_015_앱실행 status=FAILURE method=실행_01_앱시작.TC_014_015_앱실행(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_006 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_001_실행.실행_01_앱시작@2f943d71]" name="tearDownClass" is-config="true" duration-ms="3240" started-at="2020-06-03T18:03:42Z" finished-at="2020-06-03T18:03:46Z">
+        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="tearDownClass" is-config="true" duration-ms="6422" started-at="2020-06-17T18:46:06Z" finished-at="2020-06-17T18:46:13Z">
           <params>
             <param index="0">
               <value>
@@ -197,7 +115,7 @@ Driver info: driver.version: unknown
             </param>
             <param index="4">
               <value>
-                <![CDATA[985794BECBD144A9B4480F54E97848E3]]>
+                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
               </value>
             </param>
             <param index="5">
@@ -209,7 +127,7 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- NUGUAPP_001_실행.실행_01_앱시작 -->
+      </class> <!-- NUGUAPP_003_홈.홈_03_디바이스메시지 -->
     </test> <!-- Test_Project -->
   </suite> <!-- ExtentReport -->
 </testng-results>
