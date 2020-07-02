@@ -12,35 +12,223 @@
 <body>
 <h1>Test_Project</h1>
 <p>
-  Test duration: 88.579s
+  Test duration: 0.001s
 </p>
 
-
-
-
-
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">NUGUAPP_003_홈.홈_04_최근인기대화</td>
       </tr>
             
 <tr>
   <td class="method">
-                  <span class="description" title="누구앱 리그레이션 TC : 연결_001~002">TC_홈_006</span>
+                  setupClass
       </td>
   <td class="duration">
-    37.930s
+    0.000s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+          <i>Method arguments: </i><span class="arguments">"Android", "http://0.0.0.0:4723/wd/hub", "PRD", "NUGU_App", "out", "ce12160cb994301d04", "ALDF3NYA6C0D0C654DD2", "ALDF5TR5SNGZ8175DA16", "ALDEPCKHWOK47386BED6", "15F42AF9FF6F4099827D12877DCDB8AA", "ALDF2JWHQFXIBE9E95DB", "2C66A81F08264E2B87CD8F859E506624", "ALDEUSUMDHC218BE1BDE", "542A9FA8376F4946B63C5FD0D8F41E2E", "ALDFKDH4BQFP7307628C", "ECCAA143358A4F1AB9735A1A02D41F68"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: Connection refused: connect<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;<br/>
+Driver info: driver.version: AndroidDriver</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)<br />
+              java.util.Optional.orElseGet(Unknown Source)<br />
+              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />
+              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
+              unit.Utilities.execute(Utilities.java:1)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)<br />
+              io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)<br />
+              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:88)<br />
+              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)<br />
+              io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:94)<br />
+              unit.Utilities.&lt;init&gt;(Utilities.java:128)<br />
+              unit.TestCase.setupClass(TestCase.java:98)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)<br />
+              org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-1">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      okhttp3.internal.platform.Platform.connectSocket(Platform.kt:127)<br />
+                      okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:268)<br />
+                      okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:176)<br />
+                      okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:236)<br />
+                      okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:109)<br />
+                      okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:77)<br />
+                      okhttp3.internal.connection.Transmitter.newExchange$okhttp(Transmitter.kt:162)<br />
+                      okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:35)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)<br />
+                      okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:82)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)<br />
+                      okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:84)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)<br />
+                      okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:71)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)<br />
+                      okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.kt:184)<br />
+                      okhttp3.RealCall.execute(RealCall.kt:66)<br />
+                      org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)<br />
+                      io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)<br />
+                      io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)<br />
+                      io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />
+                      io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
+                      io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
+                      unit.Utilities.execute(Utilities.java:1)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)<br />
+                      io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)<br />
+                      io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)<br />
+                      io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:88)<br />
+                      io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)<br />
+                      io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:94)<br />
+                      unit.Utilities.&lt;init&gt;(Utilities.java:128)<br />
+                      unit.TestCase.setupClass(TestCase.java:98)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)<br />
+                      org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">NUGUAPP_003_홈.홈_04_최근인기대화</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDownClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_04_최근인기대화</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_038">TC_홈_038_01</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 
       </td>
 </tr>
       </table>
+
   
 </body>
 </html>

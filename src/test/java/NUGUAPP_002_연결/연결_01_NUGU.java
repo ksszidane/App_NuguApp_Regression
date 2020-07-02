@@ -24,8 +24,8 @@ public class 연결_01_NUGU extends TestCase {
         test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
         util.click(By.className("btn-secondary-text"));
         
-        test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 해제");
-        util.click(By.className("c-ick"));
+        //test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 해제");
+        //util.click(By.className("c-ick"));
         
         test.log(Status.INFO, "디바이스 연결없는 계정 로그인");
         
@@ -106,6 +106,9 @@ public class 연결_01_NUGU extends TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_004")
 	public void TC_연결_004(Method method) throws Exception {
+		
+		test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
 		
 		test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));

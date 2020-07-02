@@ -163,11 +163,16 @@ public class 연결_08_NUGU_TmapforCar extends TestCase {
 		test.log(Status.INFO, "NUGU 서비스 시작하기 버튼 클릭");
 		util.click(By.id("startButton"));
 		
+		test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
+		
 		test.log(Status.INFO, "메뉴 > 설정 > 사용자설정 > 뮤직기본서비스 이동");
 		test.log(Status.INFO, "메뉴 버튼클릭");
 		util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
+		
 		test.log(Status.INFO, "설정 버튼클릭");
 		util.click(By.id("settingsButton"));
+		
 		test.log(Status.INFO, "사용자설정 버튼클릭");
 		util.click((By.xpath("//android.widget.TextView[@text='사용자 설정']")));
 	    
@@ -189,6 +194,10 @@ public class 연결_08_NUGU_TmapforCar extends TestCase {
 		util.ProgressBar_Loading();
 		util.Android_BackKey();
 		util.Android_BackKey();
+		
+		test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
+		
 		util.click(By.id("ivHeaderClose"));
 		
 		test.log(Status.INFO, "디바이스 연결 플로팅메뉴 확인 및 클릭"); 
@@ -218,6 +227,9 @@ public class 연결_08_NUGU_TmapforCar extends TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_344")
 	public void TC_연결_344(Method method) throws Exception {
+		
+		test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
 
 		test.log(Status.INFO, "디바이스 연결 플로팅메뉴 확인 및 클릭"); 
 	    util.click(By.id("ibDeviceFab"));

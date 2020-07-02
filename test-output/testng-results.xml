@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="ExtentReport" duration-ms="88594" started-at="2020-06-17T09:44:44Z" finished-at="2020-06-17T09:46:13Z">
+  <suite name="ExtentReport" duration-ms="19570" started-at="2020-07-02T10:06:54Z" finished-at="2020-07-02T10:07:14Z">
     <groups>
     </groups>
-    <test name="Test_Project" duration-ms="88594" started-at="2020-06-17T09:44:44Z" finished-at="2020-06-17T09:46:13Z">
-      <class name="NUGUAPP_003_홈.홈_03_디바이스메시지">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="setupClass" is-config="true" duration-ms="44221" started-at="2020-06-17T18:44:44Z" finished-at="2020-06-17T18:45:28Z">
+    <test name="Test_Project" duration-ms="19570" started-at="2020-07-02T10:06:54Z" finished-at="2020-07-02T10:07:14Z">
+      <class name="NUGUAPP_003_홈.홈_04_최근인기대화">
+        <test-method status="FAIL" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@80503]" name="setupClass" is-config="true" duration-ms="0" started-at="2020-07-02T19:06:54Z" finished-at="2020-07-02T19:06:54Z">
           <params>
             <param index="0">
               <value>
@@ -31,103 +31,183 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
+                <![CDATA[out]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[ALDEPCKHWOK47386BED6]]>
+                <![CDATA[ce12160cb994301d04]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[out]]>
+                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
+                <![CDATA[ALDF5TR5SNGZ8175DA16]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[ce12160cb994301d04]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="BeforeMethod" is-config="true" duration-ms="6" started-at="2020-06-17T18:45:28Z" finished-at="2020-06-17T18:45:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_006(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="TC_홈_006" duration-ms="37930" started-at="2020-06-17T18:45:28Z" description="누구앱 리그레이션 TC : 연결_001~002" finished-at="2020-06-17T18:46:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_006 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-06-17T18:46:06Z" finished-at="2020-06-17T18:46:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_006 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@80503]" name="tearDownClass" is-config="true" duration-ms="6422" started-at="2020-06-17T18:46:06Z" finished-at="2020-06-17T18:46:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
                 <![CDATA[ALDEPCKHWOK47386BED6]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[PRD]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[out]]>
-              </value>
-            </param>
-            <param index="4">
+            <param index="9">
               <value>
                 <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
               </value>
             </param>
-            <param index="5">
+            <param index="10">
               <value>
-                <![CDATA[ce12160cb994301d04]]>
+                <![CDATA[ALDF2JWHQFXIBE9E95DB]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2C66A81F08264E2B87CD8F859E506624]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ALDEUSUMDHC218BE1BDE]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[542A9FA8376F4946B63C5FD0D8F41E2E]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ALDFKDH4BQFP7307628C]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+	at java.util.Optional.orElseGet(Unknown Source)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at unit.Utilities.execute(Utilities.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at unit.Utilities.<init>(Utilities.java:128)
+	at unit.TestCase.setupClass(TestCase.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.kt:127)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:268)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:176)
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:236)
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:109)
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:77)
+	at okhttp3.internal.connection.Transmitter.newExchange$okhttp(Transmitter.kt:162)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:35)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:82)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:84)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:71)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.kt:184)
+	at okhttp3.RealCall.execute(RealCall.kt:66)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@80503]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-07-02T19:07:14Z" finished-at="2020-07-02T19:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="TC_홈_038_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@80503]" name="TC_홈_038_01" duration-ms="1" started-at="2020-07-02T19:07:14Z" description="누구앱 리그레이션 TC : 홈_038" finished-at="2020-07-02T19:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- TC_홈_038_01 -->
+        <test-method status="SKIP" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@80503]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-07-02T19:07:14Z" finished-at="2020-07-02T19:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="SKIP" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@80503]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-07-02T19:07:14Z" finished-at="2020-07-02T19:07:14Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- NUGUAPP_003_홈.홈_03_디바이스메시지 -->
+      </class> <!-- NUGUAPP_003_홈.홈_04_최근인기대화 -->
     </test> <!-- Test_Project -->
   </suite> <!-- ExtentReport -->
 </testng-results>

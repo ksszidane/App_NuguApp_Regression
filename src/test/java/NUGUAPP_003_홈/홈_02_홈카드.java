@@ -62,53 +62,52 @@ public class 홈_02_홈카드 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_004")
 	public void TC_홈_004(Method method) throws Exception {
 		
-		 test.log(Status.INFO, "현재시간 구하기"); 
-		    String 현재시간 = util.DateTime();
-		    String 현재분 = util.Time_min();
-		    String 최근인기대화기준시간 = util.getText(By.id("tvCreatedDateTime"));
+		test.log(Status.INFO, "현재시간 구하기"); 
+	    String 현재시간 = util.DateTime();
+	    String 현재분 = util.Time_min();
+	    String 최근인기대화기준시간 = util.getText(By.id("tvCreatedDateTime"));
 
-		    int min = Integer.parseInt(현재분);
+	    int min = Integer.parseInt(현재분);
 		    
-		    test.log(Status.INFO, "최근 인기 대화 기준시간 확인 "); 
-		    if (min < 26) {
-		    	String 한시간전 = util.Time_HOUR_after();
-		    	System.out.println(한시간전);
-			    Assert.assertEquals(최근인기대화기준시간, 한시간전+":25 기준");
-		    } else { 
-		    	System.out.println(현재시간);
-		    	Assert.assertEquals(최근인기대화기준시간, 현재시간+":25 기준");
-		    }
-		    test.log(Status.INFO, "최근 인기 대화 리스트 갯수 확인"); 
-		    int 갯수 = util.getSize(By.id("tvPopularUtteranceStart"));
-		    Assert.assertEquals(갯수, 5);
+	    test.log(Status.INFO, "최근 인기 대화 기준시간 확인 "); 
+	    if (min < 26) {
+	    	String 한시간전 = util.Time_HOUR_after();
+	    	System.out.println(한시간전);
+		    Assert.assertEquals(최근인기대화기준시간, 한시간전+":25 기준");
+	    } else { 
+	    	System.out.println(현재시간);
+	    	Assert.assertEquals(최근인기대화기준시간, 현재시간+":25 기준");
+	    }
+	    test.log(Status.INFO, "최근 인기 대화 리스트 갯수 확인"); 
+	    int 갯수 = util.getSize(By.id("tvPopularUtteranceStart"));
+	    Assert.assertEquals(갯수, 5);
 		    
 		    
-		    for(int i=0; i<8; i++) {
-		    	String 최근인기대화타이틀 = util.getText(By.id("tvDeviceName"));
+	    for(int i=0; i<8; i++) {
+	    	String 최근인기대화타이틀 = util.getText(By.id("tvDeviceName"));
+	    	//int idx = 최근인기대화타이틀.indexOf(" 최근"); 
+	    	//String PoC = 최근인기대화타이틀.substring(0, idx);
 
-		    	//int idx = 최근인기대화타이틀.indexOf(" 최근"); 
-		    	//String PoC = 최근인기대화타이틀.substring(0, idx);
-
-		    	//System.out.println(PoC);
-		    	test.log(Status.INFO, "최근인기 대화 PoC 순서 확인");
-		    	Assert.assertEquals(최근인기대화타이틀, NUGU_data.data.PoC리스트[i] + " 최근 인기 대화");
+		    //System.out.println(PoC);
+		    test.log(Status.INFO, "최근인기 대화 PoC 순서 확인");
+		    Assert.assertEquals(최근인기대화타이틀, NUGU_data.data.PoC리스트[i] + " 최근 인기 대화");
 		    	
-		    	test.log(Status.INFO, "좌측플리킹 동작");
-			    util.swipe(900, 1550, 200, 1550);
-		    }
+		    test.log(Status.INFO, "좌측플리킹 동작");
+			   util.swipe(900, 1550, 200, 1550);
+	    }
 		    
-		    test.log(Status.INFO, "최근 인기 대화 페이지뷰 확인");
-		    util.click(By.id("tvDeviceName"));
-		    String 최근인기대화타이틀 = util.getText(By.xpath("//android.widget.TextView"));
-		    Assert.assertEquals(최근인기대화타이틀, "최근 인기 대화");
+		test.log(Status.INFO, "최근 인기 대화 페이지뷰 확인");
+		util.click(By.id("tvDeviceName"));
+		String 최근인기대화타이틀 = util.getText(By.xpath("//android.widget.TextView"));
+		Assert.assertEquals(최근인기대화타이틀, "최근 인기 대화");
 		    
-		    Thread.sleep(1500);
-		    test.log(Status.INFO, "화면캡쳐");
-	        String screenShotPath = util.ErrorScreenshots(util, "screenShotName");
-	        test.log(Status.INFO, "Snapshot below: " + test.addScreenCaptureFromPath(screenShotPath));
+		Thread.sleep(1500);
+		test.log(Status.INFO, "화면캡쳐");
+	    String screenShotPath = util.ErrorScreenshots(util, "screenShotName");
+	    test.log(Status.INFO, "Snapshot below: " + test.addScreenCaptureFromPath(screenShotPath));
 		    
-		    test.log(Status.INFO, "최근 인기 대화창 닫기");
-		    util.click(By.id("actionClose"));
+		test.log(Status.INFO, "최근 인기 대화창 닫기");
+		util.click(By.id("actionClose"));
 		    
 		    
 	}
