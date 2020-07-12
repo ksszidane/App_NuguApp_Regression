@@ -10,12 +10,35 @@
     <classes>
       <class name="NUGUAPP_003_홈.홈_03_디바이스메시지">
         <methods>
-          <include name="TC_홈_018"/>
-          <include name="TC_홈_017"/>
-          <include name="TC_홈_016"/>
-          <include name="TC_홈_015"/>
-          <include name="TC_홈_014"/>
-          <include name="TC_홈_013"/>
+          <include name="TC_홈_029"/>
+          <include name="TC_홈_016_02"/>
+          <include name="TC_홈_016_01"/>
+          <include name="TC_홈_018_02"/>
+          <include name="TC_홈_014_01"/>
+          <include name="TC_홈_014_02"/>
+          <include name="TC_홈_020_01"/>
+          <include name="TC_홈_018_01"/>
+          <include name="TC_홈_020_02"/>
+          <include name="TC_홈_022_02"/>
+          <include name="TC_홈_006"/>
+          <include name="TC_홈_028"/>
+          <include name="TC_홈_023"/>
+          <include name="TC_홈_027"/>
+          <include name="TC_홈_026"/>
+          <include name="TC_홈_025"/>
+          <include name="TC_홈_024"/>
+          <include name="TC_홈_022_01"/>
+          <include name="TC_홈_015_02"/>
+          <include name="TC_홈_015_01"/>
+          <include name="TC_홈_017_01"/>
+          <include name="TC_홈_017_02"/>
+          <include name="TC_홈_013_01"/>
+          <include name="TC_홈_013_02"/>
+          <include name="TC_홈_019_02"/>
+          <include name="TC_홈_034"/>
+          <include name="TC_홈_007_from_008"/>
+          <include name="TC_홈_032"/>
+          <include name="TC_홈_019_01"/>
         </methods>
       </class> <!-- NUGUAPP_003_홈.홈_03_디바이스메시지 -->
     </classes>

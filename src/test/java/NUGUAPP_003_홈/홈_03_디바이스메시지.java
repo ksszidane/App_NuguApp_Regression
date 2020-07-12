@@ -109,7 +109,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice_SkipCheck();
-	    
+	    	    
 	    test.log(Status.INFO, "첫번째 홈카드 이동");
 	    util.swipe(200, 650, 900, 650);
 	    
@@ -154,12 +154,15 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
+	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
-	    
+	
 	    test.log(Status.INFO, "디바이스 셀렉트 창 오픈"); 
 	    util.click(By.id("deviceNameTextView"));
 	    
@@ -209,7 +212,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 홈_014")
 	public void TC_홈_014_01(Method method) throws Exception {
-	   
+		
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+		
 	    test.log(Status.INFO, "\"FLO 최신 노래 들려줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("FLO 최신 노래 들려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	       
@@ -253,7 +259,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_015")
 	public void TC_홈_015_01(Method method) throws Exception {
 	   
-	    test.log(Status.INFO, "\"11번가초이스 상품 추천해줘\" [발화 커맨트] 텍스트 입력"); 
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+		
+		test.log(Status.INFO, "\"11번가초이스 상품 추천해줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("11번가초이스 상품 추천해줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	       
 	    test.log(Status.INFO, "\"11번가초이스 상품 추천해줘\" [TTS] 확인"); 
@@ -294,7 +303,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_016")
 	public void TC_홈_016_01(Method method) throws Exception {
 	   
-	    test.log(Status.INFO, "\"내일 일정 알려줘\" [발화 커맨트] 텍스트 입력"); 
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+		
+		test.log(Status.INFO, "\"내일 일정 알려줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("내일 일정 알려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	       
 	    test.log(Status.INFO, "\"내일 일정 알려줘\" [TTS] 확인"); 
@@ -336,7 +348,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_017")
 	public void TC_홈_017_01(Method method) throws Exception {
 	   
-	    test.log(Status.INFO, "\"에어컨 틀어줘\" [발화 커맨트] 텍스트 입력"); 
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+		
+		test.log(Status.INFO, "\"에어컨 틀어줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("에어컨 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	       
 	    test.log(Status.INFO, "\"에어컨 틀어줘\" [TTS] 확인"); 
@@ -392,6 +407,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
 	   
+	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, smart3_did, smart3_token);
+	    
 	    test.log(Status.INFO, "\"CJ 오쇼핑 주문해줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("CJ 오쇼핑 주문해줘", ksszidane10, smart3_did, ServerName, Place, smart3_token);
 	       
@@ -433,7 +451,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_019")
 	public void TC_홈_019_01(Method method) throws Exception {
 		
-	    test.log(Status.INFO, "\"SK 스토아 주문해줘\" [발화 커맨트] 텍스트 입력"); 
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, smart3_did, smart3_token);
+		
+		test.log(Status.INFO, "\"SK 스토아 주문해줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("SK 스토아 주문해줘", ksszidane10, smart3_did, ServerName, Place, smart3_token);
 	       
 	    test.log(Status.INFO, "\"SK 스토아 주문해줘\" [TTS] 확인"); 
@@ -556,6 +577,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
+	    
+	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
 	   
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
@@ -636,6 +660,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
+	    
+	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane, NU100_4228C8_did, NU100_4228C8_token);
 	 
 	    test.log(Status.INFO, "\"11번가에서 상품 추천해줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("11번가에서 상품 추천해줘", ksszidane, NU100_4228C8_did, ServerName, Place, NU100_4228C8_token);
@@ -651,7 +678,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_025")
 	public void TC_홈_025(Method method) throws Exception {
 		
-	    test.log(Status.INFO, "\"11번가에서 햇반 검색해줘\" [발화 커맨트] 텍스트 입력"); 
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane, NU100_4228C8_did, NU100_4228C8_token);
+		
+		test.log(Status.INFO, "\"11번가에서 햇반 검색해줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("11번가에서 햇반 검색해줘", ksszidane, NU100_4228C8_did, ServerName, Place, NU100_4228C8_token);
 	    
 	    test.log(Status.INFO, "푸쉬메시지 확인");
@@ -700,6 +730,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
+	    
+	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
 	   
 	    test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
@@ -737,6 +770,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 홈_027")
 	public void TC_홈_027(Method method) throws Exception {
+		
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
 
 	    test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
@@ -773,15 +809,18 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    솔루션메시지.add(util.getText(By.id("tvDescription")));
 	    
 	    System.out.println(솔루션메시지);
-	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요"));
-	    Assert.assertTrue(솔루션메시지.contains("편리한 TV생활\nB tv 연결 후\n음성 컨트롤 하세요"));
 	    Assert.assertTrue(솔루션메시지.contains("쇼핑을 빠르고 쉽게\n11번가 로그인 후\n주문할 수 있어요"));
+	    Assert.assertTrue(솔루션메시지.contains("편리한 TV생활\nB tv 연결 후\n음성 컨트롤 하세요"));
+	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요"));
 	    
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 홈_028")
 	public void TC_홈_028(Method method) throws Exception {
-
+		
+		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
+	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+		
 	    test.log(Status.INFO, "\"멜론에서 인기음악 들려줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("멜론에서 인기음악 들려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 
@@ -932,6 +971,16 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
+	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	       
+	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [TTS] 확인"); 
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    Assert.assertTrue(tts.contains("연결된 셋톱박스가 없습니다. NUGU 앱을 통해 연결 후 다시 이용해 주세요"));
+	    
+	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
+	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    
 	    test.log(Status.INFO, "첫번째 홈카드 이동");
 	    util.fastSwipe(200, 650, 900, 650, 3);
 	    
@@ -942,9 +991,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		    	test.log(Status.INFO, "바로실행버튼 [있음] 바로실행버튼 클릭");
 		    	util.click(By.id("voiceCommandLayout"));
 		    	test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [TTS] 확인"); 
-			    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
-			    System.out.println(tts);
-		    	test.log(Status.INFO, tts);
+			    String tts1 = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+			    System.out.println(tts1);
+		    	test.log(Status.INFO, tts1);
 			    
 		    } else {
 		    	System.out.println("바로실행버튼 [없음] 다음 페이지 실행 대기");
