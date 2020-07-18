@@ -62,6 +62,13 @@ public class 홈_02_홈카드 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_004")
 	public void TC_홈_004(Method method) throws Exception {
 		
+		if (util.isElementPresent(By.id("bannerImageView"))) {
+			System.out.println("이벤트배너 [있음]");
+			test.log(Status.INFO, "홈카드 스크롤 다운 (y-500) "); 
+		    util.swipe(550, 1700, 550, 1200);
+		} 
+		
+		
 		test.log(Status.INFO, "현재시간 구하기"); 
 	    String 현재시간 = util.DateTime();
 	    String 현재분 = util.Time_min();

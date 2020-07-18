@@ -49,6 +49,13 @@ public class 홈_04_최근인기대화 extends TestCase {
 	    ArrayList<String> 최근인기대화넘버링리스트 = new ArrayList<String>();
 	    ArrayList<String> 최근인기대화값리스트 = new ArrayList<String>();
 	    
+	    if (util.isElementPresent(By.id("bannerImageView"))) {
+			System.out.println("이벤트배너 [있음]");
+			test.log(Status.INFO, "홈카드 스크롤 다운 (y-500) "); 
+		    util.swipe(550, 1700, 550, 1000);
+		} 
+		
+	    
 	    for(int i=1; i < 11; i++) {
 	    	int y = 1;
 	    	if (i < 6) {

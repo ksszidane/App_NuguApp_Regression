@@ -12,6 +12,8 @@ import unit.TestCase;
 
 public class 홈_01_홈카드 extends TestCase {
 	
+	int eventbanner;
+	
 	@Test(description = "누구앱 리그레이션 TC : 홈_001_01")
 	public void TC_홈_001_01(Method method) throws Exception {
 		
@@ -40,8 +42,13 @@ public class 홈_01_홈카드 extends TestCase {
 	@Test(description = "누구앱 리그레이션 TC : 홈_001-02")
 	public void TC_홈_001_02(Method method) throws Exception {
 
+		if (util.isElementPresent(By.id("bannerImageView"))) {
+			eventbanner = 400;
+			System.out.println("이벤트배너 [있음]");
+		} 
+		
 	    test.log(Status.INFO, "홈카드 스크롤 다운 (y-500) "); 
-	    util.swipe(550, 1700, 550, 1200);
+	    util.swipe(550, 1700, 550, 1200-eventbanner);
 	    
 	    test.log(Status.INFO, "인기대화 카드 유무 확인 "); 
 	    boolean 인기대화 = util.isElementPresent(By.id("popularCardViewPager"));

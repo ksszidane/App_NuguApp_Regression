@@ -252,7 +252,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    솔루션메시지.add(util.getText(By.id("tvDescription")));
 	    
 	    System.out.println(솔루션메시지);
-	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\nFLO 로그인 후 더 들을 수 있어요."));
+	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\nFLO 로그인해 주세요."));
 		
 	}
 	
@@ -737,8 +737,8 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	    
-	    test.log(Status.INFO, "\"BTV에서 조용히해줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("BTV에서 조용히해줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
@@ -746,7 +746,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    ArrayList<String> 솔루션메시지 = new ArrayList<String>();
 	    
 	    test.log(Status.INFO, "홈화면 새로고침"); 
-	    util.scrollUp(1);
+	    util.scrollUp(2);
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
@@ -754,6 +754,8 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    test.log(Status.INFO, "첫번째 홈카드 이동하면서 텍스트메시지 리스트에 넣기");
 	    util.fastSwipe(200, 650, 900, 650, 7);
 	    Thread.sleep(1000);
+	    솔루션메시지.add(util.getText(By.id("tvDescription")));
+	    Thread.sleep(2500);
 	    솔루션메시지.add(util.getText(By.id("tvDescription")));
 	    Thread.sleep(2500);
 	    솔루션메시지.add(util.getText(By.id("tvDescription")));
@@ -774,11 +776,11 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
 	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
 
-	    test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    //test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
+	    //util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	    
-	    test.log(Status.INFO, "\"BTV에서 조용히해줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("BTV에서 조용히해줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
 	    
 	    test.log(Status.INFO, "\"11번가에서 상품 추천해줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("11번가에서 상품 추천해줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
@@ -811,7 +813,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    System.out.println(솔루션메시지);
 	    Assert.assertTrue(솔루션메시지.contains("쇼핑을 빠르고 쉽게\n11번가 로그인 후\n주문할 수 있어요"));
 	    Assert.assertTrue(솔루션메시지.contains("편리한 TV생활\nB tv 연결 후\n음성 컨트롤 하세요"));
-	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요"));
+	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요."));
 	    
 	}
 	
@@ -880,7 +882,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    솔루션메시지.add(util.getText(By.id("tvDescription")));
 	    
 	    System.out.println(솔루션메시지);
-	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요"));
+	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요."));
 	    
 	}
 	
@@ -907,7 +909,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    솔루션메시지.add(util.getText(By.id("tvDescription")));
 	    
 	    System.out.println(솔루션메시지);
-	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요"));
+	    Assert.assertTrue(솔루션메시지.contains("1분 미리듣기 중\n계속 들으시려면\n멜론 로그인해 주세요."));
 	    
 	}
 	
@@ -942,7 +944,8 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    for (int i=0; i<7; i++) {
 	    	boolean 바로실행  = util.isElementPresent(By.id("voiceCommandLayout"));
 	    	Assert.assertFalse(바로실행);
-	    	util.fastSwipe(900, 650, 200, 650);
+	    	util.fastSwipe(200, 650, 900, 650);
+	   
 	    }
 
 	}
@@ -997,6 +1000,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 			    
 		    } else {
 		    	System.out.println("바로실행버튼 [없음] 다음 페이지 실행 대기");
+		    	//Thread.sleep(2500);
 		    	util.fastSwipe(200, 650, 900, 650);
 		    }
 	    }
