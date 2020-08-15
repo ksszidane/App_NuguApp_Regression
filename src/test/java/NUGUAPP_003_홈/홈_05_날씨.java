@@ -1,6 +1,7 @@
 package NUGUAPP_003_홈;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -12,59 +13,93 @@ import unit.TestCase;
 
 public class 홈_05_날씨 extends TestCase {
 	
-	@Test(description = "누구앱 리그레이션 TC : 홈_040")
-	public void TC_홈_040(Method method) throws Exception {
+	@Test(description = "누구앱 리그레이션 TC : 홈_042")
+	public void TC_홈_042(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
-	    util.click(By.id("loginButton"));
-	    
-	    test.log(Status.INFO, "WEBVIEW로 화면 전환");
+        util.click(By.id("loginButton"));
+        
+        test.log(Status.INFO, "WEBVIEW로 화면 전환");
 	    util.switchContext("WEBVIEW");
-	    
-	    test.log(Status.INFO, "다른아이디 로그인 버튼 유효성 체크 및 클릭");
-	    util.click(By.className("btn-secondary-text"));
-	    
-	    //test.log(Status.INFO, "자동로그인체크박스 유효성 체크 및 체크박스 해제");
-	    //util.click(By.className("c-ick"));
-	    
-	    test.log(Status.INFO, "디바이스 연결없는 계정 로그인");
-	    
-	    test.log(Status.INFO, "아이디입력필드 유효성 체크 및  '유효' 이메일 아이디입력");
-	    util.type(By.id("userId"), "ksszidane1@naver.com");
 
-	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
-	    util.type(By.id("password"), "rlatjdtn10!!");
-	    
-	    test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
-		util.click(By.id("authLogin"));
-		
+	    test.log(Status.INFO, "저장된 간편로그인 유효성 체크 및 클릭");
+	    util.click(By.xpath("//ul[@class='account-list']/li[1]"));
+        
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
-	    test.log(Status.INFO, "퍼미션 위치 권한 취소 "); 
+	    test.log(Status.INFO, "퍼미션 위치 권한 허용 "); 
 	    util.switchTo().alert().dismiss();
 	    
-	    test.log(Status.INFO, "첫번째 홈카드 이동");
-	    util.swipe(200, 650, 900, 650);
-	    
-	    test.log(Status.INFO, "홈카드 '지금연결하기' 확인");
-	    String 연결하기홈카드 = util.getText(By.id("tvDescription"));
-	    Assert.assertEquals(연결하기홈카드, "NUGU 디바이스를 연결해주세요.");
-	    
-	    test.log(Status.INFO, "첫번째 홈카드 재 이동");
-	    util.swipe(200, 650, 900, 650);
-	    
-	    test.log(Status.INFO, "홈카드 '지금연결하기' 홈카드 클릭");
-	    util.click(By.id("deviceMessageViewPager"));
-	    
-	    test.log(Status.INFO, "NUGU 연결하기 페이지 진입 확인");
-	    String 연결하기페이지문구 = util.getText(By.className("android.widget.TextView"));
-	    System.out.println(연결하기페이지문구);
-	    Assert.assertTrue(연결하기페이지문구.contains("연결할 NUGU 디바이스를\n선택해주세요."));
-
-	    test.log(Status.INFO, "건너뛰기로 홈 화면 복귀");
-	    util.click(By.id("skipButton"));
-		
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
 	}
+	    
+    @Test(description = "누구앱 리그레이션 TC : 홈_043")
+	public void TC_홈_043(Method method) throws Exception {
+	  
+    	test.log(Status.INFO, "홈화면 새로고침"); 
+	    util.scrollUp(1);
+		    
+	    if (util.isElementPresent(By.id("bannerImageView"))) {
+			System.out.println("이벤트배너 [있음]");
+			test.log(Status.INFO, "홈카드 스크롤 다운 (y-500) "); 
+		    util.swipe(550, 1700, 550, 1000);
+		} 
+		    
+	    test.log(Status.INFO, "홈카드 스크롤 다운 (y-600) "); 
+	    util.swipe(550, 1700, 550, 1100);
+	    
+	    test.log(Status.INFO, "위치정보 갱신"); 
+	    util.click(By.id("locationTextView"));
+	    
+	    test.log(Status.INFO, "퍼미션 위치 권한 허용 "); 
+	    util.switchTo().alert().accept();
+
+    }
+    
+    @Test(description = "누구앱 리그레이션 TC : 홈_044")
+	public void TC_홈_044(Method method) throws Exception {
+	  
+    	test.log(Status.INFO, "위치정보 갱신 후 현재 위치 확인"); 
+	    String 위치 = util.getText(By.id("locationTextView"));
+	    Assert.assertTrue(위치.contains("서울특별시"));
+	    
+	    test.log(Status.INFO, "날씨 정보 홈카드 정보 노출 확인 "); 
+	    boolean 날씨스테이터스 = util.isElementPresent(By.id("statusImageView"));
+	    Assert.assertTrue(날씨스테이터스);
+
+    }
+    
+    @Test(description = "누구앱 리그레이션 TC : 홈_045")
+	public void TC_홈_045(Method method) throws Exception {
+    	
+    	test.log(Status.INFO, "현재온도 확인"); 
+	    String 현재온도  = util.getText(By.id("temperatureTextView"));
+	    Assert.assertTrue(현재온도.contains("°"));
+	    
+	    test.log(Status.INFO, "최고온도 확인"); 
+	    String 최고온도 = util.getText(By.id("maxTemperatureTextView"));
+	    Assert.assertTrue(최고온도.contains("최고"));
+	    
+	    test.log(Status.INFO, "최저온도 확인"); 
+	    String 최저온도 = util.getText(By.id("minTemperatureTextView"));
+	    Assert.assertTrue(최저온도.contains("최저"));
+	    
+	    test.log(Status.INFO, "강수확률 확인"); 
+	    String 강수확률 = util.getText(By.id("rainTextView"));
+	    Assert.assertTrue(강수확률.contains("강수확률"));
+	    
+	    test.log(Status.INFO, "미세먼지 확인"); 
+	    String 미세먼지 = util.getText(By.id("dustTextView"));
+	    Assert.assertTrue(미세먼지.contains("미세먼지"));
+    	
+
+    }
+	    	
+	    
+	  
+		
+	
 
 }

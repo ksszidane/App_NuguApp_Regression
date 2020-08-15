@@ -155,7 +155,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    util.connectingDevice();
 	    
 	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
@@ -167,20 +167,20 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    util.click(By.id("deviceNameTextView"));
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
-	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_DAD3A2) ']")));
+	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_3F2B99) ']")));
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
 	   
 	    test.log(Status.INFO, "\"멜론 top 100 틀어줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("멜론 top 100 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("멜론 top 100 틀어줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"멜론 top 100 틀어줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("누구 앱에서 멜론에 로그인해주세요. 지금은 1분만 들려드릴게요."));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 
 	}
 	
@@ -214,17 +214,17 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_014_01(Method method) throws Exception {
 		
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 		
 	    test.log(Status.INFO, "\"FLO 최신 노래 들려줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("FLO 최신 노래 들려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("FLO 최신 노래 들려줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"FLO 최신 노래 들려줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("누구 앱에서 Flo에 로그인해주세요. 지금은 1분만 들려드릴게요."));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
     
 
 	}
@@ -260,17 +260,17 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_015_01(Method method) throws Exception {
 	   
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 		
 		test.log(Status.INFO, "\"11번가초이스 상품 추천해줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("11번가초이스 상품 추천해줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("11번가초이스 상품 추천해줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"11번가초이스 상품 추천해줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("누구 앱에서, 11번가 로그인 하신 후 주문해 주세요."));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 
 	}
 	
@@ -304,17 +304,17 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_016_01(Method method) throws Exception {
 	   
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 		
 		test.log(Status.INFO, "\"내일 일정 알려줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("내일 일정 알려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("내일 일정 알려줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"내일 일정 알려줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("연동된 캘린더가 없습니다. 누구앱에서 구글 캘린더와 연동해주세요."));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
   
 	}
 	
@@ -349,17 +349,17 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_017_01(Method method) throws Exception {
 	   
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 		
 		test.log(Status.INFO, "\"에어컨 틀어줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("에어컨 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("에어컨 틀어줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"에어컨 틀어줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("스마트홈 로그인이 필요합니다. 누구 앱에서 SKT 스마트홈에 로그인 해주세요."));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
   
 	}
 	
@@ -573,23 +573,23 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    util.click(By.id("deviceNameTextView"));
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
-	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_DAD3A2) ']")));
+	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_3F2B99) ']")));
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
 	    
 	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 	   
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("연결된 셋톱박스가 없습니다. NUGU 앱을 통해 연결 후 다시 이용해 주세요"));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	}
 	
@@ -623,10 +623,10 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_023(Method method) throws Exception {
 
 	    test.log(Status.INFO, "\"내폰 찾아줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("내폰 찾아줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("내폰 찾아줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	          
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "폰찾기 팝업 확인");
 	    boolean 폰찾기팝업 = util.isElementPresent(By.xpath("(//android.widget.TextView[@text='NUGU에서 폰찾기를 요청했습니다.'])"));
@@ -726,22 +726,22 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    util.click(By.id("deviceNameTextView"));
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
-	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_DAD3A2) ']")));
+	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_3F2B99) ']")));
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
 	    
 	    test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 	   
 	    test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("오늘 일정뭐야", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    ArrayList<String> 솔루션메시지 = new ArrayList<String>();
 	    
@@ -774,22 +774,22 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_027(Method method) throws Exception {
 		
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 
 	    //test.log(Status.INFO, "\"오늘 일정뭐야\" [발화 커맨트] 텍스트 입력"); 
-	    //util.sendPost("오늘 일정뭐야", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    //util.sendPost("오늘 일정뭐야", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "\"11번가에서 상품 추천해줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("11번가에서 상품 추천해줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("11번가에서 상품 추천해줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "\"멜론에서 길구봉구 노래 들려줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("멜론에서 길구봉구 노래 들려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("멜론에서 길구봉구 노래 들려줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    ArrayList<String> 솔루션메시지 = new ArrayList<String>();
 	    
@@ -821,13 +821,13 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	public void TC_홈_028(Method method) throws Exception {
 		
 		test.log(Status.INFO, "솔루션메시지(앱카드) 조회 후 이력 삭제 ");
-	    util.AppCard_Delete(ksszidane10, NU200_DAD3A2_did, NU200_DAD3A2_token);
+	    util.AppCard_Delete(ksszidane10, NU200_3F2B99_did, NU200_3F2B99_token);
 		
 	    test.log(Status.INFO, "\"멜론에서 인기음악 들려줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("멜론에서 인기음악 들려줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("멜론에서 인기음악 들려줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "앱 재 실행");
 		util.resetApp();
@@ -860,7 +860,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    util.click(By.id("deviceNameTextView"));
 	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
-	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_DAD3A2) ']")));
+	    util.click((By.xpath("//android.widget.TextView[@text='NUGU mini (NU200_3F2B99) ']")));
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
@@ -975,14 +975,14 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    util.connectingDevice();
 	    
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("B tv에서 EBS 틀어줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	       
 	    test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [TTS] 확인"); 
-	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+	    String tts = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 	    Assert.assertTrue(tts.contains("연결된 셋톱박스가 없습니다. NUGU 앱을 통해 연결 후 다시 이용해 주세요"));
 	    
 	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_DAD3A2_did, ServerName, Place, NU200_DAD3A2_token);
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "첫번째 홈카드 이동");
 	    util.fastSwipe(200, 650, 900, 650, 3);
@@ -994,7 +994,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		    	test.log(Status.INFO, "바로실행버튼 [있음] 바로실행버튼 클릭");
 		    	util.click(By.id("voiceCommandLayout"));
 		    	test.log(Status.INFO, "\"B tv에서 EBS 틀어줘\" [TTS] 확인"); 
-			    String tts1 = util.TTS_JsonParsing(ksszidane10, NU200_DAD3A2_did, ServerName, Place);
+			    String tts1 = util.TTS_JsonParsing(ksszidane10, NU200_3F2B99_did, ServerName, Place);
 			    System.out.println(tts1);
 		    	test.log(Status.INFO, tts1);
 			    

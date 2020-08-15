@@ -33,7 +33,7 @@ public class 홈_04_최근인기대화 extends TestCase {
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
-	    
+	    /*
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
 	    
@@ -45,7 +45,7 @@ public class 홈_04_최근인기대화 extends TestCase {
    
 	    test.log(Status.INFO, "메뉴 닫기 클릭"); 
 	    util.click(By.id("ivHeaderClose"));
-	    
+	    */
 	    ArrayList<String> 최근인기대화넘버링리스트 = new ArrayList<String>();
 	    ArrayList<String> 최근인기대화값리스트 = new ArrayList<String>();
 	    
@@ -59,26 +59,26 @@ public class 홈_04_최근인기대화 extends TestCase {
 	    for(int i=1; i < 11; i++) {
 	    	int y = 1;
 	    	if (i < 6) {
-	    		//최근인기대화넘버링리스트.add(util.fast_getText(By.xpath("//android.widget.LinearLayout/d.t.a.b/android.widget.LinearLayout[1]"
+	    		//최근인기대화넘버링리스트.add(util.fast_getText(By.xpath("//android.widget.LinearLayout/e.v.a.b/android.widget.LinearLayout[1]"
 			    //		+ "/android.widget.LinearLayout["+i+"]/android.widget.ViewFlipper/android.widget.LinearLayout"
 			    //		+ "/android.widget.TextView[1]")));
 		    	
 		    	
 		    	//System.out.println(i + "번 : " + 최근인기대화넘버링리스트);
 		    	
-		    	최근인기대화값리스트.add(util.fast_getText(By.xpath("//android.widget.LinearLayout/d.t.a.b/android.widget.LinearLayout[1]"
+		    	최근인기대화값리스트.add(util.fast_getText(By.xpath("//android.widget.LinearLayout/e.v.a.b/android.widget.LinearLayout[1]"
 			    		+ "/android.widget.LinearLayout["+i+"]/android.widget.ViewFlipper/android.widget.LinearLayout"
 			    		+ "/android.widget.TextView[2]")));
 		    	System.out.println(i + "번 : " + 최근인기대화값리스트);
 	    	} else if (i > 5){ 
-	    		//최근인기대화넘버링리스트.add(util.getText(By.xpath("//android.widget.LinearLayout/d.t.a.b/android.widget.LinearLayout[1]"
+	    		//최근인기대화넘버링리스트.add(util.getText(By.xpath("//android.widget.LinearLayout/e.v.a.b/android.widget.LinearLayout[1]"
 			    //		+ "/android.widget.LinearLayout["+y+"]/android.widget.ViewFlipper/android.widget.LinearLayout"
 			    //		+ "/android.widget.TextView[1]")));
 		    	
 		    	
 		    	//System.out.println(i + "번 : " + 최근인기대화넘버링리스트);
 		    	
-		    	최근인기대화값리스트.add(util.getText(By.xpath("//android.widget.LinearLayout/d.t.a.b/android.widget.LinearLayout[1]"
+		    	최근인기대화값리스트.add(util.getText(By.xpath("//android.widget.LinearLayout/e.v.a.b/android.widget.LinearLayout[1]"
 			    		+ "/android.widget.LinearLayout["+y+"]/android.widget.ViewFlipper/android.widget.LinearLayout"
 			    		+ "/android.widget.TextView[2]")));
 		    	System.out.println(i + "번 : " + 최근인기대화값리스트);
