@@ -32,7 +32,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -46,7 +45,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Aug 15, 2020 07:45:56 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 15, 2020 08:47:36 PM</span>
 				</a>
 			</li>
 			<li>
@@ -72,7 +71,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -133,10 +131,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>8</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -148,10 +146,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='5%'><span class='strong'>1</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='15.094%'><span class='strong'>8</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='15%'>3</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='80%'>16</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='84.906%'>45</span> others
 				</div>
 			</div>
 		</div>
@@ -166,17 +164,17 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>TC_홈_054 | Android</span>
-						<span class='test-time'>Aug 15, 2020 07:46:23 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Aug 15, 2020 08:48:04 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 15, 2020 07:46:23 PM</span>
-	<span class='label end-time'>Aug 15, 2020 07:46:50 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 26s+609ms</span>
+	<span class='label start-time'>Aug 15, 2020 08:48:04 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:48:30 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+334ms</span>
 </div>
 	<div class='test-desc'>PRD </div>
 	<div class='test-attributes'>
@@ -196,104 +194,47 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:23 PM</td>
+					<td class='timestamp'>8:48:04 PM</td>
 					<td class='step-details'>인트로 화면에서 로그인 이동</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:25 PM</td>
+					<td class='timestamp'>8:48:06 PM</td>
 					<td class='step-details'>WEBVIEW로 화면 전환</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:36 PM</td>
+					<td class='timestamp'>8:48:16 PM</td>
 					<td class='step-details'>앱 위치 권한 On</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:37 PM</td>
+					<td class='timestamp'>8:48:17 PM</td>
 					<td class='step-details'>저장된 간편로그인 유효성 체크 및 클릭</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:39 PM</td>
+					<td class='timestamp'>8:48:19 PM</td>
 					<td class='step-details'>정상로그인 확인</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:44 PM</td>
+					<td class='timestamp'>8:48:24 PM</td>
 					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
 				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>7:46:50 PM</td>
-					<td class='step-details'>테스트 실패.</td>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:48:29 PM</td>
+					<td class='step-details'>[+]플로팅 버튼 노출 확인</td>
 				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>7:46:50 PM</td>
-					<td class='step-details'><pre>org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //*[@text='연결을 기다리는 디바이스가 있어요.']' does not exist in DOM anymore
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SKT1112049PN002', ip: '172.23.174.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at unit.Utilities.isElementPresent(Utilities.java:566)
-	at unit.Utilities.connectingDevice(Utilities.java:584)
-	at NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(홈_06_디바이스컨트롤러.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>7:46:50 PM</td>
-					<td class='step-details'>Snapshot below: com.aventstack.extentreports.ExtentTest@69430a9f</td>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:48:30 PM</td>
+					<td class='step-details'>테스트 성공.</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='.\ErrorScreenshots\screenShotName20200815194649.png' width='10%' src='.\ErrorScreenshots\screenShotName20200815194649.png' data-src='.\ErrorScreenshots\screenShotName20200815194649.png'></li>
-							</ul>
 					</div>
 				</li>
 				
@@ -301,14 +242,14 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>TC_홈_055 | Android</span>
-						<span class='test-time'>Aug 15, 2020 07:46:50 PM</span>
+						<span class='test-time'>Aug 15, 2020 08:48:30 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 15, 2020 07:46:50 PM</span>
-	<span class='label end-time'>Aug 15, 2020 07:47:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 37s+45ms</span>
+	<span class='label start-time'>Aug 15, 2020 08:48:30 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 37s+292ms</span>
 </div>
 	<div class='test-desc'>PRD </div>
 	<div class='test-attributes'>
@@ -328,57 +269,437 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:50 PM</td>
+					<td class='timestamp'>8:48:30 PM</td>
 					<td class='step-details'>앱 재 실행</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:53 PM</td>
+					<td class='timestamp'>8:48:32 PM</td>
 					<td class='step-details'>인트로 화면에서 로그인 이동</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:46:54 PM</td>
+					<td class='timestamp'>8:48:33 PM</td>
 					<td class='step-details'>WEBVIEW로 화면 전환</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:08 PM</td>
+					<td class='timestamp'>8:48:48 PM</td>
 					<td class='step-details'>앱 위치 권한 On</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:10 PM</td>
+					<td class='timestamp'>8:48:49 PM</td>
 					<td class='step-details'>저장된 간편로그인 유효성 체크 및 클릭</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:11 PM</td>
+					<td class='timestamp'>8:48:51 PM</td>
 					<td class='step-details'>정상로그인 확인</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:16 PM</td>
+					<td class='timestamp'>8:48:56 PM</td>
 					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:20 PM</td>
+					<td class='timestamp'>8:49:00 PM</td>
 					<td class='step-details'>디바이스컨트롤러 전체화면 펼침</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:21 PM</td>
-					<td class='step-details'>[+]플로팅 버튼 노출 확인</td>
+					<td class='timestamp'>8:49:01 PM</td>
+					<td class='step-details'>NUGU 컨트롤러 전체 화면 노출 확인</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:47:25 PM</td>
-					<td class='step-details'>디바이스컨트롤러 전체화면 닫기</td>
+					<td class='timestamp'>8:49:05 PM</td>
+					<td class='step-details'>NUGU 컨트롤러 전체화면 닫기</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>7:47:27 PM</td>
+					<td class='timestamp'>8:49:07 PM</td>
+					<td class='step-details'>테스트 성공.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>TC_홈_056 | Android</span>
+						<span class='test-time'>Aug 15, 2020 08:49:07 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2020 08:49:07 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:14 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+458ms</span>
+</div>
+	<div class='test-desc'>PRD </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>NUGU_App|Android|PRD</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:07 PM</td>
+					<td class='step-details'>디바이스컨트롤러 전체화면 펼침</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:09 PM</td>
+					<td class='step-details'>디바이스추가버튼 구성 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:10 PM</td>
+					<td class='step-details'>NUGU 컨트롤러 전체화면 닫기 버튼 구성 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:10 PM</td>
+					<td class='step-details'>연결된 디바이스 정보 구성 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:13 PM</td>
+					<td class='step-details'>설정버튼 정보 구성 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:14 PM</td>
+					<td class='step-details'>텍스트명령어 입력란 구성 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:14 PM</td>
+					<td class='step-details'>디바이스 기능 버튼란 구성 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:14 PM</td>
+					<td class='step-details'>스피커 볼륨 영역 구성 확인</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:49:14 PM</td>
+					<td class='step-details'>테스트 성공.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>TC_홈_057 | Android</span>
+						<span class='test-time'>Aug 15, 2020 08:49:14 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2020 08:49:14 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:17 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+7ms</span>
+</div>
+	<div class='test-desc'>PRD </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>NUGU_App|Android|PRD</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:14 PM</td>
+					<td class='step-details'>디바이스추가버튼 클릭</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:15 PM</td>
+					<td class='step-details'>디바이스 추가 화면으로 이동 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:16 PM</td>
+					<td class='step-details'>NUGU 컨트롤러  화면 이동 위한 Back 키</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:16 PM</td>
+					<td class='step-details'>디바이스컨트롤러 전체화면 펼침</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:49:17 PM</td>
+					<td class='step-details'>테스트 성공.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>TC_홈_058 | Android</span>
+						<span class='test-time'>Aug 15, 2020 08:49:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2020 08:49:17 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+700ms</span>
+</div>
+	<div class='test-desc'>PRD </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>NUGU_App|Android|PRD</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:17 PM</td>
+					<td class='step-details'>NUGU 컨트롤러 닫기 화면 클릭</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:19 PM</td>
+					<td class='step-details'>메인 홈으로 이동 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:20 PM</td>
+					<td class='step-details'>디바이스컨트롤러 전체화면 펼침</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:49:21 PM</td>
+					<td class='step-details'>테스트 성공.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>TC_홈_059 | Android</span>
+						<span class='test-time'>Aug 15, 2020 08:49:21 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2020 08:49:21 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:30 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+174ms</span>
+</div>
+	<div class='test-desc'>PRD </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>NUGU_App|Android|PRD</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:21 PM</td>
+					<td class='step-details'>연결된 NUGU 디바이스 이미지 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:23 PM</td>
+					<td class='step-details'>연결된 NUGU 별명 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:24 PM</td>
+					<td class='step-details'>연결된 NUGU 디바이스 목록 펼침</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:25 PM</td>
+					<td class='step-details'>Device 리스트 노출 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:26 PM</td>
+					<td class='step-details'>연결된 디바이스의 디바이스명(시리얼 넘버) 노출</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:26 PM</td>
+					<td class='step-details'>선택된 디바이스에 V 표시</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:27 PM</td>
+					<td class='step-details'>디바이스 변경 시, Home 화면 전체 Refresh되며 홈 화면으로 이동</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:27 PM</td>
+					<td class='step-details'>메인 홈으로 이동 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:29 PM</td>
+					<td class='step-details'>디바이스컨트롤러 전체화면 펼침</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:49:30 PM</td>
+					<td class='step-details'>테스트 성공.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>TC_홈_060 | Android</span>
+						<span class='test-time'>Aug 15, 2020 08:49:30 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2020 08:49:30 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:32 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+680ms</span>
+</div>
+	<div class='test-desc'>PRD </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>NUGU_App|Android|PRD</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:30 PM</td>
+					<td class='step-details'>연결된 디바이스 베터리 구성 확인</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:49:32 PM</td>
+					<td class='step-details'>테스트 성공.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>TC_홈_061 | Android</span>
+						<span class='test-time'>Aug 15, 2020 08:49:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2020 08:49:32 PM</span>
+	<span class='label end-time'>Aug 15, 2020 08:49:36 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+717ms</span>
+</div>
+	<div class='test-desc'>PRD </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>NUGU_App|Android|PRD</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:32 PM</td>
+					<td class='step-details'>디바이스 설정 버튼 클릭</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:33 PM</td>
+					<td class='step-details'>디바이스 설정 화면 이동 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:34 PM</td>
+					<td class='step-details'>뒤로가기 버튼 클릭</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:49:36 PM</td>
 					<td class='step-details'>테스트 성공.</td>
 				</tr>
 			</tbody>
@@ -440,14 +761,13 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 					<div class='category-heading'>
 						<span class='category-name'>NUGU_App|Android|PRD</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
-							<span class='label fail'>1</span>
+							<span class='label pass'>8</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							<span class='label red lighten-1 white-text'>Failed: 1</span>
+							<span class='label green accent-4 white-text'>Passed: 8</span>
+							
 							
 						</div>
 					
@@ -462,13 +782,43 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 15, 2020 07:46:23 PM</td>
+										<td>Aug 15, 2020 08:48:04 PM</td>
 										<td class='linked' test-id='1'>TC_홈_054 | Android</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 15, 2020 07:46:50 PM</td>
+										<td>Aug 15, 2020 08:48:30 PM</td>
 										<td class='linked' test-id='2'>TC_홈_055 | Android</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 15, 2020 08:49:07 PM</td>
+										<td class='linked' test-id='3'>TC_홈_056 | Android</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 15, 2020 08:49:14 PM</td>
+										<td class='linked' test-id='4'>TC_홈_057 | Android</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 15, 2020 08:49:17 PM</td>
+										<td class='linked' test-id='5'>TC_홈_058 | Android</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 15, 2020 08:49:21 PM</td>
+										<td class='linked' test-id='6'>TC_홈_059 | Android</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 15, 2020 08:49:30 PM</td>
+										<td class='linked' test-id='7'>TC_홈_060 | Android</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 15, 2020 08:49:32 PM</td>
+										<td class='linked' test-id='8'>TC_홈_061 | Android</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -488,116 +838,6 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 	</div>
 </div>
 <!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.StaleElementReferenceException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Aug 15, 2020 07:46:23 PM</td>
-                                                        <td class='linked' test-id='1'>TC_홈_054 | Android</td>
-                                                        <td><pre><pre>org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //*[@text='연결을 기다리는 디바이스가 있어요.']' does not exist in DOM anymore
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SKT1112049PN002', ip: '172.23.174.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at unit.Utilities.isElementPresent(Utilities.java:566)
-	at unit.Utilities.connectingDevice(Utilities.java:584)
-	at NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(홈_06_디바이스컨트롤러.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
-</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -607,31 +847,31 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>20</div>
+					<div class='panel-lead'>53</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 15, 2020 07:45:56 PM</div>
+					<div class='panel-lead'>Aug 15, 2020 08:47:36 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 15, 2020 07:47:28 PM</div>
+			 		<div class='panel-lead'>Aug 15, 2020 08:49:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>91,860ms</div>
+					<div class='panel-lead'>120,681ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -647,8 +887,8 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 						</tr>
 						<tr>
 							<td>NUGU_App|Android|PRD</td>
-							<td>1</td>
-							<td>1</td>
+							<td>8</td>
+							<td>0</td>
 							<td>0</td>
 						</tr>
 					</table>
@@ -664,22 +904,22 @@ Session ID: 16a079ce-a726-4b51-b68a-d7aaa4a2ad60
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 1,
+				passParent: 8,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				
-				passChild: 1,
-				failChild: 3,
+				passChild: 8,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 16,
-				exceptionsChild: 3,
+				infoChild: 45,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

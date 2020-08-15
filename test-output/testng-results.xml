@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="21" total="30" passed="6">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="ExtentReport" duration-ms="1363868" started-at="2020-08-15T02:53:54Z" finished-at="2020-08-15T03:16:38Z">
+  <suite name="ExtentReport" duration-ms="136433" started-at="2020-08-15T11:47:27Z" finished-at="2020-08-15T11:49:44Z">
     <groups>
     </groups>
-    <test name="Test_Project" duration-ms="1363868" started-at="2020-08-15T02:53:54Z" finished-at="2020-08-15T03:16:38Z">
-      <class name="NUGUAPP_003_홈.홈_03_디바이스메시지">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="setupClass" is-config="true" duration-ms="29295" started-at="2020-08-15T11:53:54Z" finished-at="2020-08-15T11:54:23Z">
+    <test name="Test_Project" duration-ms="136433" started-at="2020-08-15T11:47:27Z" finished-at="2020-08-15T11:49:44Z">
+      <class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러">
+        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="setupClass" is-config="true" duration-ms="36957" started-at="2020-08-15T20:47:27Z" finished-at="2020-08-15T20:48:04Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[out]]>
+                <![CDATA[in]]>
               </value>
             </param>
             <param index="5">
@@ -71,12 +71,12 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[ALDEUSUMDHC218BE1BDE]]>
+                <![CDATA[ALDESWE8NYHZ14E582BC]]>
               </value>
             </param>
             <param index="13">
               <value>
-                <![CDATA[542A9FA8376F4946B63C5FD0D8F41E2E]]>
+                <![CDATA[B4072E607BBF4109AFCBEE4FAAA9559B]]>
               </value>
             </param>
             <param index="14">
@@ -93,1682 +93,271 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="7" started-at="2020-08-15T11:54:23Z" finished-at="2020-08-15T11:54:23Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="10" started-at="2020-08-15T20:48:04Z" finished-at="2020-08-15T20:48:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_006(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_006" duration-ms="27309" started-at="2020-08-15T11:54:23Z" description="누구앱 리그레이션 TC : 홈_006" finished-at="2020-08-15T11:54:51Z">
+        <test-method status="PASS" signature="TC_홈_054(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_054" duration-ms="25328" started-at="2020-08-15T20:48:04Z" description="누구앱 리그레이션 TC : 홈_054" finished-at="2020-08-15T20:48:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoAlertPresentException">
-            <message>
-              <![CDATA[No alert is present on the screen
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: f7133441-b2f8-4871-81ea-05319f3c9f2e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoAlertPresentException: No alert is present on the screen
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: f7133441-b2f8-4871-81ea-05319f3c9f2e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:928)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(홈_03_디바이스메시지.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_006 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="906" started-at="2020-08-15T11:54:51Z" finished-at="2020-08-15T11:54:52Z">
+        </test-method> <!-- TC_홈_054 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:48:30Z" finished-at="2020-08-15T20:48:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_006 status=FAILURE method=홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_054 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_054(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="SKIP" signature="TC_홈_007_from_008(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_007_from_008" duration-ms="32797" started-at="2020-08-15T11:54:52Z" description="누구앱 리그레이션 TC : 홈_007~008" finished-at="2020-08-15T11:55:24Z">
+        <test-method status="PASS" signature="TC_홈_055(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_055" duration-ms="37290" started-at="2020-08-15T20:48:30Z" description="누구앱 리그레이션 TC : 홈_055" finished-at="2020-08-15T20:49:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_055(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[연결을 기다리는 디바이스 상단 알림창 [없음] 1/5 
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: 연결을 기다리는 디바이스 상단 알림창 [없음] 1/5 
-
-	at unit.Utilities.connectingDevice_SkipCheck(Utilities.java:614)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(홈_03_디바이스메시지.java:111)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_007_from_008 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T11:54:52Z" finished-at="2020-08-15T11:54:52Z">
+        </test-method> <!-- TC_홈_055 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:48:30Z" finished-at="2020-08-15T20:48:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_055(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T11:55:24Z" finished-at="2020-08-15T11:55:24Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:07Z" finished-at="2020-08-15T20:49:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_007_from_008 status=SKIP method=홈_03_디바이스메시지.TC_홈_007_from_008(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_055 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_055(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T11:55:24Z" finished-at="2020-08-15T11:55:24Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:49:07Z" finished-at="2020-08-15T20:49:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_01(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_056(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_013_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_013_01" duration-ms="69683" started-at="2020-08-15T11:55:24Z" description="누구앱 리그레이션 TC : 홈_013" finished-at="2020-08-15T11:56:34Z">
+        <test-method status="PASS" signature="TC_홈_056(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_056" duration-ms="7457" started-at="2020-08-15T20:49:07Z" description="누구앱 리그레이션 TC : 홈_056" finished-at="2020-08-15T20:49:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_01(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_056(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_01(홈_03_디바이스메시지.java:180)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_013_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1023" started-at="2020-08-15T11:56:34Z" finished-at="2020-08-15T11:56:35Z">
+        </test-method> <!-- TC_홈_056 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:14Z" finished-at="2020-08-15T20:49:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_013_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_013_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_056 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_056(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_013_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_013_02" duration-ms="51357" started-at="2020-08-15T11:56:35Z" description="누구앱 리그레이션 TC : 홈_013" finished-at="2020-08-15T11:57:27Z">
+        <test-method status="PASS" signature="TC_홈_057(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_057" duration-ms="3004" started-at="2020-08-15T20:49:14Z" description="누구앱 리그레이션 TC : 홈_057" finished-at="2020-08-15T20:49:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_057(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(홈_03_디바이스메시지.java:209)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_013_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T11:56:35Z" finished-at="2020-08-15T11:56:35Z">
+        </test-method> <!-- TC_홈_057 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:49:14Z" finished-at="2020-08-15T20:49:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_057(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1002" started-at="2020-08-15T11:57:27Z" finished-at="2020-08-15T11:57:28Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:17Z" finished-at="2020-08-15T20:49:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_013_02 status=FAILURE method=홈_03_디바이스메시지.TC_홈_013_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_057 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_057(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T11:57:28Z" finished-at="2020-08-15T11:57:28Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:49:17Z" finished-at="2020-08-15T20:49:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_01(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_058(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_014_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_014_01" duration-ms="14199" started-at="2020-08-15T11:57:28Z" description="누구앱 리그레이션 TC : 홈_014" finished-at="2020-08-15T11:57:42Z">
+        <test-method status="PASS" signature="TC_홈_058(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_058" duration-ms="3699" started-at="2020-08-15T20:49:17Z" description="누구앱 리그레이션 TC : 홈_058" finished-at="2020-08-15T20:49:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_01(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_058(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_01(홈_03_디바이스메시지.java:224)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_014_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="959" started-at="2020-08-15T11:57:42Z" finished-at="2020-08-15T11:57:43Z">
+        </test-method> <!-- TC_홈_058 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:21Z" finished-at="2020-08-15T20:49:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_014_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_014_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_058 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_058(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_014_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_014_02" duration-ms="54112" started-at="2020-08-15T11:57:43Z" description="누구앱 리그레이션 TC : 홈_014" finished-at="2020-08-15T11:58:37Z">
+        <test-method status="PASS" signature="TC_홈_059(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_059" duration-ms="9174" started-at="2020-08-15T20:49:21Z" description="누구앱 리그레이션 TC : 홈_059" finished-at="2020-08-15T20:49:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_059(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(홈_03_디바이스메시지.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_014_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T11:57:43Z" finished-at="2020-08-15T11:57:43Z">
+        </test-method> <!-- TC_홈_059 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:49:21Z" finished-at="2020-08-15T20:49:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_059(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="997" started-at="2020-08-15T11:58:37Z" finished-at="2020-08-15T11:58:38Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:30Z" finished-at="2020-08-15T20:49:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_014_02 status=FAILURE method=홈_03_디바이스메시지.TC_홈_014_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_059 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_059(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="5" started-at="2020-08-15T11:58:38Z" finished-at="2020-08-15T11:58:38Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:49:30Z" finished-at="2020-08-15T20:49:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_01(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_060(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_015_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_015_01" duration-ms="14197" started-at="2020-08-15T11:58:38Z" description="누구앱 리그레이션 TC : 홈_015" finished-at="2020-08-15T11:58:52Z">
+        <test-method status="PASS" signature="TC_홈_060(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_060" duration-ms="1678" started-at="2020-08-15T20:49:30Z" description="누구앱 리그레이션 TC : 홈_059" finished-at="2020-08-15T20:49:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_01(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_060(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_01(홈_03_디바이스메시지.java:270)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_015_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1003" started-at="2020-08-15T11:58:52Z" finished-at="2020-08-15T11:58:53Z">
+        </test-method> <!-- TC_홈_060 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:32Z" finished-at="2020-08-15T20:49:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_015_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_015_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[[TestResult name=TC_홈_060 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_060(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_015_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_015_02" duration-ms="51795" started-at="2020-08-15T11:58:53Z" description="누구앱 리그레이션 TC : 홈_015" finished-at="2020-08-15T11:59:45Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T20:49:32Z" finished-at="2020-08-15T20:49:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(홈_03_디바이스메시지.java:300)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_015_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T11:58:53Z" finished-at="2020-08-15T11:58:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_061(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="801" started-at="2020-08-15T11:59:45Z" finished-at="2020-08-15T11:59:46Z">
+        <test-method status="PASS" signature="TC_홈_061(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="TC_홈_061" duration-ms="3715" started-at="2020-08-15T20:49:32Z" description="누구앱 리그레이션 TC : 홈_059" finished-at="2020-08-15T20:49:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_015_02 status=FAILURE method=홈_03_디바이스메시지.TC_홈_015_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
+                <![CDATA[public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_061(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_홈_061 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-15T20:49:36Z" finished-at="2020-08-15T20:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_홈_061 status=SUCCESS method=홈_06_디바이스컨트롤러.TC_홈_061(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T11:59:46Z" finished-at="2020-08-15T11:59:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_016_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_016_01" duration-ms="17053" started-at="2020-08-15T11:59:46Z" description="누구앱 리그레이션 TC : 홈_016" finished-at="2020-08-15T12:00:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_01(홈_03_디바이스메시지.java:314)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_016_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="789" started-at="2020-08-15T12:00:03Z" finished-at="2020-08-15T12:00:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_016_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_016_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_016_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_016_02" duration-ms="51398" started-at="2020-08-15T12:00:03Z" description="누구앱 리그레이션 TC : 홈_016" finished-at="2020-08-15T12:00:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_02(홈_03_디바이스메시지.java:344)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_016_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:00:03Z" finished-at="2020-08-15T12:00:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="939" started-at="2020-08-15T12:00:55Z" finished-at="2020-08-15T12:00:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_016_02 status=FAILURE method=홈_03_디바이스메시지.TC_홈_016_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:00:56Z" finished-at="2020-08-15T12:00:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_017_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_017_01" duration-ms="17690" started-at="2020-08-15T12:00:56Z" description="누구앱 리그레이션 TC : 홈_017" finished-at="2020-08-15T12:01:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(홈_03_디바이스메시지.java:359)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_017_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="988" started-at="2020-08-15T12:01:13Z" finished-at="2020-08-15T12:01:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_017_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_017_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_017_02" duration-ms="52156" started-at="2020-08-15T12:01:14Z" description="누구앱 리그레이션 TC : 홈_017" finished-at="2020-08-15T12:02:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_02(홈_03_디바이스메시지.java:389)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_017_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:01:14Z" finished-at="2020-08-15T12:01:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="837" started-at="2020-08-15T12:02:07Z" finished-at="2020-08-15T12:02:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_017_02 status=FAILURE method=홈_03_디바이스메시지.TC_홈_017_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:02:07Z" finished-at="2020-08-15T12:02:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_018_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_018_01" duration-ms="44645" started-at="2020-08-15T12:02:07Z" description="누구앱 리그레이션 TC : 홈_018" finished-at="2020-08-15T12:02:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_018_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:02:52Z" finished-at="2020-08-15T12:02:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_018_01 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_018_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:02:52Z" finished-at="2020-08-15T12:02:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_018_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_018_02" duration-ms="52123" started-at="2020-08-15T12:02:52Z" description="누구앱 리그레이션 TC : 홈_018" finished-at="2020-08-15T12:03:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_018_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:03:44Z" finished-at="2020-08-15T12:03:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:03:44Z" finished-at="2020-08-15T12:03:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_018_02 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_018_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_019_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_019_01" duration-ms="24736" started-at="2020-08-15T12:03:44Z" description="누구앱 리그레이션 TC : 홈_019" finished-at="2020-08-15T12:04:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_019_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:04:09Z" finished-at="2020-08-15T12:04:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_019_01 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_019_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_019_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_019_02" duration-ms="50803" started-at="2020-08-15T12:04:09Z" description="누구앱 리그레이션 TC : 홈_019" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_019_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:04:09Z" finished-at="2020-08-15T12:04:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:05:00Z" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_019_02 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_019_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:05:00Z" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="SKIP" signature="TC_홈_020_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_020_01" duration-ms="1" started-at="2020-08-15T12:05:00Z" description="누구앱 리그레이션 TC : 홈_020" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[사내OA망이 아님, Test Skip]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: 사내OA망이 아님, Test Skip
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_01(홈_03_디바이스메시지.java:502)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_020_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:05:00Z" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_020_01 status=SKIP method=홈_03_디바이스메시지.TC_홈_020_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="SKIP" signature="TC_홈_020_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_020_02" duration-ms="0" started-at="2020-08-15T12:05:00Z" description="누구앱 리그레이션 TC : 홈_020" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[사내OA망이 아님, Test Skip]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: 사내OA망이 아님, Test Skip
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_02(홈_03_디바이스메시지.java:537)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_020_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:05:00Z" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:05:00Z" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:05:00Z" finished-at="2020-08-15T12:05:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_020_02 status=SKIP method=홈_03_디바이스메시지.TC_홈_020_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_022_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_022_01" duration-ms="51695" started-at="2020-08-15T12:05:00Z" description="누구앱 리그레이션 TC : 홈_022" finished-at="2020-08-15T12:05:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_01(홈_03_디바이스메시지.java:589)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_022_01 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="977" started-at="2020-08-15T12:05:51Z" finished-at="2020-08-15T12:05:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_022_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_022_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_022_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_022_02" duration-ms="53136" started-at="2020-08-15T12:05:52Z" description="누구앱 리그레이션 TC : 홈_022" finished-at="2020-08-15T12:06:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_02(홈_03_디바이스메시지.java:619)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_022_02 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:05:52Z" finished-at="2020-08-15T12:05:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_02(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="975" started-at="2020-08-15T12:06:46Z" finished-at="2020-08-15T12:06:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_022_02 status=FAILURE method=홈_03_디바이스메시지.TC_홈_022_02(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:06:47Z" finished-at="2020-08-15T12:06:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_023(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_023(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_023" duration-ms="3952" started-at="2020-08-15T12:06:47Z" description="누구앱 리그레이션 TC : 홈_023" finished-at="2020-08-15T12:06:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_023(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_023(홈_03_디바이스메시지.java:633)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_023 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="987" started-at="2020-08-15T12:06:51Z" finished-at="2020-08-15T12:06:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_023 status=FAILURE method=홈_03_디바이스메시지.TC_홈_023(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_024(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_024" duration-ms="49805" started-at="2020-08-15T12:06:52Z" description="누구앱 리그레이션 TC : 홈_024" finished-at="2020-08-15T12:07:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_024(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_024(홈_03_디바이스메시지.java:672)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_024 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:06:52Z" finished-at="2020-08-15T12:06:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_024(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="964" started-at="2020-08-15T12:07:41Z" finished-at="2020-08-15T12:07:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_024 status=FAILURE method=홈_03_디바이스메시지.TC_홈_024(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:07:42Z" finished-at="2020-08-15T12:07:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_025(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_025(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_025" duration-ms="10296" started-at="2020-08-15T12:07:42Z" description="누구앱 리그레이션 TC : 홈_025" finished-at="2020-08-15T12:07:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_025(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_025 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:07:53Z" finished-at="2020-08-15T12:07:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_025 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_025(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:07:53Z" finished-at="2020-08-15T12:07:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_026(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_026(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_026" duration-ms="103551" started-at="2020-08-15T12:07:53Z" description="누구앱 리그레이션 TC : 홈_026" finished-at="2020-08-15T12:09:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_026(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_026(홈_03_디바이스메시지.java:768)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_026 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="1037" started-at="2020-08-15T12:09:36Z" finished-at="2020-08-15T12:09:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_026 status=FAILURE method=홈_03_디바이스메시지.TC_홈_026(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:09:37Z" finished-at="2020-08-15T12:09:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_027(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_027(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_027" duration-ms="53109" started-at="2020-08-15T12:09:37Z" description="누구앱 리그레이션 TC : 홈_027" finished-at="2020-08-15T12:10:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_027(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_027(홈_03_디바이스메시지.java:814)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_027 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="993" started-at="2020-08-15T12:10:30Z" finished-at="2020-08-15T12:10:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_027 status=FAILURE method=홈_03_디바이스메시지.TC_홈_027(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:10:31Z" finished-at="2020-08-15T12:10:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_028(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_028(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_028" duration-ms="97521" started-at="2020-08-15T12:10:31Z" description="누구앱 리그레이션 TC : 홈_028" finished-at="2020-08-15T12:12:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_028(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_028(홈_03_디바이스메시지.java:885)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_028 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="970" started-at="2020-08-15T12:12:09Z" finished-at="2020-08-15T12:12:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_028 status=FAILURE method=홈_03_디바이스메시지.TC_홈_028(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_029(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_029" duration-ms="57368" started-at="2020-08-15T12:12:10Z" description="누구앱 리그레이션 TC : 홈_029" finished-at="2020-08-15T12:13:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_029(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_029(홈_03_디바이스메시지.java:912)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_029 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:12:10Z" finished-at="2020-08-15T12:12:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_029(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="972" started-at="2020-08-15T12:13:07Z" finished-at="2020-08-15T12:13:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_029 status=FAILURE method=홈_03_디바이스메시지.TC_홈_029(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:13:08Z" finished-at="2020-08-15T12:13:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_032(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_032(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_032" duration-ms="63432" started-at="2020-08-15T12:13:08Z" description="누구앱 리그레이션 TC : 홈_032" finished-at="2020-08-15T12:14:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_032(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_032 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:14:12Z" finished-at="2020-08-15T12:14:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_032 status=SUCCESS method=홈_03_디바이스메시지.TC_홈_032(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-15T12:14:12Z" finished-at="2020-08-15T12:14:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_034(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_034(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="TC_홈_034" duration-ms="47994" started-at="2020-08-15T12:14:12Z" description="누구앱 리그레이션 TC : 홈_034" finished-at="2020-08-15T12:15:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_034(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="junit.framework.AssertionFailedError">
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_034(홈_03_디바이스메시지.java:982)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_034 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="AfterMethod" is-config="true" duration-ms="892" started-at="2020-08-15T12:15:00Z" finished-at="2020-08-15T12:15:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_034 status=FAILURE method=홈_03_디바이스메시지.TC_홈_034(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@480bdb19]" name="tearDownClass" is-config="true" duration-ms="6298" started-at="2020-08-15T12:15:00Z" finished-at="2020-08-15T12:15:07Z">
+        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_06_디바이스컨트롤러@2f943d71]" name="tearDownClass" is-config="true" duration-ms="8084" started-at="2020-08-15T20:49:36Z" finished-at="2020-08-15T20:49:44Z">
           <params>
             <param index="0">
               <value>
@@ -1777,7 +366,7 @@ Session ID: f7133441-b2f8-4871-81ea-05319f3c9f2e
             </param>
             <param index="1">
               <value>
-                <![CDATA[out]]>
+                <![CDATA[in]]>
               </value>
             </param>
             <param index="2">
@@ -1817,12 +406,12 @@ Session ID: f7133441-b2f8-4871-81ea-05319f3c9f2e
             </param>
             <param index="9">
               <value>
-                <![CDATA[ALDEUSUMDHC218BE1BDE]]>
+                <![CDATA[ALDESWE8NYHZ14E582BC]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[542A9FA8376F4946B63C5FD0D8F41E2E]]>
+                <![CDATA[B4072E607BBF4109AFCBEE4FAAA9559B]]>
               </value>
             </param>
             <param index="11">
@@ -1839,273 +428,7 @@ Session ID: f7133441-b2f8-4871-81ea-05319f3c9f2e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- NUGUAPP_003_홈.홈_03_디바이스메시지 -->
-      <class name="NUGUAPP_003_홈.홈_04_최근인기대화">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@2a556333]" name="setupClass" is-config="true" duration-ms="28540" started-at="2020-08-15T12:15:07Z" finished-at="2020-08-15T12:15:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://0.0.0.0:4723/wd/hub]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[PRD]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NUGU_App]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[out]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ce12160cb994301d04]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[ALDF5TR5SNGZ8175DA16]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[ALDEPCKHWOK47386BED6]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[ALDF2JWHQFXIBE9E95DB]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[2C66A81F08264E2B87CD8F859E506624]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ALDEUSUMDHC218BE1BDE]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[542A9FA8376F4946B63C5FD0D8F41E2E]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[ALDFKDH4BQFP7307628C]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupClass -->
-        <test-method status="FAIL" signature="TC_홈_038_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@2a556333]" name="TC_홈_038_01" duration-ms="55470" started-at="2020-08-15T12:15:35Z" description="누구앱 리그레이션 TC : 홈_038" finished-at="2020-08-15T12:16:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 30d0baf6-a005-42ca-b11a-1735f67626d2
-*** Element info: {Using=xpath, value=//android.widget.LinearLayout/d.t.a.b/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ViewFlipper/android.widget.LinearLayout/android.widget.TextView[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 30d0baf6-a005-42ca-b11a-1735f67626d2
-*** Element info: {Using=xpath, value=//android.widget.LinearLayout/d.t.a.b/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ViewFlipper/android.widget.LinearLayout/android.widget.TextView[2]}
-	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at unit.Utilities.findElement(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-	at unit.Utilities.findElementByXPath(Utilities.java:1)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at unit.Utilities.findElement(Utilities.java:1)
-	at unit.Utilities.fast_getText(Utilities.java:978)
-	at NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(홈_04_최근인기대화.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_038_01 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@2a556333]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-15T12:15:35Z" finished-at="2020-08-15T12:15:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@2a556333]" name="AfterMethod" is-config="true" duration-ms="860" started-at="2020-08-15T12:16:31Z" finished-at="2020-08-15T12:16:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_038_01 status=FAILURE method=홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@2a556333] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_04_최근인기대화@2a556333]" name="tearDownClass" is-config="true" duration-ms="6383" started-at="2020-08-15T12:16:32Z" finished-at="2020-08-15T12:16:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[PRD]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[out]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ce12160cb994301d04]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[ALDF5TR5SNGZ8175DA16]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ALDEPCKHWOK47386BED6]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[ALDF2JWHQFXIBE9E95DB]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[2C66A81F08264E2B87CD8F859E506624]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[ALDEUSUMDHC218BE1BDE]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[542A9FA8376F4946B63C5FD0D8F41E2E]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[ALDFKDH4BQFP7307628C]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- NUGUAPP_003_홈.홈_04_최근인기대화 -->
+      </class> <!-- NUGUAPP_003_홈.홈_06_디바이스컨트롤러 -->
     </test> <!-- Test_Project -->
   </suite> <!-- ExtentReport -->
 </testng-results>
