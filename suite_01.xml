@@ -20,6 +20,11 @@
 		<parameter name="userID_ksszidane10" value="ALDF5TR5SNGZ8175DA16"/>
 		<parameter name="MobileDevice" value="ce12160cb994301d04"/>
 		
+		<!--
+		R3CMA0GBTQ
+		ce12160cb994301d04
+		-->
+		
 		<classes>
 			<!--
 			<class name="NUGUAPP_001_실행.앱시작_01" />
@@ -37,9 +42,10 @@
 			<class name="NUGUAPP_003_홈.홈_04_최근인기대화" />
 			-->
 		
-		
+			<class name="NUGUAPP_003_홈.홈_03_디바이스메시지" />
 			<class name="NUGUAPP_003_홈.홈_04_최근인기대화" />
-	
+		
+		
 		
 			
 		                                                                                                                                                                                                                     

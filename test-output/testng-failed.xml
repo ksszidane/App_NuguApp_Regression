@@ -34,6 +34,7 @@
     <parameter name="oAuth_Token_NU200_DAD3A2" value="542A9FA8376F4946B63C5FD0D8F41E2E"/>
     <classes>
       <class name="NUGUAPP_003_홈.홈_03_디바이스메시지"/>
+      <class name="NUGUAPP_003_홈.홈_04_최근인기대화"/>
     </classes>
   </test> <!-- Test_Project -->
   <test name="Test_Project(failed)" parallel="tests">
@@ -52,23 +53,43 @@
     <parameter name="TestPlace" value="out"/>
     <parameter name="oAuth_Token_NU200_DAD3A2" value="542A9FA8376F4946B63C5FD0D8F41E2E"/>
     <classes>
+      <class name="NUGUAPP_003_홈.홈_04_최근인기대화">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="TC_홈_038_01" invocation-numbers="0"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- NUGUAPP_003_홈.홈_04_최근인기대화 -->
       <class name="NUGUAPP_003_홈.홈_03_디바이스메시지">
         <methods>
           <include name="TC_홈_029" invocation-numbers="0"/>
           <include name="AfterMethod"/>
-          <include name="tearDownClass"/>
-          <include name="TC_홈_018_02" invocation-numbers="0"/>
-          <include name="TC_홈_017_02" invocation-numbers="0"/>
+          <include name="TC_홈_016_02" invocation-numbers="0"/>
+          <include name="TC_홈_016_01" invocation-numbers="0"/>
+          <include name="TC_홈_014_01" invocation-numbers="0"/>
           <include name="TC_홈_014_02" invocation-numbers="0"/>
           <include name="TC_홈_020_01" invocation-numbers="0"/>
-          <include name="TC_홈_013_02" invocation-numbers="0"/>
           <include name="TC_홈_020_02" invocation-numbers="0"/>
+          <include name="TC_홈_022_02" invocation-numbers="0"/>
+          <include name="TC_홈_006" invocation-numbers="0"/>
           <include name="TC_홈_028" invocation-numbers="0"/>
           <include name="setupClass"/>
-          <include name="TC_홈_007_from_008" invocation-numbers="0"/>
-          <include name="TC_홈_032" invocation-numbers="0"/>
+          <include name="TC_홈_023" invocation-numbers="0"/>
           <include name="TC_홈_027" invocation-numbers="0"/>
           <include name="TC_홈_026" invocation-numbers="0"/>
+          <include name="TC_홈_024" invocation-numbers="0"/>
+          <include name="TC_홈_022_01" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="TC_홈_015_02" invocation-numbers="0"/>
+          <include name="TC_홈_015_01" invocation-numbers="0"/>
+          <include name="TC_홈_017_01" invocation-numbers="0"/>
+          <include name="TC_홈_017_02" invocation-numbers="0"/>
+          <include name="TC_홈_013_01" invocation-numbers="0"/>
+          <include name="TC_홈_013_02" invocation-numbers="0"/>
+          <include name="TC_홈_034" invocation-numbers="0"/>
+          <include name="TC_홈_007_from_008" invocation-numbers="0"/>
           <include name="BeforeMethod"/>
         </methods>
       </class> <!-- NUGUAPP_003_홈.홈_03_디바이스메시지 -->

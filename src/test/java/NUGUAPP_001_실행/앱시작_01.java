@@ -368,6 +368,9 @@ public class 앱시작_01 extends TestCase {
 		test.log(Status.INFO, "앱 재 실행");
 		util.resetApp();
 		
+		test.log(Status.INFO, "앱 위치 권한 On");
+		adb.NUGUAPP_permission_LOCATION_Off_On(udid);
+		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
         
@@ -384,9 +387,6 @@ public class 앱시작_01 extends TestCase {
 
 	    test.log(Status.INFO, "패스워드입력필드 유효성 체크 및  '정상' 암호입력");
         util.type(By.id("password"), "rlatjdtn10!!");
-        
-        test.log(Status.INFO, "앱 위치 권한 On");
-		adb.NUGUAPP_permission_LOCATION_On(udid);
         
         test.log(Status.INFO, "로그인버튼 유효성체크 및 버튼 클릭");
 		util.click(By.id("authLogin"));
@@ -419,7 +419,7 @@ public class 앱시작_01 extends TestCase {
 	    
 	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");
         String 팝업메세지 = util.getText(By.id("contentTextView"));
-        Assert.assertTrue(팝업메세지.contains("로그아웃하시려면 자동 로그인 해제에 체크 후 로그아웃 버튼을 눌러주세요."));
+        Assert.assertTrue(팝업메세지.contains("로그아웃 하시겠습니까?"));
         
         test.log(Status.INFO, "취소버튼 확인 및 클릭");
         util.click(By.id("negativeButton"));
@@ -442,9 +442,12 @@ public class 앱시작_01 extends TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 실행_020")
 	public void TC_앱실행_020(Method method) throws Exception {
-        
+
 		test.log(Status.INFO, "앱 재 실행");
 		util.resetApp();
+		
+		test.log(Status.INFO, "앱 위치 권한 On");
+		adb.NUGUAPP_permission_LOCATION_Off_On(udid);
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
         util.click(By.id("loginButton"));
@@ -454,10 +457,7 @@ public class 앱시작_01 extends TestCase {
 		
         test.log(Status.INFO, "저장된 간편로그인 유효성 체크 및 클릭");
         util.click(By.className("account-item"));
-
-        test.log(Status.INFO, "앱 위치 권한 On");
-		adb.NUGUAPP_permission_LOCATION_On(udid);
-        
+      
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
@@ -486,7 +486,7 @@ public class 앱시작_01 extends TestCase {
 	    
 	    test.log(Status.INFO, "자동로그인 로그 아웃시 자동로그인 체크 해제 팝업 확인");
         String 팝업메세지 = util.getText(By.id("contentTextView"));
-        Assert.assertTrue(팝업메세지.contains("로그아웃하시려면 자동 로그인 해제에 체크 후 로그아웃 버튼을 눌러주세요."));
+        Assert.assertTrue(팝업메세지.contains("로그아웃 하시겠습니까?"));
         
         test.log(Status.INFO, "취소버튼 확인 및 클릭");
         util.click(By.id("negativeButton"));
