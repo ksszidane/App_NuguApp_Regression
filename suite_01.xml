@@ -45,6 +45,20 @@
 			-->
 		
 	
+			<class name="NUGUAPP_001_실행.앱시작_01" />
+			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
+			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini" />
+			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
+			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
+			<class name="NUGUAPP_002_연결.연결_05_NUGU_Btv" />
+			<class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI" />
+			<class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap" />
+			<class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar" />
+			<class name="NUGUAPP_003_홈.홈_01_홈카드" />
+			<class name="NUGUAPP_003_홈.홈_02_홈카드" />
+			<class name="NUGUAPP_003_홈.홈_03_디바이스메시지" />
+			<class name="NUGUAPP_003_홈.홈_04_최근인기대화" />
+			<class name="NUGUAPP_003_홈.홈_05_날씨" />
 			<class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러" />
 		
 		
