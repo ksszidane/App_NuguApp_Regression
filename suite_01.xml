@@ -7,7 +7,7 @@
 	<test name="Test_Project" preserve-order="true">
 		<parameter name="OS" value="Android" />
 		<parameter name="Server" value="PRD" /> <!-- 서버값 대문자로  : PRD, STG -->
-		<parameter name="TestPlace" value="in" /> <!-- 사내 : in  // 사외 : out-->
+		<parameter name="TestPlace" value="out" /> <!-- 사내 : in  // 사외 : out-->
 		<parameter name="oAuth_Token_NU100_4228C8" value="15F42AF9FF6F4099827D12877DCDB8AA"/> 
 		<parameter name="deviceID_NU100_4228C8" value="ALDEPCKHWOK47386BED6"/>
 		<parameter name="oAuth_Token_NU200_3F2B99" value="2C66A81F08264E2B87CD8F859E506624"/> 
