@@ -12,37 +12,2149 @@
 <body>
 <h1>Test_Project</h1>
 <p>
-  Test duration: 420.689s
+  Test duration: 2584.042s
 </p>
 
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">[TestResult name=TC_홈_017_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39] output={null}]</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8200<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;<br/>
+Driver info: unit.Utilities<br/>
+Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}<br/>
+Session ID: 769e4ca3-44fc-4d8a-81aa-d7f6c5bf0c81</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)<br />
+              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
+              unit.Utilities.execute(Utilities.java:1)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)<br />
+              unit.Utilities.ErrorScreenshots(Utilities.java:1166)<br />
+              unit.TestCase.AfterMethod(TestCase.java:125)<br />
+              sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDownClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">NUGUAPP_003_홈.홈_04_최근인기대화</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setupClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDownClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">NUGUAPP_003_홈.홈_05_날씨</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setupClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDownClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setupClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDownClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AfterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BeforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setupClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDownClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_01_홈카드</td>
       </tr>
             
 <tr>
   <td class="method">
-                  <span class="description" title="누구앱 리그레이션 TC : 홈_066">TC_홈_066</span>
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_06">TC_홈_001_06</span>
       </td>
   <td class="duration">
-    60.626s
+    4.928s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
-    <div class="stackTrace" id="exception-0">
+        <a href="javascript:toggleElement('exception-123', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-123">
               junit.framework.Assert.fail(Assert.java:47)<br />
               junit.framework.Assert.assertTrue(Assert.java:20)<br />
-              junit.framework.Assert.assertFalse(Assert.java:34)<br />
-              junit.framework.Assert.assertFalse(Assert.java:41)<br />
-              NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(홈_06_디바이스컨트롤러.java:433)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06(홈_01_홈카드.java:103)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_09">TC_홈_001_09</span>
+      </td>
+  <td class="duration">
+    5.959s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-124', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-124">
+              junit.framework.Assert.fail(Assert.java:47)<br />
+              junit.framework.Assert.assertTrue(Assert.java:20)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(홈_01_홈카드.java:146)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_02_홈카드</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_004">TC_홈_004</span>
+      </td>
+  <td class="duration">
+    32.367s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-125', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: tvDeviceName (tried for 10 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-125">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)<br />
+              unit.Utilities.WaitfindElement(Utilities.java:141)<br />
+              unit.Utilities.getText(Utilities.java:1024)<br />
+              NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004(홈_02_홈카드.java:94)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-126', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: tvDeviceName<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;<br/>
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-126">
+                      org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)<br />
+                      java.util.Optional.orElseThrow(Unknown Source)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)<br />
+                      unit.Utilities.WaitfindElement(Utilities.java:141)<br />
+                      unit.Utilities.getText(Utilities.java:1024)<br />
+                      NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004(홈_02_홈카드.java:94)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+                      org.testng.TestRunner.run(TestRunner.java:632)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+                      org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+                      org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+                      org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+                      java.util.concurrent.FutureTask.run(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_013">TC_홈_013_02</span>
+      </td>
+  <td class="duration">
+    52.559s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-127', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-127">
+              junit.framework.Assert.fail(Assert.java:47)<br />
+              junit.framework.Assert.assertTrue(Assert.java:20)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(홈_03_디바이스메시지.java:209)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_014">TC_홈_014_02</span>
+      </td>
+  <td class="duration">
+    51.768s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-128', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-128">
+              junit.framework.Assert.fail(Assert.java:47)<br />
+              junit.framework.Assert.assertTrue(Assert.java:20)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(홈_03_디바이스메시지.java:255)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_015">TC_홈_015_02</span>
+      </td>
+  <td class="duration">
+    53.841s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-129', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-129">
+              junit.framework.Assert.fail(Assert.java:47)<br />
+              junit.framework.Assert.assertTrue(Assert.java:20)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(홈_03_디바이스메시지.java:300)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_017">TC_홈_017_01</span>
+      </td>
+  <td class="duration">
+    22.468s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-130', 'block')" title="Click to expand/collapse"><b>junit.framework.AssertionFailedError</b></a><br />
+    <div class="stackTrace" id="exception-130">
+              junit.framework.Assert.fail(Assert.java:47)<br />
+              junit.framework.Assert.assertTrue(Assert.java:20)<br />
+              junit.framework.Assert.assertTrue(Assert.java:27)<br />
+              NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(홈_03_디바이스메시지.java:359)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -68,9 +2180,404 @@
 </tr>
       </table>
 
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_001_실행.앱시작_01</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_016">TC_앱실행_016</span>
+      </td>
+  <td class="duration">
+    19.130s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">자동로그인 체크 여부가 사라짐</span>
+          
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_007~008">TC_홈_007_from_008</span>
+      </td>
+  <td class="duration">
+    31.686s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">연결을 기다리는 디바이스 상단 알림창 [없음] 1/5 
+</span>
+          
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_017">TC_홈_017_02</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_018">TC_홈_018_01</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_018">TC_홈_018_02</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_019">TC_홈_019_01</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_019">TC_홈_019_02</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_020">TC_홈_020_01</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_020">TC_홈_020_02</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_022">TC_홈_022_01</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_022">TC_홈_022_02</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_023">TC_홈_023</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_023(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_024">TC_홈_024</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_024(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_025">TC_홈_025</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_025(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_026">TC_홈_026</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_026(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_027">TC_홈_027</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_027(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_028">TC_홈_028</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_028(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_029">TC_홈_029</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_029(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_032">TC_홈_032</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_032(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_034">TC_홈_034</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_034(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_04_최근인기대화</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_038">TC_홈_038_01</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_05_날씨</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_042">TC_홈_042</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_042(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_043">TC_홈_043</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_043(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_044">TC_홈_044</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_044(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_045">TC_홈_045</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_045(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
           <tr>
         <td colspan="3" class="group">NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
       </tr>
@@ -80,10 +2587,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_054">TC_홈_054</span>
       </td>
   <td class="duration">
-    18.632s
+    0.001s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -95,10 +2602,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_055">TC_홈_055</span>
       </td>
   <td class="duration">
-    35.562s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_055(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -110,10 +2617,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_056">TC_홈_056</span>
       </td>
   <td class="duration">
-    4.859s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_056(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -125,10 +2632,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_057">TC_홈_057</span>
       </td>
   <td class="duration">
-    4.060s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_057(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -140,10 +2647,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_058">TC_홈_058</span>
       </td>
   <td class="duration">
-    7.833s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_058(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -155,10 +2662,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_059">TC_홈_059</span>
       </td>
   <td class="duration">
-    8.496s
+    0.001s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_059(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -170,10 +2677,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_060">TC_홈_060</span>
       </td>
   <td class="duration">
-    2.541s
+    0.001s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_060(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -185,10 +2692,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_061">TC_홈_061</span>
       </td>
   <td class="duration">
-    2.990s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_061(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -200,10 +2707,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_062">TC_홈_062</span>
       </td>
   <td class="duration">
-    20.797s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_062(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -215,10 +2722,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_063 ~ 064">TC_홈_063_form_064</span>
       </td>
   <td class="duration">
-    25.907s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_063_form_064(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -230,10 +2737,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_065">TC_홈_065_01</span>
       </td>
   <td class="duration">
-    16.668s
+    0.001s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -245,10 +2752,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_065">TC_홈_065_02</span>
       </td>
   <td class="duration">
-    30.885s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -260,10 +2767,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_065">TC_홈_065_03</span>
       </td>
   <td class="duration">
-    30.823s
+    0.001s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_03(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -275,10 +2782,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_065">TC_홈_065_04</span>
       </td>
   <td class="duration">
-    3.381s
+    0.001s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_04(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -290,11 +2797,26 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_065">TC_홈_065_05</span>
       </td>
   <td class="duration">
-    38.872s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_05(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_066">TC_홈_066</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 
@@ -305,10 +2827,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_067">TC_홈_067</span>
       </td>
   <td class="duration">
-    21.714s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_067(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -320,10 +2842,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_068">TC_홈_068_And_070</span>
       </td>
   <td class="duration">
-    5.722s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_068_And_070(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -335,10 +2857,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_069">TC_홈_069_01</span>
       </td>
   <td class="duration">
-    21.687s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_069_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -350,10 +2872,10 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_069">TC_홈_069_02_And_070</span>
       </td>
   <td class="duration">
-    8.329s
+    0.000s
   </td>
   <td class="result">
-        
+                               
           <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_069_02_And_070(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
@@ -365,11 +2887,2287 @@
                   <span class="description" title="누구앱 리그레이션 TC : 홈_070">TC_홈_070</span>
       </td>
   <td class="duration">
-    13.365s
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_070(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_071">TC_홈_071_01</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_071">TC_홈_071_02</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_071">TC_홈_071_03</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_03(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_01</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_02</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_03</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_03(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_04</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_04(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_05</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_05(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_06</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_06(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_07</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_07(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_073">TC_홈_073_08</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_08(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_074">TC_홈_074_01</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_074_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_074">TC_홈_074_02</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_074_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_001_실행.앱시작_01</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_004">TC_앱실행_004</span>
+      </td>
+  <td class="duration">
+    16.451s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_070(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_005">TC_앱실행_005</span>
+      </td>
+  <td class="duration">
+    1.459s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_005(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_007">TC_앱실행_007</span>
+      </td>
+  <td class="duration">
+    27.941s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_007(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_008">TC_앱실행_008</span>
+      </td>
+  <td class="duration">
+    2.471s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_008(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_010">TC_앱실행_010</span>
+      </td>
+  <td class="duration">
+    26.776s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_010(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_011">TC_앱실행_011</span>
+      </td>
+  <td class="duration">
+    28.928s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_011(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_012~13">TC_앱실행_012_from_013</span>
+      </td>
+  <td class="duration">
+    57.174s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_012_from_013(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_014~15">TC_앱실행_014_from_015</span>
+      </td>
+  <td class="duration">
+    49.990s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_014_from_015(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_017~018">TC_앱실행_017_from_018</span>
+      </td>
+  <td class="duration">
+    70.966s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_017_from_018(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_020">TC_앱실행_020</span>
+      </td>
+  <td class="duration">
+    49.292s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_020(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 실행_021">TC_앱실행_021</span>
+      </td>
+  <td class="duration">
+    11.665s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_021(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_01_NUGU</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_001~002">TC_연결_001_from_002</span>
+      </td>
+  <td class="duration">
+    35.818s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_001_from_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_003">TC_연결_003</span>
+      </td>
+  <td class="duration">
+    28.690s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_004">TC_연결_004</span>
+      </td>
+  <td class="duration">
+    14.864s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_009">TC_연결_009</span>
+      </td>
+  <td class="duration">
+    2.881s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_009(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_010">TC_연결_010</span>
+      </td>
+  <td class="duration">
+    1.471s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_010(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_011">TC_연결_011</span>
+      </td>
+  <td class="duration">
+    4.707s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_011(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_012">TC_연결_012</span>
+      </td>
+  <td class="duration">
+    7.416s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_012(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_013">TC_연결_013</span>
+      </td>
+  <td class="duration">
+    1.814s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_013(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_014 ~ 연결_016">TC_연결_014_form_016</span>
+      </td>
+  <td class="duration">
+    11.937s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_014_form_016(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_017">TC_연결_017</span>
+      </td>
+  <td class="duration">
+    2.419s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_017(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_019">TC_연결_019</span>
+      </td>
+  <td class="duration">
+    5.413s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_019(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_020">TC_연결_020</span>
+      </td>
+  <td class="duration">
+    3.069s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_020(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_021">TC_연결_021</span>
+      </td>
+  <td class="duration">
+    3.179s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_021(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_022">TC_연결_022</span>
+      </td>
+  <td class="duration">
+    6.672s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_022(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_023">TC_연결_023</span>
+      </td>
+  <td class="duration">
+    3.431s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_023(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_024">TC_연결_024</span>
+      </td>
+  <td class="duration">
+    3.474s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_024(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_025 / 연결_039">TC_연결_025_and_039</span>
+      </td>
+  <td class="duration">
+    5.152s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_025_and_039(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_040">TC_연결_040</span>
+      </td>
+  <td class="duration">
+    1.436s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_040(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_041">TC_연결_041</span>
+      </td>
+  <td class="duration">
+    3.706s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_041(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_042">TC_연결_042</span>
+      </td>
+  <td class="duration">
+    3.289s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_042(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_044">TC_연결_044</span>
+      </td>
+  <td class="duration">
+    18.226s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_044(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_045">TC_연결_045</span>
+      </td>
+  <td class="duration">
+    12.289s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_045(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_02_NUGU_mini</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_068">TC_연결_068</span>
+      </td>
+  <td class="duration">
+    24.361s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_068(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_069">TC_연결_069</span>
+      </td>
+  <td class="duration">
+    2.515s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_069(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_070">TC_연결_070</span>
+      </td>
+  <td class="duration">
+    3.970s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_070(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_070">TC_연결_071</span>
+      </td>
+  <td class="duration">
+    4.422s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_071(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_072">TC_연결_072</span>
+      </td>
+  <td class="duration">
+    1.997s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_072(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_073 ~ 연결_74">TC_연결_073_form_074</span>
+      </td>
+  <td class="duration">
+    10.899s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_073_form_074(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_074">TC_연결_075</span>
+      </td>
+  <td class="duration">
+    2.573s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_075(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_076">TC_연결_076</span>
+      </td>
+  <td class="duration">
+    5.865s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_076(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_077">TC_연결_077</span>
+      </td>
+  <td class="duration">
+    6.034s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_077(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_078 / 연결_079">TC_연결_078_and_079</span>
+      </td>
+  <td class="duration">
+    13.161s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_078_and_079(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_080">TC_연결_080</span>
+      </td>
+  <td class="duration">
+    5.117s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_080(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_089">TC_연결_089</span>
+      </td>
+  <td class="duration">
+    1.626s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_089(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_090">TC_연결_090</span>
+      </td>
+  <td class="duration">
+    2.432s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_090(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_091">TC_연결_091</span>
+      </td>
+  <td class="duration">
+    18.224s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_091(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_092">TC_연결_092</span>
+      </td>
+  <td class="duration">
+    11.938s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_092(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_03_NUGU_candle</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_123">TC_연결_123</span>
+      </td>
+  <td class="duration">
+    27.063s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_123(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_124">TC_연결_124</span>
+      </td>
+  <td class="duration">
+    2.606s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_124(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_125">TC_연결_125</span>
+      </td>
+  <td class="duration">
+    4.267s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_125(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_126">TC_연결_126</span>
+      </td>
+  <td class="duration">
+    4.148s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_126(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_127">TC_연결_127</span>
+      </td>
+  <td class="duration">
+    1.900s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_127(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_128 ~ 연결 130">TC_연결_128_form_130</span>
+      </td>
+  <td class="duration">
+    11.061s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_128_form_130(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_131">TC_연결_131</span>
+      </td>
+  <td class="duration">
+    2.650s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_131(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_133">TC_연결_133</span>
+      </td>
+  <td class="duration">
+    5.653s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_133(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_134">TC_연결_134</span>
+      </td>
+  <td class="duration">
+    3.272s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_134(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_135">TC_연결_135</span>
+      </td>
+  <td class="duration">
+    2.939s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_135(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_136">TC_연결_136</span>
+      </td>
+  <td class="duration">
+    7.082s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_136(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_137">TC_연결_137</span>
+      </td>
+  <td class="duration">
+    3.709s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_137(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_138">TC_연결_138</span>
+      </td>
+  <td class="duration">
+    2.849s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_138(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_139">TC_연결_139</span>
+      </td>
+  <td class="duration">
+    5.191s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_139(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_149">TC_연결_149</span>
+      </td>
+  <td class="duration">
+    2.089s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_149(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_150">TC_연결_150</span>
+      </td>
+  <td class="duration">
+    2.762s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_150(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_151">TC_연결_151</span>
+      </td>
+  <td class="duration">
+    18.719s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_151(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_154 ~ 155">TC_연결_154_form_155</span>
+      </td>
+  <td class="duration">
+    11.974s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_154_form_155(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_04_NUGU_nemo</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_178_준비001">TC_연결_178_001</span>
+      </td>
+  <td class="duration">
+    24.451s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_001(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_178_준비002">TC_연결_178_002</span>
+      </td>
+  <td class="duration">
+    3.534s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_178">TC_연결_178_003</span>
+      </td>
+  <td class="duration">
+    3.996s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비001">TC_연결_179_001</span>
+      </td>
+  <td class="duration">
+    1.450s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_001(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비002">TC_연결_179_002</span>
+      </td>
+  <td class="duration">
+    10.345s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비003">TC_연결_179_003</span>
+      </td>
+  <td class="duration">
+    2.418s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비004">TC_연결_179_004</span>
+      </td>
+  <td class="duration">
+    5.141s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_004(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비005">TC_연결_179_005</span>
+      </td>
+  <td class="duration">
+    3.197s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_005(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비006">TC_연결_179_006</span>
+      </td>
+  <td class="duration">
+    3.502s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_006(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비007">TC_연결_179_007</span>
+      </td>
+  <td class="duration">
+    9.036s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_007(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179_준비008">TC_연결_179_008</span>
+      </td>
+  <td class="duration">
+    3.649s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_008(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_179">TC_연결_179_009</span>
+      </td>
+  <td class="duration">
+    2.925s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_009(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_180">TC_연결_180</span>
+      </td>
+  <td class="duration">
+    4.965s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_180(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_189">TC_연결_189</span>
+      </td>
+  <td class="duration">
+    1.298s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_189(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_190">TC_연결_190</span>
+      </td>
+  <td class="duration">
+    1.916s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_190(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_191">TC_연결_191</span>
+      </td>
+  <td class="duration">
+    16.089s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_191(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_192 ~ 194">TC_연결_192_form_194</span>
+      </td>
+  <td class="duration">
+    11.963s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_192_form_194(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_05_NUGU_Btv</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_218 | 중복 : 연결_248, 연결_260, 연결_267">TC_연결_218</span>
+      </td>
+  <td class="duration">
+    24.078s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_219 | 중복 : 연결_246, 연결_261, 연결_268">TC_연결_219</span>
+      </td>
+  <td class="duration">
+    2.881s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_219(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_220 | 중복 : 연결_247, 연결_270, 연결_271">TC_연결_220</span>
+      </td>
+  <td class="duration">
+    5.043s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_224 | 중복 : 연결_248, 연결_262, 연결_260, 연결_276">TC_연결_224</span>
+      </td>
+  <td class="duration">
+    2.712s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_225 | 중복 : 연결_249, 연결_263, 연결_277">TC_연결_225</span>
+      </td>
+  <td class="duration">
+    12.493s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_225(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_226 | 중복 : 연결_250, 연결_264, 연결_278">TC_연결_226</span>
+      </td>
+  <td class="duration">
+    3.335s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_226(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_06_NUGU_albertAI</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_281">TC_연결_281</span>
+      </td>
+  <td class="duration">
+    25.351s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_281(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_282">TC_연결_282</span>
+      </td>
+  <td class="duration">
+    2.623s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_282(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_283">TC_연결_283</span>
+      </td>
+  <td class="duration">
+    3.636s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_283(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_284">TC_연결_284</span>
+      </td>
+  <td class="duration">
+    4.126s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_284(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_285">TC_연결_285</span>
+      </td>
+  <td class="duration">
+    1.911s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_285(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_286 ~ 연결 288">TC_연결_286_form_288</span>
+      </td>
+  <td class="duration">
+    10.828s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_286_form_288(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_289">TC_연결_289</span>
+      </td>
+  <td class="duration">
+    2.469s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_289(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_291">TC_연결_291</span>
+      </td>
+  <td class="duration">
+    5.766s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_291(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_292">TC_연결_292</span>
+      </td>
+  <td class="duration">
+    2.566s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_292(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_293">TC_연결_293</span>
+      </td>
+  <td class="duration">
+    2.879s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_293(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_294">TC_연결_294</span>
+      </td>
+  <td class="duration">
+    6.707s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_294(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_295">TC_연결_295</span>
+      </td>
+  <td class="duration">
+    3.797s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_295(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_296">TC_연결_296</span>
+      </td>
+  <td class="duration">
+    3.020s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_296(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_297">TC_연결_297</span>
+      </td>
+  <td class="duration">
+    5.357s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_297(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_307">TC_연결_307</span>
+      </td>
+  <td class="duration">
+    1.543s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_307(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_308">TC_연결_308</span>
+      </td>
+  <td class="duration">
+    2.244s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_308(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_309">TC_연결_309</span>
+      </td>
+  <td class="duration">
+    18.171s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_309(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_310 ~ 311">TC_연결_310_form_311</span>
+      </td>
+  <td class="duration">
+    11.941s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_310_form_311(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_07_NUGU_Tmap</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_334">TC_연결_334</span>
+      </td>
+  <td class="duration">
+    26.124s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_334(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_336">TC_연결_336</span>
+      </td>
+  <td class="duration">
+    15.482s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_336(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_002_연결.연결_08_NUGU_TmapforCar</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_338">TC_연결_338</span>
+      </td>
+  <td class="duration">
+    26.820s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_338(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_339">TC_연결_339</span>
+      </td>
+  <td class="duration">
+    2.611s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_339(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_340">TC_연결_340</span>
+      </td>
+  <td class="duration">
+    6.011s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_340(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_341">TC_연결_341</span>
+      </td>
+  <td class="duration">
+    5.147s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_341(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_342">TC_연결_342</span>
+      </td>
+  <td class="duration">
+    3.617s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_342(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_343">TC_연결_343_and_362_form_371</span>
+      </td>
+  <td class="duration">
+    50.731s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_344">TC_연결_344</span>
+      </td>
+  <td class="duration">
+    16.566s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 연결_346 ~ 연결_349">TC_연결_346_form_349</span>
+      </td>
+  <td class="duration">
+    14.724s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_01_홈카드</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_01">TC_홈_001_01</span>
+      </td>
+  <td class="duration">
+    20.286s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001-02">TC_홈_001_02</span>
+      </td>
+  <td class="duration">
+    5.363s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001-03">TC_홈_001_03</span>
+      </td>
+  <td class="duration">
+    4.559s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_03(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_04">TC_홈_001_04</span>
+      </td>
+  <td class="duration">
+    1.334s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_04(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_05">TC_홈_001_05</span>
+      </td>
+  <td class="duration">
+    5.825s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_05(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_07">TC_홈_001_07</span>
+      </td>
+  <td class="duration">
+    5.897s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_07(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_08">TC_홈_001_08</span>
+      </td>
+  <td class="duration">
+    5.905s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_08(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_10">TC_홈_001_10</span>
+      </td>
+  <td class="duration">
+    1.463s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_10(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_11">TC_홈_001_11</span>
+      </td>
+  <td class="duration">
+    6.172s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_11(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_001_12">TC_홈_001_12</span>
+      </td>
+  <td class="duration">
+    8.330s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_12(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_02_홈카드</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_002">TC_홈_002</span>
+      </td>
+  <td class="duration">
+    23.739s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_02_홈카드.TC_홈_002(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_003">TC_홈_003</span>
+      </td>
+  <td class="duration">
+    5.336s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_02_홈카드.TC_홈_003(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_006">TC_홈_006</span>
+      </td>
+  <td class="duration">
+    35.280s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_013">TC_홈_013_01</span>
+      </td>
+  <td class="duration">
+    79.037s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_014">TC_홈_014_01</span>
+      </td>
+  <td class="duration">
+    30.681s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_015">TC_홈_015_01</span>
+      </td>
+  <td class="duration">
+    30.601s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_016">TC_홈_016_01</span>
+      </td>
+  <td class="duration">
+    30.843s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_01(java.lang.reflect.Method) throws java.lang.Exception</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="누구앱 리그레이션 TC : 홈_016">TC_홈_016_02</span>
+      </td>
+  <td class="duration">
+    54.468s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_02(java.lang.reflect.Method) throws java.lang.Exception</span><br />
     
         
 

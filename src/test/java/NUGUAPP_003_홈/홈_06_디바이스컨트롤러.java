@@ -279,7 +279,7 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 	    Assert.assertEquals(최근전송명령어.size(), 6);
 	    
 	    test.log(Status.INFO, "오른쪽으로 플리킹 동작"); 
-	    util.fastSwipe(900, 700, 200, 700, 1);
+	    util.fastSwipe(900, 700, 200, 700, 3);
 	    
 	    test.log(Status.INFO, "더보기 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageView[@content-desc='더보기']")));
@@ -300,7 +300,7 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 	    util.click(By.id("ivTextCommand"));
 	    
 	    test.log(Status.INFO, "첫번째 말풍선에 방금 전송한 '몇시야'명렁어가 있는지 확인"); 
-	    util.fastSwipe(200, 700, 900, 700, 1);
+	    util.fastSwipe(200, 700, 900, 700, 3);
 	    String 첫번째말풍선 = util.fast_getText(By.xpath("//android.widget.HorizontalScrollView/android.widget.LinearLayout"
 				+ "/android.widget.LinearLayout[1]/android.widget.Button[1]"));
 	    Assert.assertEquals(첫번째말풍선, "몇시야");
@@ -331,7 +331,7 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 		util.click(By.id("btnMic"));
 		
 		test.log(Status.INFO, "마이크 Off context 확인");
-		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
+		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 3);
 	    Assert.assertFalse(mic_off.contains("micStatus\":\"ON"));
 		
 		test.log(Status.INFO, "디바이스 컨트롤 [마이크]버튼 클릭 (On)");
@@ -416,7 +416,7 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 		
 		test.log(Status.INFO, "볼륨 컨트롤 [1] 선택 확인");
 		String volume_1 = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
-	    Assert.assertTrue(volume_1.contains("volume\":1,\"muted"));
+	    Assert.assertTrue(volume_1.contains("volume\":1"));
 	    
 	    test.log(Status.INFO, "볼륨 컨트롤 [4]으로 선택");
 		util.touchTab(310, 1450);
@@ -427,10 +427,11 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 		util.click(By.id("ivMaxVolume"));
 		Thread.sleep(1500);
 		util.click(By.id("ivMaxVolume"));
+		Thread.sleep(3000);
 		
 		test.log(Status.INFO, "볼륨 컨트롤 [7] 선택 확인");
 		String volume_7 = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
-	    Assert.assertFalse(volume_7.contains("volume\":7,\"muted"));
+	    Assert.assertTrue(volume_7.contains("volume\":7,\"muted"));
 	    
 	    test.log(Status.INFO, "볼륨 컨트롤 [4]으로 선택");
 		util.touchTab(310, 1450);
@@ -608,6 +609,79 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 	    test.log(Status.INFO, "디바이스 기능 버튼 [볼륨 있음] 확인");  
 	    boolean 스피커볼륨 = util.isElementPresent(By.id("sbVolume"));
 	    Assert.assertTrue(스피커볼륨);
+	}
+	
+	@Test(description = "누구앱 리그레이션 TC : 홈_071")
+	public void TC_홈_071_01(Method method) throws Exception {
+		
+		test.log(Status.INFO, "오른쪽으로 플리킹 동작"); 
+	    util.fastSwipe(900, 700, 200, 700, 3);
+	    
+	    test.log(Status.INFO, "더보기 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageView[@content-desc='더보기']")));
+	    
+	    test.log(Status.INFO, "입력필드에 포커스 확인"); 
+	    boolean 포커스 = util.isFucused(By.id("commandEditText"));
+	    Assert.assertTrue(포커스);
+	    
+	    test.log(Status.INFO, "텍스트명령어 입력란 텍스트입력"); 
+	    util.type(By.id("commandEditText"), "몇시야");
+	    
+	    test.log(Status.INFO, "텍스트 명령어 입력란 [X]버튼 노출 확인 및 클릭"); 
+		boolean X버튼 = util.isElementPresent(By.id("commandClearImageView"));
+	    Assert.assertTrue(X버튼);
+	    util.click(By.id("commandClearImageView"));
+	    
+	    test.log(Status.INFO, "입력된 텍스트명령어 삭제 후 가이드 문구 확인");
+	    String 가이드문구 = util.getText(By.id("commandEditText"));
+	    Assert.assertEquals(가이드문구, "NUGU에게\n말해보세요.");
+	    
+	}
+	
+	@Test(description = "누구앱 리그레이션 TC : 홈_071")
+	public void TC_홈_071_02(Method method) throws Exception {
+		
+		test.log(Status.INFO, "즐겨찾기 영역 확인"); 
+		String 즐겨찾기 = util.getText(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.TextView"));
+	    Assert.assertEquals(즐겨찾기, "즐겨찾기");
+	    
+	    test.log(Status.INFO, "즐겨찾기 목록 확인"); 
+	    boolean 즐겨찾기토글 = util.isChecked(By.xpath("//androidx.recyclerview.widget.RecyclerView/"
+	    		+ "android.widget.LinearLayout[1]/"
+				+ "android.widget.ToggleButton"));
+	    Assert.assertTrue(즐겨찾기토글);
+	    
+	}
+	
+	@Test(description = "누구앱 리그레이션 TC : 홈_071")
+	public void TC_홈_071_03(Method method) throws Exception {
+		
+		test.log(Status.INFO, "즐겨찾기 영역 확인"); 
+		String 즐겨찾기 = util.getText(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.TextView"));
+	    Assert.assertEquals(즐겨찾기, "즐겨찾기");
+	    
+	    test.log(Status.INFO, "즐겨찾기 목록 확인"); 
+	    boolean 즐겨찾기토글 = util.isChecked(By.xpath("//androidx.recyclerview.widget.RecyclerView/"
+	    		+ "android.widget.LinearLayout[1]/"
+				+ "android.widget.ToggleButton"));
+	    Assert.assertTrue(즐겨찾기토글);
+	    
+	    test.log(Status.INFO, "임의의 영역 클릭 후 키패드 사라지게 하기"); 
+	    util.click(By.id("titleTextView"));
+	    
+	    test.log(Status.INFO, "즐겨찾기 목록 클릭"); 
+	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/"
+	    		+ "android.widget.LinearLayout[3]"));
+	    
+	    test.log(Status.INFO, "최근대화 첫번째 목록에 추가 확인");
+	    String 최근대화  = util.getText(By.xpath("//androidx.recyclerview.widget.RecyclerView/"
+	    		+ "android.widget.LinearLayout[5]/android.widget.TextView[2]"));
+	    Assert.assertTrue(최근대화.contains("지투"));
+	    
+	    test.log(Status.INFO, "최근대화 첫번째 목록에 추가 확인");
+	    String 최근대화_오늘  = util.getText(By.xpath("//androidx.recyclerview.widget.RecyclerView/"
+	    		+ "android.widget.LinearLayout[5]/android.widget.TextView[3]"));
+	    Assert.assertTrue(최근대화_오늘.contains("오늘"));
 	}
 	
 

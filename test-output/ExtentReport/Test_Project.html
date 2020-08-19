@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test_Project</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>135/7/59</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 18 01:58:12 KST 2020</td>
+<td>Started on:</td><td>Wed Aug 19 23:00:58 KST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>420 seconds (420729 ms)</td>
+<tr><td>Total time:</td><td>2588 seconds (2588311 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,6 +68,710 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Parameters: [TestResult name=TC_홈_017_01 status=FAILURE method=홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39] output={null}]</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8200
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: unit.Utilities
+Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 769e4ca3-44fc-4d8a-81aa-d7f6c5bf0c81
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at unit.Utilities.execute(Utilities.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at unit.Utilities.ErrorScreenshots(Utilities.java:1166)
+	at unit.TestCase.AfterMethod(TestCase.java:125)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace99854736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace99854736'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8200
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: unit.Utilities
+Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 769e4ca3-44fc-4d8a-81aa-d7f6c5bf0c81
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at unit.Utilities.execute(Utilities.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at unit.Utilities.ErrorScreenshots(Utilities.java:1166)
+	at unit.TestCase.AfterMethod(TestCase.java:125)
+	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_04_최근인기대화.setupClass()'><b>setupClass</b><br>Test class: NUGUAPP_003_홈.홈_04_최근인기대화</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_04_최근인기대화@58c1670b</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.setupClass()'><b>setupClass</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.setupClass()'><b>setupClass</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.setupClass()'><b>setupClass</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_04_최근인기대화.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_04_최근인기대화</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_04_최근인기대화@58c1670b</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.BeforeMethod()'><b>BeforeMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_04_최근인기대화.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_04_최근인기대화</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_04_최근인기대화@58c1670b</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.AfterMethod()'><b>AfterMethod</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.tearDownClass()'><b>tearDownClass</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_04_최근인기대화.tearDownClass()'><b>tearDownClass</b><br>Test class: NUGUAPP_003_홈.홈_04_최근인기대화</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_04_최근인기대화@58c1670b</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.tearDownClass()'><b>tearDownClass</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.tearDownClass()'><b>tearDownClass</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.tearDownClass()'><b>tearDownClass</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -75,24 +779,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066()'><b>TC_홈_066</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_066<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06()'><b>TC_홈_001_06</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_06<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td><div><pre>junit.framework.AssertionFailedError
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertFalse(Assert.java:34)
-	at junit.framework.Assert.assertFalse(Assert.java:41)
-	at NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(홈_06_디바이스컨트롤러.java:433)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06(홈_01_홈카드.java:103)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1698153041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1698153041'><pre>junit.framework.AssertionFailedError
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1327629961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1327629961'><pre>junit.framework.AssertionFailedError
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertFalse(Assert.java:34)
-	at junit.framework.Assert.assertFalse(Assert.java:41)
-	at NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(홈_06_디바이스컨트롤러.java:433)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_06(홈_01_홈카드.java:103)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -114,8 +816,280 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>60</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>4</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09()'><b>TC_홈_001_09</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_09<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(홈_01_홈카드.java:146)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95167044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace95167044'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_09(홈_01_홈카드.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>5</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004()'><b>TC_홈_004</b><br>Test class: NUGUAPP_003_홈.홈_02_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_004<br>Parameters: public void NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: tvDeviceName (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at unit.Utilities.WaitfindElement(Utilities.java:141)
+	at unit.Utilities.getText(Utilities.java:1024)
+	at NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004(홈_02_홈카드.java:94)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: tvDeviceName
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 23 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace552185099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace552185099'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: tvDeviceName (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at unit.Utilities.WaitfindElement(Utilities.java:141)
+	at unit.Utilities.getText(Utilities.java:1024)
+	at NUGUAPP_003_홈.홈_02_홈카드.TC_홈_004(홈_02_홈카드.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: tvDeviceName
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 23 more
+</pre></div></td>
+<td>32</td>
+<td>NUGUAPP_003_홈.홈_02_홈카드@2c039ac6</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02()'><b>TC_홈_013_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_013<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(홈_03_디바이스메시지.java:209)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2106408316", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2106408316'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_02(홈_03_디바이스메시지.java:209)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>52</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02()'><b>TC_홈_014_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_014<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(홈_03_디바이스메시지.java:255)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace83670205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace83670205'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_02(홈_03_디바이스메시지.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>51</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02()'><b>TC_홈_015_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_015<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(홈_03_디바이스메시지.java:300)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace807488325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace807488325'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_02(홈_03_디바이스메시지.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>53</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01()'><b>TC_홈_017_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_017<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(홈_03_디바이스메시지.java:359)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1017574434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1017574434'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_01(홈_03_디바이스메시지.java:359)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>22</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -125,105 +1099,1045 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054()'><b>TC_홈_054</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_054<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_004()'><b>TC_앱실행_004</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_004<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>16</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_005()'><b>TC_앱실행_005</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_005<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_005(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_007()'><b>TC_앱실행_007</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_007<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_007(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>27</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_008()'><b>TC_앱실행_008</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_008<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_008(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_010()'><b>TC_앱실행_010</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_010<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_010(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>26</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_011()'><b>TC_앱실행_011</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_011<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_011(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>28</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_012_from_013()'><b>TC_앱실행_012_from_013</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_012~13<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_012_from_013(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>57</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_014_from_015()'><b>TC_앱실행_014_from_015</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_014~15<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_014_from_015(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>49</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_017_from_018()'><b>TC_앱실행_017_from_018</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_017~018<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_017_from_018(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>70</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_020()'><b>TC_앱실행_020</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_020<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_020(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>49</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_021()'><b>TC_앱실행_021</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_021<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_021(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_001_from_002()'><b>TC_연결_001_from_002</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_001~002<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_001_from_002(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>35</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_003()'><b>TC_연결_003</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_003<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_003(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>28</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_004()'><b>TC_연결_004</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_004<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_004(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>14</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_009()'><b>TC_연결_009</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_009<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_009(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_010()'><b>TC_연결_010</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_010<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_010(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_011()'><b>TC_연결_011</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_011<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_011(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_012()'><b>TC_연결_012</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_012<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_012(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>7</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_013()'><b>TC_연결_013</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_013<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_013(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_014_form_016()'><b>TC_연결_014_form_016</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_014 ~ 연결_016<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_014_form_016(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_017()'><b>TC_연결_017</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_017<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_017(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_019()'><b>TC_연결_019</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_019<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_019(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_020()'><b>TC_연결_020</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_020<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_020(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_021()'><b>TC_연결_021</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_021<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_021(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_022()'><b>TC_연결_022</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_022<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_022(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>6</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_023()'><b>TC_연결_023</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_023<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_023(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_024()'><b>TC_연결_024</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_024<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_024(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_025_and_039()'><b>TC_연결_025_and_039</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_025 / 연결_039<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_025_and_039(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_040()'><b>TC_연결_040</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_040<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_040(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_041()'><b>TC_연결_041</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_041<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_041(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_042()'><b>TC_연결_042</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_042<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_042(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_044()'><b>TC_연결_044</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_044<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_044(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
 <td>18</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_01_NUGU.TC_연결_045()'><b>TC_연결_045</b><br>Test class: NUGUAPP_002_연결.연결_01_NUGU<br>Test method: 누구앱 리그레이션 TC : 연결_045<br>Parameters: public void NUGUAPP_002_연결.연결_01_NUGU.TC_연결_045(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>12</td>
+<td>NUGUAPP_002_연결.연결_01_NUGU@fad74ee</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_068()'><b>TC_연결_068</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_068<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_068(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>24</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_069()'><b>TC_연결_069</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_069<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_069(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_070()'><b>TC_연결_070</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_070<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_070(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_071()'><b>TC_연결_071</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_070<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_071(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_072()'><b>TC_연결_072</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_072<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_072(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_073_form_074()'><b>TC_연결_073_form_074</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_073 ~ 연결_74<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_073_form_074(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>10</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_075()'><b>TC_연결_075</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_074<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_075(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_076()'><b>TC_연결_076</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_076<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_076(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_077()'><b>TC_연결_077</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_077<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_077(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>6</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_078_and_079()'><b>TC_연결_078_and_079</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_078 / 연결_079<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_078_and_079(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>13</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_080()'><b>TC_연결_080</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_080<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_080(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_089()'><b>TC_연결_089</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_089<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_089(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_090()'><b>TC_연결_090</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_090<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_090(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_091()'><b>TC_연결_091</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_091<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_091(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>18</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_092()'><b>TC_연결_092</b><br>Test class: NUGUAPP_002_연결.연결_02_NUGU_mini<br>Test method: 누구앱 리그레이션 TC : 연결_092<br>Parameters: public void NUGUAPP_002_연결.연결_02_NUGU_mini.TC_연결_092(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_002_연결.연결_02_NUGU_mini@1a1d6a08</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_123()'><b>TC_연결_123</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_123<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_123(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>27</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_124()'><b>TC_연결_124</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_124<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_124(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_125()'><b>TC_연결_125</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_125<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_125(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_126()'><b>TC_연결_126</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_126<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_126(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_127()'><b>TC_연결_127</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_127<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_127(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_128_form_130()'><b>TC_연결_128_form_130</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_128 ~ 연결 130<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_128_form_130(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_131()'><b>TC_연결_131</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_131<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_131(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_133()'><b>TC_연결_133</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_133<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_133(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_134()'><b>TC_연결_134</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_134<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_134(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_135()'><b>TC_연결_135</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_135<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_135(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_136()'><b>TC_연결_136</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_136<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_136(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>7</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_137()'><b>TC_연결_137</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_137<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_137(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_138()'><b>TC_연결_138</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_138<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_138(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_139()'><b>TC_연결_139</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_139<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_139(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_149()'><b>TC_연결_149</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_149<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_149(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_150()'><b>TC_연결_150</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_150<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_150(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_151()'><b>TC_연결_151</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_151<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_151(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>18</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_154_form_155()'><b>TC_연결_154_form_155</b><br>Test class: NUGUAPP_002_연결.연결_03_NUGU_candle<br>Test method: 누구앱 리그레이션 TC : 연결_154 ~ 155<br>Parameters: public void NUGUAPP_002_연결.연결_03_NUGU_candle.TC_연결_154_form_155(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_002_연결.연결_03_NUGU_candle@37d31475</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_001()'><b>TC_연결_178_001</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_178_준비001<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_001(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>24</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_002()'><b>TC_연결_178_002</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_178_준비002<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_002(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_003()'><b>TC_연결_178_003</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_178<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_178_003(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_001()'><b>TC_연결_179_001</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비001<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_001(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_002()'><b>TC_연결_179_002</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비002<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_002(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>10</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_003()'><b>TC_연결_179_003</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비003<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_003(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_004()'><b>TC_연결_179_004</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비004<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_004(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_005()'><b>TC_연결_179_005</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비005<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_005(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_006()'><b>TC_연결_179_006</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비006<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_006(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_007()'><b>TC_연결_179_007</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비007<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_007(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>9</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_008()'><b>TC_연결_179_008</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179_준비008<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_008(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_009()'><b>TC_연결_179_009</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_179<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_179_009(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_180()'><b>TC_연결_180</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_180<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_180(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_189()'><b>TC_연결_189</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_189<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_189(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_190()'><b>TC_연결_190</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_190<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_190(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_191()'><b>TC_연결_191</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_191<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_191(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>16</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_192_form_194()'><b>TC_연결_192_form_194</b><br>Test class: NUGUAPP_002_연결.연결_04_NUGU_nemo<br>Test method: 누구앱 리그레이션 TC : 연결_192 ~ 194<br>Parameters: public void NUGUAPP_002_연결.연결_04_NUGU_nemo.TC_연결_192_form_194(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_002_연결.연결_04_NUGU_nemo@27808f31</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218()'><b>TC_연결_218</b><br>Test class: NUGUAPP_002_연결.연결_05_NUGU_Btv<br>Test method: 누구앱 리그레이션 TC : 연결_218 | 중복 : 연결_248, 연결_260, 연결_267<br>Parameters: public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_218(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>24</td>
+<td>NUGUAPP_002_연결.연결_05_NUGU_Btv@436e852b</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_219()'><b>TC_연결_219</b><br>Test class: NUGUAPP_002_연결.연결_05_NUGU_Btv<br>Test method: 누구앱 리그레이션 TC : 연결_219 | 중복 : 연결_246, 연결_261, 연결_268<br>Parameters: public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_219(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_05_NUGU_Btv@436e852b</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220()'><b>TC_연결_220</b><br>Test class: NUGUAPP_002_연결.연결_05_NUGU_Btv<br>Test method: 누구앱 리그레이션 TC : 연결_220 | 중복 : 연결_247, 연결_270, 연결_271<br>Parameters: public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_220(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_05_NUGU_Btv@436e852b</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224()'><b>TC_연결_224</b><br>Test class: NUGUAPP_002_연결.연결_05_NUGU_Btv<br>Test method: 누구앱 리그레이션 TC : 연결_224 | 중복 : 연결_248, 연결_262, 연결_260, 연결_276<br>Parameters: public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_224(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_05_NUGU_Btv@436e852b</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_225()'><b>TC_연결_225</b><br>Test class: NUGUAPP_002_연결.연결_05_NUGU_Btv<br>Test method: 누구앱 리그레이션 TC : 연결_225 | 중복 : 연결_249, 연결_263, 연결_277<br>Parameters: public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_225(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>12</td>
+<td>NUGUAPP_002_연결.연결_05_NUGU_Btv@436e852b</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_226()'><b>TC_연결_226</b><br>Test class: NUGUAPP_002_연결.연결_05_NUGU_Btv<br>Test method: 누구앱 리그레이션 TC : 연결_226 | 중복 : 연결_250, 연결_264, 연결_278<br>Parameters: public void NUGUAPP_002_연결.연결_05_NUGU_Btv.TC_연결_226(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_05_NUGU_Btv@436e852b</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_281()'><b>TC_연결_281</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_281<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_281(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>25</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_282()'><b>TC_연결_282</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_282<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_282(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_283()'><b>TC_연결_283</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_283<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_283(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_284()'><b>TC_연결_284</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_284<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_284(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_285()'><b>TC_연결_285</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_285<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_285(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_286_form_288()'><b>TC_연결_286_form_288</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_286 ~ 연결 288<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_286_form_288(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>10</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_289()'><b>TC_연결_289</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_289<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_289(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_291()'><b>TC_연결_291</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_291<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_291(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_292()'><b>TC_연결_292</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_292<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_292(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_293()'><b>TC_연결_293</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_293<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_293(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_294()'><b>TC_연결_294</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_294<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_294(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>6</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_295()'><b>TC_연결_295</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_295<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_295(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_296()'><b>TC_연결_296</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_296<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_296(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_297()'><b>TC_연결_297</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_297<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_297(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_307()'><b>TC_연결_307</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_307<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_307(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_308()'><b>TC_연결_308</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_308<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_308(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_309()'><b>TC_연결_309</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_309<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_309(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>18</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_310_form_311()'><b>TC_연결_310_form_311</b><br>Test class: NUGUAPP_002_연결.연결_06_NUGU_albertAI<br>Test method: 누구앱 리그레이션 TC : 연결_310 ~ 311<br>Parameters: public void NUGUAPP_002_연결.연결_06_NUGU_albertAI.TC_연결_310_form_311(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>11</td>
+<td>NUGUAPP_002_연결.연결_06_NUGU_albertAI@32d2fa64</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_334()'><b>TC_연결_334</b><br>Test class: NUGUAPP_002_연결.연결_07_NUGU_Tmap<br>Test method: 누구앱 리그레이션 TC : 연결_334<br>Parameters: public void NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_334(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>26</td>
+<td>NUGUAPP_002_연결.연결_07_NUGU_Tmap@1d8d30f7</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_336()'><b>TC_연결_336</b><br>Test class: NUGUAPP_002_연결.연결_07_NUGU_Tmap<br>Test method: 누구앱 리그레이션 TC : 연결_336<br>Parameters: public void NUGUAPP_002_연결.연결_07_NUGU_Tmap.TC_연결_336(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>15</td>
+<td>NUGUAPP_002_연결.연결_07_NUGU_Tmap@1d8d30f7</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_338()'><b>TC_연결_338</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_338<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_338(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>26</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_339()'><b>TC_연결_339</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_339<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_339(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>2</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_340()'><b>TC_연결_340</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_340<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_340(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>6</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_341()'><b>TC_연결_341</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_341<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_341(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_342()'><b>TC_연결_342</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_342<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_342(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371()'><b>TC_연결_343_and_362_form_371</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_343<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>50</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344()'><b>TC_연결_344</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_344<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>16</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349()'><b>TC_연결_346_form_349</b><br>Test class: NUGUAPP_002_연결.연결_08_NUGU_TmapforCar<br>Test method: 누구앱 리그레이션 TC : 연결_346 ~ 연결_349<br>Parameters: public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>14</td>
+<td>NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@3e57cd70</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_01()'><b>TC_홈_001_01</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_01<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>20</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_02()'><b>TC_홈_001_02</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001-02<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_03()'><b>TC_홈_001_03</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001-03<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_03(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_04()'><b>TC_홈_001_04</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_04<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_04(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_05()'><b>TC_홈_001_05</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_05<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_05(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_07()'><b>TC_홈_001_07</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_07<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_07(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_08()'><b>TC_홈_001_08</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_08<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_08(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_10()'><b>TC_홈_001_10</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_10<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_10(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>1</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_11()'><b>TC_홈_001_11</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_11<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_11(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>6</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_12()'><b>TC_홈_001_12</b><br>Test class: NUGUAPP_003_홈.홈_01_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_001_12<br>Parameters: public void NUGUAPP_003_홈.홈_01_홈카드.TC_홈_001_12(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>8</td>
+<td>NUGUAPP_003_홈.홈_01_홈카드@9a7504c</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_02_홈카드.TC_홈_002()'><b>TC_홈_002</b><br>Test class: NUGUAPP_003_홈.홈_02_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_002<br>Parameters: public void NUGUAPP_003_홈.홈_02_홈카드.TC_홈_002(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>23</td>
+<td>NUGUAPP_003_홈.홈_02_홈카드@2c039ac6</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_02_홈카드.TC_홈_003()'><b>TC_홈_003</b><br>Test class: NUGUAPP_003_홈.홈_02_홈카드<br>Test method: 누구앱 리그레이션 TC : 홈_003<br>Parameters: public void NUGUAPP_003_홈.홈_02_홈카드.TC_홈_003(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>NUGUAPP_003_홈.홈_02_홈카드@2c039ac6</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006()'><b>TC_홈_006</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_006<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_006(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>35</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_01()'><b>TC_홈_013_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_013<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_013_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>79</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_01()'><b>TC_홈_014_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_014<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_014_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>30</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_01()'><b>TC_홈_015_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_015<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_015_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>30</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_01()'><b>TC_홈_016_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_016<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>30</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_02()'><b>TC_홈_016_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_016<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_016_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>54</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='NUGUAPP_001_실행.앱시작_01.TC_앱실행_016()'><b>TC_앱실행_016</b><br>Test class: NUGUAPP_001_실행.앱시작_01<br>Test method: 누구앱 리그레이션 TC : 실행_016<br>Parameters: public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>org.testng.SkipException: 자동로그인 체크 여부가 사라짐
+	at NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(앱시작_01.java:309)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2134838407", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2134838407'><pre>org.testng.SkipException: 자동로그인 체크 여부가 사라짐
+	at NUGUAPP_001_실행.앱시작_01.TC_앱실행_016(앱시작_01.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>19</td>
+<td>NUGUAPP_001_실행.앱시작_01@36b4cef0</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008()'><b>TC_홈_007_from_008</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_007~008<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>org.testng.SkipException: 연결을 기다리는 디바이스 상단 알림창 [없음] 1/5 
+
+	at unit.Utilities.connectingDevice_SkipCheck(Utilities.java:612)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(홈_03_디바이스메시지.java:111)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace186535027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace186535027'><pre>org.testng.SkipException: 연결을 기다리는 디바이스 상단 알림창 [없음] 1/5 
+
+	at unit.Utilities.connectingDevice_SkipCheck(Utilities.java:612)
+	at NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_007_from_008(홈_03_디바이스메시지.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>31</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_02()'><b>TC_홈_017_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_017<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_017_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_01()'><b>TC_홈_018_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_018<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_02()'><b>TC_홈_018_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_018<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_018_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_01()'><b>TC_홈_019_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_019<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_02()'><b>TC_홈_019_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_019<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_019_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_01()'><b>TC_홈_020_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_020<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_02()'><b>TC_홈_020_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_020<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_020_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_01()'><b>TC_홈_022_01</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_022<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_02()'><b>TC_홈_022_02</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_022<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_022_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_023()'><b>TC_홈_023</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_023<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_023(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_024()'><b>TC_홈_024</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_024<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_024(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_025()'><b>TC_홈_025</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_025<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_025(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_026()'><b>TC_홈_026</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_026<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_026(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_027()'><b>TC_홈_027</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_027<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_027(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_028()'><b>TC_홈_028</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_028<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_028(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_029()'><b>TC_홈_029</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_029<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_029(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_032()'><b>TC_홈_032</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_032<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_032(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_034()'><b>TC_홈_034</b><br>Test class: NUGUAPP_003_홈.홈_03_디바이스메시지<br>Test method: 누구앱 리그레이션 TC : 홈_034<br>Parameters: public void NUGUAPP_003_홈.홈_03_디바이스메시지.TC_홈_034(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_03_디바이스메시지@587d1d39</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01()'><b>TC_홈_038_01</b><br>Test class: NUGUAPP_003_홈.홈_04_최근인기대화<br>Test method: 누구앱 리그레이션 TC : 홈_038<br>Parameters: public void NUGUAPP_003_홈.홈_04_최근인기대화.TC_홈_038_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_04_최근인기대화@58c1670b</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.TC_홈_042()'><b>TC_홈_042</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨<br>Test method: 누구앱 리그레이션 TC : 홈_042<br>Parameters: public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_042(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.TC_홈_043()'><b>TC_홈_043</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨<br>Test method: 누구앱 리그레이션 TC : 홈_043<br>Parameters: public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_043(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.TC_홈_044()'><b>TC_홈_044</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨<br>Test method: 누구앱 리그레이션 TC : 홈_044<br>Parameters: public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_044(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_05_날씨.TC_홈_045()'><b>TC_홈_045</b><br>Test class: NUGUAPP_003_홈.홈_05_날씨<br>Test method: 누구앱 리그레이션 TC : 홈_045<br>Parameters: public void NUGUAPP_003_홈.홈_05_날씨.TC_홈_045(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_05_날씨@6b57696f</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054()'><b>TC_홈_054</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_054<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_054(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_055()'><b>TC_홈_055</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_055<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_055(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>35</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_056()'><b>TC_홈_056</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_056<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_056(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>4</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_057()'><b>TC_홈_057</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_057<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_057(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>4</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_058()'><b>TC_홈_058</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_058<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_058(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>7</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_059()'><b>TC_홈_059</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_059<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_059(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>8</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_060()'><b>TC_홈_060</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_060<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_060(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>2</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_061()'><b>TC_홈_061</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_061<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_061(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>2</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_062()'><b>TC_홈_062</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_062<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_062(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>20</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_063_form_064()'><b>TC_홈_063_form_064</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_063 ~ 064<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_063_form_064(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>25</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_01()'><b>TC_홈_065_01</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_065<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_01(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>16</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_02()'><b>TC_홈_065_02</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_065<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_02(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>30</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_03()'><b>TC_홈_065_03</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_065<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_03(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>30</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_04()'><b>TC_홈_065_04</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_065<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_04(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>3</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_05()'><b>TC_홈_065_05</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_065<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_065_05(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>38</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066()'><b>TC_홈_066</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_066<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_066(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_067()'><b>TC_홈_067</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_067<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_067(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>21</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_068_And_070()'><b>TC_홈_068_And_070</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_068<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_068_And_070(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>5</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_069_01()'><b>TC_홈_069_01</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_069<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_069_01(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>21</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_069_02_And_070()'><b>TC_홈_069_02_And_070</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_069<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_069_02_And_070(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>8</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
 <tr>
 <td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_070()'><b>TC_홈_070</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_070<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_070(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>13</td>
-<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@3cb1ffe6</td></tr>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_01()'><b>TC_홈_071_01</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_071<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_02()'><b>TC_홈_071_02</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_071<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_03()'><b>TC_홈_071_03</b><br>Test class: NUGUAPP_003_홈.홈_06_디바이스컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_071<br>Parameters: public void NUGUAPP_003_홈.홈_06_디바이스컨트롤러.TC_홈_071_03(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_06_디바이스컨트롤러@5bb21b69</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_01()'><b>TC_홈_073_01</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_02()'><b>TC_홈_073_02</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_03()'><b>TC_홈_073_03</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_03(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_04()'><b>TC_홈_073_04</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_04(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_05()'><b>TC_홈_073_05</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_05(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_06()'><b>TC_홈_073_06</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_06(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_07()'><b>TC_홈_073_07</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_07(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_08()'><b>TC_홈_073_08</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_073<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_073_08(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_074_01()'><b>TC_홈_074_01</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_074<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_074_01(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
+<tr>
+<td title='NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_074_02()'><b>TC_홈_074_02</b><br>Test class: NUGUAPP_003_홈.홈_07_미디어컨트롤러<br>Test method: 누구앱 리그레이션 TC : 홈_074<br>Parameters: public void NUGUAPP_003_홈.홈_07_미디어컨트롤러.TC_홈_074_02(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_003_홈.홈_07_미디어컨트롤러@6b9651f3</td></tr>
 </table><p>
 </body>
 </html>
