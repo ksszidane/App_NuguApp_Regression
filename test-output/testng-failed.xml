@@ -10,6 +10,7 @@
   <parameter name="oAuth_Token_NU100_4228C8" value="15F42AF9FF6F4099827D12877DCDB8AA"/>
   <parameter name="deviceID_smart3" value="ALDFKDH4BQFP7307628C"/>
   <parameter name="deviceID_NU200_3F2B99" value="ALDF2JWHQFXIBE9E95DB"/>
+  <parameter name="deviceID_AI2" value="ALDESWE8NYHZ14E582BC"/>
   <parameter name="oAuth_Token_smart3" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
   <parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
   <parameter name="Project" value="NUGU_App"/>
@@ -17,6 +18,7 @@
   <parameter name="TestPlace" value="out"/>
   <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
   <parameter name="hubAddress" value="http://0.0.0.0:4723/wd/hub"/>
+  <parameter name="oAuth_Token_AI2" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
   <test name="Test_Project">
     <parameter name="userID_ksszidane10" value="ALDF5TR5SNGZ8175DA16"/>
     <parameter name="oAuth_Token_NU200_3F2B99" value="2C66A81F08264E2B87CD8F859E506624"/>
@@ -27,28 +29,15 @@
     <parameter name="oAuth_Token_NU100_4228C8" value="15F42AF9FF6F4099827D12877DCDB8AA"/>
     <parameter name="deviceID_smart3" value="ALDFKDH4BQFP7307628C"/>
     <parameter name="deviceID_NU200_3F2B99" value="ALDF2JWHQFXIBE9E95DB"/>
+    <parameter name="deviceID_AI2" value="ALDESWE8NYHZ14E582BC"/>
     <parameter name="oAuth_Token_smart3" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
     <parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
     <parameter name="MobileDevice" value="ce12160cb994301d04"/>
     <parameter name="TestPlace" value="out"/>
     <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
+    <parameter name="oAuth_Token_AI2" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
     <classes>
-      <class name="NUGUAPP_001_실행.앱시작_01"/>
-      <class name="NUGUAPP_002_연결.연결_01_NUGU"/>
-      <class name="NUGUAPP_002_연결.연결_02_NUGU_mini"/>
-      <class name="NUGUAPP_002_연결.연결_03_NUGU_candle"/>
-      <class name="NUGUAPP_002_연결.연결_04_NUGU_nemo"/>
-      <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv"/>
-      <class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI"/>
-      <class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap"/>
-      <class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar"/>
-      <class name="NUGUAPP_003_홈.홈_01_홈카드"/>
-      <class name="NUGUAPP_003_홈.홈_02_홈카드"/>
-      <class name="NUGUAPP_003_홈.홈_03_디바이스메시지"/>
-      <class name="NUGUAPP_003_홈.홈_04_최근인기대화"/>
-      <class name="NUGUAPP_003_홈.홈_05_날씨"/>
-      <class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러"/>
-      <class name="NUGUAPP_003_홈.홈_07_미디어컨트롤러"/>
+      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세"/>
     </classes>
   </test> <!-- Test_Project -->
   <test name="Test_Project(failed)" parallel="tests">
@@ -61,189 +50,25 @@
     <parameter name="oAuth_Token_NU100_4228C8" value="15F42AF9FF6F4099827D12877DCDB8AA"/>
     <parameter name="deviceID_smart3" value="ALDFKDH4BQFP7307628C"/>
     <parameter name="deviceID_NU200_3F2B99" value="ALDF2JWHQFXIBE9E95DB"/>
+    <parameter name="deviceID_AI2" value="ALDESWE8NYHZ14E582BC"/>
     <parameter name="oAuth_Token_smart3" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
     <parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
     <parameter name="MobileDevice" value="ce12160cb994301d04"/>
     <parameter name="TestPlace" value="out"/>
     <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
+    <parameter name="oAuth_Token_AI2" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
     <classes>
-      <class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러">
+      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세">
         <methods>
-          <include name="TC_홈_063_form_064"/>
-          <include name="TC_홈_069_01"/>
-          <include name="TC_홈_056"/>
-          <include name="TC_홈_067"/>
-          <include name="TC_홈_065_02"/>
-          <include name="TC_홈_065_04"/>
-          <include name="TC_홈_065_01"/>
-          <include name="TC_홈_065_05"/>
-          <include name="TC_홈_060"/>
-          <include name="TC_홈_071_01"/>
-          <include name="TC_홈_071_03"/>
-          <include name="TC_홈_061"/>
-          <include name="TC_홈_065_03"/>
-          <include name="TC_홈_069_02_And_070"/>
-          <include name="TC_홈_071_02"/>
-          <include name="TC_홈_062"/>
-          <include name="TC_홈_057"/>
-          <include name="TC_홈_054"/>
-          <include name="TC_홈_055"/>
-          <include name="TC_홈_066"/>
-          <include name="TC_홈_058"/>
-          <include name="TC_홈_068_And_070"/>
-          <include name="TC_홈_059"/>
-          <include name="TC_홈_070"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_06_디바이스컨트롤러 -->
-      <class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap">
-        <methods>
+          <include name="TC_홈_102" invocation-numbers="0"/>
           <include name="AfterMethod"/>
           <include name="setupClass"/>
           <include name="tearDownClass"/>
+          <include name="TC_홈_085" invocation-numbers="0"/>
+          <include name="TC_홈_103" invocation-numbers="0"/>
           <include name="BeforeMethod"/>
         </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_07_NUGU_Tmap -->
-      <class name="NUGUAPP_002_연결.연결_05_NUGU_Btv">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_05_NUGU_Btv -->
-      <class name="NUGUAPP_003_홈.홈_07_미디어컨트롤러">
-        <methods>
-          <include name="TC_홈_073_03"/>
-          <include name="TC_홈_073_04"/>
-          <include name="TC_홈_073_02"/>
-          <include name="TC_홈_074_02"/>
-          <include name="TC_홈_073_05"/>
-          <include name="TC_홈_073_01"/>
-          <include name="TC_홈_074_01"/>
-          <include name="TC_홈_073_07"/>
-          <include name="TC_홈_073_08"/>
-          <include name="TC_홈_073_06"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_07_미디어컨트롤러 -->
-      <class name="NUGUAPP_003_홈.홈_04_최근인기대화">
-        <methods>
-          <include name="TC_홈_038_01"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_04_최근인기대화 -->
-      <class name="NUGUAPP_003_홈.홈_03_디바이스메시지">
-        <methods>
-          <include name="TC_홈_029"/>
-          <include name="AfterMethod"/>
-          <include name="TC_홈_018_02"/>
-          <include name="TC_홈_014_02" invocation-numbers="0"/>
-          <include name="TC_홈_020_01"/>
-          <include name="TC_홈_018_01"/>
-          <include name="TC_홈_020_02"/>
-          <include name="TC_홈_022_02"/>
-          <include name="TC_홈_028"/>
-          <include name="setupClass"/>
-          <include name="TC_홈_023"/>
-          <include name="TC_홈_027"/>
-          <include name="TC_홈_026"/>
-          <include name="TC_홈_025"/>
-          <include name="TC_홈_024"/>
-          <include name="TC_홈_022_01"/>
-          <include name="TC_홈_015_02" invocation-numbers="0"/>
-          <include name="TC_홈_017_01" invocation-numbers="0"/>
-          <include name="TC_홈_017_02"/>
-          <include name="TC_홈_013_02" invocation-numbers="0"/>
-          <include name="TC_홈_019_02"/>
-          <include name="TC_홈_034"/>
-          <include name="TC_홈_007_from_008" invocation-numbers="0"/>
-          <include name="TC_홈_032"/>
-          <include name="TC_홈_019_01"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_03_디바이스메시지 -->
-      <class name="NUGUAPP_002_연결.연결_02_NUGU_mini">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_02_NUGU_mini -->
-      <class name="NUGUAPP_001_실행.앱시작_01">
-        <methods>
-          <include name="TC_앱실행_016" invocation-numbers="0"/>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_001_실행.앱시작_01 -->
-      <class name="NUGUAPP_003_홈.홈_05_날씨">
-        <methods>
-          <include name="TC_홈_044"/>
-          <include name="TC_홈_042"/>
-          <include name="TC_홈_045"/>
-          <include name="TC_홈_043"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_05_날씨 -->
-      <class name="NUGUAPP_003_홈.홈_01_홈카드">
-        <methods>
-          <include name="TC_홈_001_09" invocation-numbers="0"/>
-          <include name="AfterMethod"/>
-          <include name="TC_홈_001_06" invocation-numbers="0"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_01_홈카드 -->
-      <class name="NUGUAPP_002_연결.연결_03_NUGU_candle">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_03_NUGU_candle -->
-      <class name="NUGUAPP_003_홈.홈_02_홈카드">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="TC_홈_004" invocation-numbers="0"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_02_홈카드 -->
-      <class name="NUGUAPP_002_연결.연결_04_NUGU_nemo">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_04_NUGU_nemo -->
-      <class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_08_NUGU_TmapforCar -->
-      <class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_06_NUGU_albertAI -->
-      <class name="NUGUAPP_002_연결.연결_01_NUGU">
-        <methods>
-          <include name="AfterMethod"/>
-          <include name="setupClass"/>
-          <include name="tearDownClass"/>
-          <include name="BeforeMethod"/>
-        </methods>
-      </class> <!-- NUGUAPP_002_연결.연결_01_NUGU -->
+      </class> <!-- NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세 -->
     </classes>
   </test> <!-- Test_Project(failed) -->
 </suite> <!-- Failed suite [ExtentReport] -->

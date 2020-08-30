@@ -14,6 +14,8 @@
 		<parameter name="deviceID_NU200_3F2B99" value="ALDF2JWHQFXIBE9E95DB"/>
 		<parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/> 
 		<parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
+		<parameter name="oAuth_Token_AI2" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
+		<parameter name="deviceID_AI2" value="ALDESWE8NYHZ14E582BC"/>
 		<parameter name="oAuth_Token_smart3" value="ECCAA143358A4F1AB9735A1A02D41F68"/> 
 		<parameter name="deviceID_smart3" value="ALDFKDH4BQFP7307628C"/>
 		<parameter name="userID_ksszidane" value="ALDF3NYA6C0D0C654DD2"/>
@@ -43,36 +45,15 @@
 			<class name="NUGUAPP_003_홈.홈_05_날씨" />
 			<class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러" />
 			<class name="NUGUAPP_003_홈.홈_07_미디어컨트롤러" />
+			<class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세" />
+			<class name="NUGUAPP_003_홈.홈_09_미디어컨트롤러상세" />
 			-->
 		
 	
-	
-			
-			<class name="NUGUAPP_001_실행.앱시작_01" />
-			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
-			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini" />
-			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
-			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
-			<class name="NUGUAPP_002_연결.연결_05_NUGU_Btv" />
-			<class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI" />
-			<class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap" />
-			<class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar" />
-			<class name="NUGUAPP_003_홈.홈_01_홈카드" />
-			<class name="NUGUAPP_003_홈.홈_02_홈카드" />
-			<class name="NUGUAPP_003_홈.홈_03_디바이스메시지" />
-			<class name="NUGUAPP_003_홈.홈_04_최근인기대화" />
-			<class name="NUGUAPP_003_홈.홈_05_날씨" />
-			<class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러" />
-			<class name="NUGUAPP_003_홈.홈_07_미디어컨트롤러" />
+
+			<class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세" />
 		
-		
-		
-			
-		                                                                                                                                                                                                                     
-			
-		
-			
-			
+
 			
 			
 		</classes>

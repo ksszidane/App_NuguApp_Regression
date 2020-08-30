@@ -331,14 +331,14 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 		util.click(By.id("btnMic"));
 		
 		test.log(Status.INFO, "마이크 Off context 확인");
-		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 3);
-	    Assert.assertFalse(mic_off.contains("micStatus\":\"ON"));
+		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 2);
+		Assert.assertTrue(mic_off.contains("micStatus\":\"OFF"));
 		
 		test.log(Status.INFO, "디바이스 컨트롤 [마이크]버튼 클릭 (On)");
 		util.click(By.id("btnMic"));
 		
 		test.log(Status.INFO, "마이크 on context 확인");
-		String mic_on = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
+		String mic_on = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
 	    Assert.assertTrue(mic_on.contains("micStatus\":\"ON"));
 
 	}
@@ -350,14 +350,15 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 		util.click(By.id("btnLight"));
 		
 		test.log(Status.INFO, "무드등 on context 확인");
-		String moodlight_on = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
+		String moodlight_on = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
 	    Assert.assertTrue(moodlight_on.contains("TurnOnLightSucceeded"));
 		
+	    Thread.sleep(1500);
 		test.log(Status.INFO, "디바이스 컨트롤 [무드등]버튼 클릭 (Off)");
 		util.click(By.id("btnLight"));
 		
 		test.log(Status.INFO, "무드등 off context 확인");
-		String moodlight_off = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
+		String moodlight_off = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
 	    Assert.assertTrue(moodlight_off.contains("TurnOffLightSucceeded"));
 		
 	}

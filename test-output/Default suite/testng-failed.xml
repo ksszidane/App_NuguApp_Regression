@@ -3,20 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러">
-        <methods>
-          <include name="TC_홈_071_03"/>
-        </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_06_디바이스컨트롤러 -->
+      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러PoC별상세"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러">
+      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러PoC별상세">
         <methods>
-          <include name="TC_홈_071_03"/>
+          <include name="TC_홈_80"/>
+          <include name="TC_홈_81"/>
+          <include name="TC_홈_83"/>
+          <include name="TC_홈_85"/>
+          <include name="TC_홈_87"/>
         </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_06_디바이스컨트롤러 -->
+      </class> <!-- NUGUAPP_003_홈.홈_08_디바이스컨트롤러PoC별상세 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
