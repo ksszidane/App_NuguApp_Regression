@@ -15,7 +15,7 @@
   <parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
   <parameter name="Project" value="NUGU_App"/>
   <parameter name="MobileDevice" value="ce12160cb994301d04"/>
-  <parameter name="TestPlace" value="out"/>
+  <parameter name="TestPlace" value="in"/>
   <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
   <parameter name="hubAddress" value="http://0.0.0.0:4723/wd/hub"/>
   <parameter name="oAuth_Token_AI2" value="35CC4E84BB1D4735AA0955FDCB75D88C"/>
@@ -33,7 +33,7 @@
     <parameter name="oAuth_Token_smart3" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
     <parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
     <parameter name="MobileDevice" value="ce12160cb994301d04"/>
-    <parameter name="TestPlace" value="out"/>
+    <parameter name="TestPlace" value="in"/>
     <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
     <parameter name="oAuth_Token_AI2" value="35CC4E84BB1D4735AA0955FDCB75D88C"/>
     <classes>
@@ -54,17 +54,18 @@
     <parameter name="oAuth_Token_smart3" value="ECCAA143358A4F1AB9735A1A02D41F68"/>
     <parameter name="deviceID_NU200_95C146" value="ALDESWE8NYHZ14E582BC"/>
     <parameter name="MobileDevice" value="ce12160cb994301d04"/>
-    <parameter name="TestPlace" value="out"/>
+    <parameter name="TestPlace" value="in"/>
     <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
     <parameter name="oAuth_Token_AI2" value="35CC4E84BB1D4735AA0955FDCB75D88C"/>
     <classes>
       <class name="NUGUAPP_004_메뉴.메뉴_03_이용권">
         <methods>
+          <include name="TC_메뉴_032" invocation-numbers="0"/>
           <include name="AfterMethod"/>
-          <include name="TC_메뉴_038" invocation-numbers="0"/>
           <include name="setupClass"/>
           <include name="tearDownClass"/>
           <include name="BeforeMethod"/>
+          <include name="TC_메뉴_030" invocation-numbers="0"/>
         </methods>
       </class> <!-- NUGUAPP_004_메뉴.메뉴_03_이용권 -->
     </classes>

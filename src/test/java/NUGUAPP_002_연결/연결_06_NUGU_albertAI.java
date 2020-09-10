@@ -3,6 +3,7 @@ package NUGUAPP_002_연결;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.By;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -336,19 +337,32 @@ public class 연결_06_NUGU_albertAI extends TestCase {
 		test.log(Status.INFO, "디바이스 검색 10초 대기");
 		Thread.sleep(15000);
 		
-		test.log(Status.INFO, "검색필드 연결디바이스 안내 상세 텍스트 확인");
-		String noDeviceText = util.getText(By.id("emptyDescriptionTextView"));
-		Assert.assertEquals(noDeviceText, "디바이스 전원이 켜져 있는지 확인해주세요.\n" + 
-				"연결 준비상태에서는 녹색 불빛이 들어옵니다.");
-		
-		test.log(Status.INFO, "디바이스 재검색 버튼 클릭");
-		util.click(By.id("retryButton"));
+		test.log(Status.INFO, "검색결과 없는 경우 체크");
+		if(util.isElementPresent(By.id("retryButton"))) {
+			
+			test.log(Status.INFO, "검색필드 연결디바이스 안내 상세 텍스트 확인");
+			String noDeviceText = util.getText(By.id("emptyDescriptionTextView"));
+			Assert.assertEquals(noDeviceText, "디바이스 전원이 켜져 있는지 확인해주세요.\n" + 
+					"연결 준비상태에서는 녹색 불빛이 들어옵니다.");
+			
+		} else {
+			test.log(Status.INFO, "연결 가능한 디바이스 있음. Test Skip");
+    		throw new SkipException("연결 가능한 디바이스 있음. Test Skip");
+		}
 		
 	}
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_310 ~ 311")
 	public void TC_연결_310_form_311(Method method) throws Exception {
 		
+		test.log(Status.INFO, "검색결과 없는 경우 체크");
+		if(util.isElementPresent(By.id("retryButton"))) {
+			test.log(Status.INFO, "디바이스 재검색 버튼 클릭");
+			util.click(By.id("retryButton"));
+		} else {
+			test.log(Status.INFO, "우측 상단 디바이스 재검색 버튼 클릭");
+			util.click(By.id("scanButton"));
+		}
 		
 		test.log(Status.INFO, "검색중 프로그래스바 확인 ");
 		boolean progressBar = util.isElementPresent(By.id("progressBar"));
