@@ -30,6 +30,9 @@ public class 홈_02_홈카드 extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 허용 "); 
 	    util.switchTo().alert().accept();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "메뉴 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='메뉴']")));
 	    
@@ -87,20 +90,31 @@ public class 홈_02_홈카드 extends TestCase {
 	    }
 	    test.log(Status.INFO, "최근 인기 대화 리스트 갯수 확인"); 
 	    int 갯수 = util.getSize(By.id("tvPopularUtteranceStart"));
-	    Assert.assertEquals(갯수, 5);
-		    
-		    
+	    if (갯수!=5) {
+	    	갯수 = util.getSize(By.id("tvPopularUtteranceStart"));
+	    	Assert.assertEquals(갯수, 5);
+	    } else {
+	    	Assert.assertEquals(갯수, 5);
+	    }
+  
 	    for(int i=0; i<8; i++) {
 	    	String 최근인기대화타이틀 = util.getText(By.id("tvDeviceName"));
 	    	//int idx = 최근인기대화타이틀.indexOf(" 최근"); 
 	    	//String PoC = 최근인기대화타이틀.substring(0, idx);
 
-		    //System.out.println(PoC);
+		    System.out.println(최근인기대화타이틀);
 		    test.log(Status.INFO, "최근인기 대화 PoC 순서 확인");
 		    Assert.assertEquals(최근인기대화타이틀, NUGU_data.data.PoC리스트[i] + " 최근 인기 대화");
-		    	
-		    test.log(Status.INFO, "좌측플리킹 동작");
-			   util.swipe(900, 1550, 200, 1550);
+		    
+
+			if (util.isElementPresent(By.id("bannerImageView"))) {
+				test.log(Status.INFO, "좌측플리킹 동작");
+				util.swipe(900, 1250, 200, 1250);
+			} else {
+				test.log(Status.INFO, "좌측플리킹 동작");
+				util.swipe(900, 1550, 200, 1550);
+			}
+		    
 	    }
 		    
 		test.log(Status.INFO, "최근 인기 대화 페이지뷰 확인");

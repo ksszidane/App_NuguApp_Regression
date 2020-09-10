@@ -44,7 +44,11 @@ public class 연결_01_NUGU extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 취소 "); 
 	    util.switchTo().alert().dismiss();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "첫번째 홈카드 이동");
+	    util.swipe(200, 650, 900, 650);
 	    util.swipe(200, 650, 900, 650);
 	    
 	    test.log(Status.INFO, "홈카드 '지금연결하기' 확인");
@@ -52,6 +56,7 @@ public class 연결_01_NUGU extends TestCase {
 	    Assert.assertEquals(연결하기홈카드, "NUGU 디바이스를 연결해주세요.");
 	    
 	    test.log(Status.INFO, "첫번째 홈카드 재 이동");
+	    util.swipe(200, 650, 900, 650);
 	    util.swipe(200, 650, 900, 650);
 	    
 	    test.log(Status.INFO, "홈카드 '지금연결하기' 홈카드 클릭");
@@ -87,6 +92,9 @@ public class 연결_01_NUGU extends TestCase {
 	    
 	    test.log(Status.INFO, "퍼미션 위치 권한 취소 "); 
 	    util.switchTo().alert().dismiss();
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 	    
 	    test.log(Status.INFO, "디바이스 연결 플로팅메뉴 확인 및 클릭"); 
 	    util.click(By.id("ibDeviceFab"));

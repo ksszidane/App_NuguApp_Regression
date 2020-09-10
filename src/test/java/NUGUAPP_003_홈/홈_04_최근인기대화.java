@@ -31,6 +31,9 @@ public class 홈_04_최근인기대화 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    /*

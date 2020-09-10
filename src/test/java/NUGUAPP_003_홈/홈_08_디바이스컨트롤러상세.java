@@ -30,6 +30,9 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "디바이스컨트롤러 전체화면 펼침"); 
 	    util.click(By.id("ibDeviceFab"));
 	    
@@ -179,7 +182,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		util.click(By.id("btnBluetooth"));
 		
 		test.log(Status.INFO, "블루투스 on TTS 확인");
-		String tts = util.TTS_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place);
+		String tts = util.TTS_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
 	    Assert.assertTrue(tts.contains("블루투스 연결이 준비되었습니다. 연결하려는 디바이스에서"));
 	    
 	}
@@ -191,7 +194,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		util.click(By.id("btnBluetooth"));
 		
 		test.log(Status.INFO, "마이크 Off context 확인");
-		String Bluetooth_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+		String Bluetooth_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
 	    Assert.assertTrue(Bluetooth_off.contains("Bluetooth\":{\"version\":\"1.1\",\"device\":{\"name\":\"NUGU_4228C8\",\"status\":\"OFF"));
 
 	}
@@ -297,7 +300,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		test.log(Status.INFO, "연결된 NUGU 디바이스 목록 펼침");
 	    util.click(By.id("btnDeviceSelect"));
 	    
-	    test.log(Status.INFO, "NU110 디바이스 선택 디바이스 변경 시, Home 화면 전체 Refresh되며 홈 화면으로 이동"); 
+	    test.log(Status.INFO, "NU100 디바이스 선택 디바이스 변경 시, Home 화면 전체 Refresh되며 홈 화면으로 이동"); 
 	    util.click(By.xpath("(//android.widget.TextView[@text='NUGU (NUGU_4228C8) '])"));
 	    
 	    test.log(Status.INFO, "메인 홈으로 이동 확인"); 

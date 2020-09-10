@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="19" passed="16">
+<testng-results skipped="0" failed="1" total="18" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="ExtentReport" duration-ms="480174" started-at="2020-08-30T16:55:36Z" finished-at="2020-08-30T17:03:37Z">
+  <suite name="ExtentReport" duration-ms="408816" started-at="2020-09-09T15:07:33Z" finished-at="2020-09-09T15:14:21Z">
     <groups>
     </groups>
-    <test name="Test_Project" duration-ms="480174" started-at="2020-08-30T16:55:36Z" finished-at="2020-08-30T17:03:37Z">
-      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="setupClass" is-config="true" duration-ms="29762" started-at="2020-08-31T01:55:36Z" finished-at="2020-08-31T01:56:06Z">
+    <test name="Test_Project" duration-ms="408816" started-at="2020-09-09T15:07:33Z" finished-at="2020-09-09T15:14:21Z">
+      <class name="NUGUAPP_004_메뉴.메뉴_03_이용권">
+        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="setupClass" is-config="true" duration-ms="19376" started-at="2020-09-10T00:07:33Z" finished-at="2020-09-10T00:07:52Z">
           <params>
             <param index="0">
               <value>
@@ -91,176 +91,309 @@
             </param>
             <param index="16">
               <value>
-                <![CDATA[ALDESWE8NYHZ14E582BC]]>
+                <![CDATA[ALDFCNQ7OS4WD3E316BC]]>
               </value>
             </param>
             <param index="17">
               <value>
-                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
+                <![CDATA[35CC4E84BB1D4735AA0955FDCB75D88C]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="6" started-at="2020-08-31T01:56:06Z" finished-at="2020-08-31T01:56:06Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="7" started-at="2020-09-10T00:07:52Z" finished-at="2020-09-10T00:07:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_080(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_028(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_080(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_080" duration-ms="37306" started-at="2020-08-31T01:56:06Z" description="누구앱 리그레이션 TC : 홈_080" finished-at="2020-08-31T01:56:44Z">
+        <test-method status="PASS" signature="TC_메뉴_028(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_028" duration-ms="41888" started-at="2020-09-10T00:07:52Z" description="누구앱 리그레이션 TC : 메뉴_028" finished-at="2020-09-10T00:08:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_080(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_028(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_080 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:56:44Z" finished-at="2020-08-31T01:56:44Z">
+        </test-method> <!-- TC_메뉴_028 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:08:34Z" finished-at="2020-09-10T00:08:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_080 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_080(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_028 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_028(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_081(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_081" duration-ms="1072" started-at="2020-08-31T01:56:44Z" description="누구앱 리그레이션 TC : 홈_080" finished-at="2020-08-31T01:56:45Z">
+        <test-method status="PASS" signature="TC_메뉴_029(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_029" duration-ms="3223" started-at="2020-09-10T00:08:34Z" description="누구앱 리그레이션 TC : 메뉴_029" finished-at="2020-09-10T00:08:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_081(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_029(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_081 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:56:44Z" finished-at="2020-08-31T01:56:44Z">
+        </test-method> <!-- TC_메뉴_029 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:08:34Z" finished-at="2020-09-10T00:08:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_081(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_029(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:56:45Z" finished-at="2020-08-31T01:56:45Z">
+        <test-method status="PASS" signature="TC_메뉴_030(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_030" duration-ms="17555" started-at="2020-09-10T00:08:37Z" description="누구앱 리그레이션 TC : 메뉴_030" finished-at="2020-09-10T00:08:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_081 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_081(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_030(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_030 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:08:37Z" finished-at="2020-09-10T00:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_030(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:08:37Z" finished-at="2020-09-10T00:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_029 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_029(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:56:45Z" finished-at="2020-08-31T01:56:45Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:08:55Z" finished-at="2020-09-10T00:08:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_083(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_083(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_083" duration-ms="17564" started-at="2020-08-31T01:56:45Z" description="누구앱 리그레이션 TC : 홈_083" finished-at="2020-08-31T01:57:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_083(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_083 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:57:02Z" finished-at="2020-08-31T01:57:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:02Z" finished-at="2020-08-31T01:57:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_083 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_083(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_030 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_030(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_085(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_085" duration-ms="5283" started-at="2020-08-31T01:57:02Z" description="누구앱 리그레이션 TC : 홈_085" finished-at="2020-08-31T01:57:07Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:08:55Z" finished-at="2020-09-10T00:08:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_031(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b]]>
-            </message>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_메뉴_031(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_031" duration-ms="1457" started-at="2020-09-10T00:08:55Z" description="누구앱 리그레이션 TC : 메뉴_031" finished-at="2020-09-10T00:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_031(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_031 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:08:56Z" finished-at="2020-09-10T00:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_031 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_031(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:08:56Z" finished-at="2020-09-10T00:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_032(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_메뉴_032(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_032" duration-ms="2534" started-at="2020-09-10T00:08:56Z" description="누구앱 리그레이션 TC : 메뉴_032" finished-at="2020-09-10T00:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_032(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_032 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:08:59Z" finished-at="2020-09-10T00:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_034(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:08:59Z" finished-at="2020-09-10T00:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_032 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_032(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="TC_메뉴_034(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_034" duration-ms="687" started-at="2020-09-10T00:08:59Z" description="누구앱 리그레이션 TC : 메뉴_034" finished-at="2020-09-10T00:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_034(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_034 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:08:59Z" finished-at="2020-09-10T00:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_034 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_034(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:08:59Z" finished-at="2020-09-10T00:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_036(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC_메뉴_036(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_036" duration-ms="7696" started-at="2020-09-10T00:08:59Z" description="누구앱 리그레이션 TC : 메뉴_036" finished-at="2020-09-10T00:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_036(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_036 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:09:07Z" finished-at="2020-09-10T00:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_036 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_036(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="TC_메뉴_037(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_037" duration-ms="12544" started-at="2020-09-10T00:09:07Z" description="누구앱 리그레이션 TC : 메뉴_037" finished-at="2020-09-10T00:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_037(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_037 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:09:07Z" finished-at="2020-09-10T00:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_037(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:09:20Z" finished-at="2020-09-10T00:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_037 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_037(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:09:20Z" finished-at="2020-09-10T00:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="TC_메뉴_038(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_038" duration-ms="48961" started-at="2020-09-10T00:09:20Z" description="누구앱 리그레이션 TC : 메뉴_038" finished-at="2020-09-10T00:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at unit.Utilities.isElementPresent(Utilities.java:568)
-	at unit.Utilities.connectingDevice(Utilities.java:586)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085(홈_08_디바이스컨트롤러상세.java:104)
+              <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038(메뉴_03_이용권.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -283,639 +416,319 @@ Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_085 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="690" started-at="2020-08-31T01:57:07Z" finished-at="2020-08-31T01:57:08Z">
+        </test-method> <!-- TC_메뉴_038 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="830" started-at="2020-09-10T00:10:09Z" finished-at="2020-09-10T00:10:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_085 status=FAILURE method=홈_08_디바이스컨트롤러상세.TC_홈_085(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_038 status=FAILURE method=메뉴_03_이용권.TC_메뉴_038(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:08Z" finished-at="2020-08-31T01:57:08Z">
+        <test-method status="PASS" signature="TC_메뉴_039(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_039" duration-ms="56228" started-at="2020-09-10T00:10:09Z" description="누구앱 리그레이션 TC : 메뉴_039" finished-at="2020-09-10T00:11:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_087(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_039(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_039 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:10:09Z" finished-at="2020-09-10T00:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_039(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_087(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_087" duration-ms="22692" started-at="2020-08-31T01:57:08Z" description="누구앱 리그레이션 TC : 홈_087" finished-at="2020-08-31T01:57:31Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:11:06Z" finished-at="2020-09-10T00:11:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_087(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_087 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:31Z" finished-at="2020-08-31T01:57:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_087 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_087(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_039 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_039(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_088(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_088" duration-ms="3282" started-at="2020-08-31T01:57:31Z" description="누구앱 리그레이션 TC : 홈_088" finished-at="2020-08-31T01:57:34Z">
+        <test-method status="PASS" signature="TC_메뉴_040(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_040" duration-ms="35066" started-at="2020-09-10T00:11:06Z" description="누구앱 리그레이션 TC : 메뉴_040" finished-at="2020-09-10T00:11:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_088(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_040(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_088 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:31Z" finished-at="2020-08-31T01:57:31Z">
+        </test-method> <!-- TC_메뉴_040 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:11:06Z" finished-at="2020-09-10T00:11:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_088(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_040(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:57:34Z" finished-at="2020-08-31T01:57:34Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:11:41Z" finished-at="2020-09-10T00:11:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_088 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_088(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_040 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_040(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:34Z" finished-at="2020-08-31T01:57:34Z">
+        <test-method status="PASS" signature="TC_메뉴_041(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_041" duration-ms="22486" started-at="2020-09-10T00:11:41Z" description="누구앱 리그레이션 TC : 메뉴_041" finished-at="2020-09-10T00:12:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_090(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_041(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_041 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:11:41Z" finished-at="2020-09-10T00:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_041(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_090(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_090" duration-ms="23347" started-at="2020-08-31T01:57:34Z" description="누구앱 리그레이션 TC : 홈_090" finished-at="2020-08-31T01:57:57Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:12:03Z" finished-at="2020-09-10T00:12:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_090(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_090 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:57Z" finished-at="2020-08-31T01:57:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_090 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_090(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_041 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_041(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:57:57Z" finished-at="2020-08-31T01:57:57Z">
+        <test-method status="PASS" signature="TC_메뉴_042(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_042" duration-ms="4012" started-at="2020-09-10T00:12:03Z" description="누구앱 리그레이션 TC : 메뉴_042" finished-at="2020-09-10T00:12:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_091(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_042(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_042 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:12:03Z" finished-at="2020-09-10T00:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_042(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_091(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_091" duration-ms="10913" started-at="2020-08-31T01:57:57Z" description="누구앱 리그레이션 TC : 홈_091" finished-at="2020-08-31T01:58:08Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:12:07Z" finished-at="2020-09-10T00:12:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_091(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_091 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="2" started-at="2020-08-31T01:58:08Z" finished-at="2020-08-31T01:58:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_091 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_091(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_042 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_042(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:58:08Z" finished-at="2020-08-31T01:58:08Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:12:07Z" finished-at="2020-09-10T00:12:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_092(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_043(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_092(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_092" duration-ms="11526" started-at="2020-08-31T01:58:08Z" description="누구앱 리그레이션 TC : 홈_092" finished-at="2020-08-31T01:58:20Z">
+        <test-method status="PASS" signature="TC_메뉴_043(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_043" duration-ms="36054" started-at="2020-09-10T00:12:07Z" description="누구앱 리그레이션 TC : 메뉴_043" finished-at="2020-09-10T00:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_092(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_043(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_092 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:58:20Z" finished-at="2020-08-31T01:58:20Z">
+        </test-method> <!-- TC_메뉴_043 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:12:43Z" finished-at="2020-09-10T00:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_092 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_092(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_043 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_043(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_093(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_093" duration-ms="10845" started-at="2020-08-31T01:58:20Z" description="누구앱 리그레이션 TC : 홈_093" finished-at="2020-08-31T01:58:31Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:12:43Z" finished-at="2020-09-10T00:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_093(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_093 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:58:20Z" finished-at="2020-08-31T01:58:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_093(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_044(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:58:31Z" finished-at="2020-08-31T01:58:31Z">
+        <test-method status="PASS" signature="TC_메뉴_044(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_044" duration-ms="36638" started-at="2020-09-10T00:12:43Z" description="누구앱 리그레이션 TC : 메뉴_044" finished-at="2020-09-10T00:13:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_093 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_093(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_044(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:58:31Z" finished-at="2020-08-31T01:58:31Z">
+        </test-method> <!-- TC_메뉴_044 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:13:20Z" finished-at="2020-09-10T00:13:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_096(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_096(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_096" duration-ms="14544" started-at="2020-08-31T01:58:31Z" description="누구앱 리그레이션 TC : 홈_096" finished-at="2020-08-31T01:58:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_096(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_096 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:58:45Z" finished-at="2020-08-31T01:58:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_096 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_096(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_097(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_097" duration-ms="15465" started-at="2020-08-31T01:58:45Z" description="누구앱 리그레이션 TC : 홈_097" finished-at="2020-08-31T01:59:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_097(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_097 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:58:45Z" finished-at="2020-08-31T01:58:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_097(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_045(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:59:01Z" finished-at="2020-08-31T01:59:01Z">
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:13:20Z" finished-at="2020-09-10T00:13:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_097 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_097(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[[TestResult name=TC_메뉴_044 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_044(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_098(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_098" duration-ms="17033" started-at="2020-08-31T01:59:01Z" description="누구앱 리그레이션 TC : 홈_098" finished-at="2020-08-31T01:59:18Z">
+        <test-method status="PASS" signature="TC_메뉴_045(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_045" duration-ms="3656" started-at="2020-09-10T00:13:20Z" description="누구앱 리그레이션 TC : 메뉴_045" finished-at="2020-09-10T00:13:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_098(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_045(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_홈_098 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:59:01Z" finished-at="2020-08-31T01:59:01Z">
+        </test-method> <!-- TC_메뉴_045 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:13:24Z" finished-at="2020-09-10T00:13:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_098(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[[TestResult name=TC_메뉴_045 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_045(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:13:24Z" finished-at="2020-09-10T00:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_046_from_047(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:59:18Z" finished-at="2020-08-31T01:59:18Z">
+        <test-method status="PASS" signature="TC_메뉴_046_from_047(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_046_from_047" duration-ms="298" started-at="2020-09-10T00:13:24Z" description="누구앱 리그레이션 TC : 메뉴_046~047" finished-at="2020-09-10T00:13:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_098 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_098(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_046_from_047(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_046_from_047 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:13:24Z" finished-at="2020-09-10T00:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_046_from_047 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_046_from_047(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_099(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_099" duration-ms="16218" started-at="2020-08-31T01:59:18Z" description="누구앱 리그레이션 TC : 홈_099" finished-at="2020-08-31T01:59:34Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-09-10T00:13:24Z" finished-at="2020-09-10T00:13:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_099(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_099 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T01:59:18Z" finished-at="2020-08-31T01:59:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_099(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_048(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="19" started-at="2020-08-31T01:59:34Z" finished-at="2020-08-31T01:59:34Z">
+        <test-method status="PASS" signature="TC_메뉴_048(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="TC_메뉴_048" duration-ms="4957" started-at="2020-09-10T00:13:24Z" description="누구앱 리그레이션 TC : 메뉴_048" finished-at="2020-09-10T00:13:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_홈_099 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_099(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
+                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_048(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_메뉴_048 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-09-10T00:13:29Z" finished-at="2020-09-10T00:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_메뉴_048 status=SUCCESS method=메뉴_03_이용권.TC_메뉴_048(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-31T01:59:34Z" finished-at="2020-08-31T01:59:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_100(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_100(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_100" duration-ms="58842" started-at="2020-08-31T01:59:34Z" description="누구앱 리그레이션 TC : 홈_100" finished-at="2020-08-31T02:00:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_100(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_100 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-31T02:00:33Z" finished-at="2020-08-31T02:00:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_100 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_100(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-08-31T02:00:33Z" finished-at="2020-08-31T02:00:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_101(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_홈_101(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_101" duration-ms="19546" started-at="2020-08-31T02:00:33Z" description="누구앱 리그레이션 TC : 홈_101" finished-at="2020-08-31T02:00:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_101(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_101 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-31T02:00:52Z" finished-at="2020-08-31T02:00:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_101 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_101(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T02:00:52Z" finished-at="2020-08-31T02:00:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="TC_홈_102(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_102" duration-ms="64608" started-at="2020-08-31T02:00:52Z" description="누구앱 리그레이션 TC : 홈_102" finished-at="2020-08-31T02:01:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//android.widget.TextView[@text=''B tv (AI 2_23A4) ']) (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//android.widget.TextView[@text=''B tv (AI 2_23A4) ']) (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:141)
-	at unit.Utilities.click(Utilities.java:912)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102(홈_08_디바이스컨트롤러상세.java:391)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.InvalidSelectorException: java.lang.IllegalArgumentException: Unable to compile '(//android.widget.TextView[@text=''B tv (AI 2_23A4) '])'. See Cause.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
-*** Element info: {Using=xpath, value=(//android.widget.TextView[@text=''B tv (AI 2_23A4) '])}
-	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:53)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:178)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:155)
-	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:211)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:49)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:173)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_102 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="628" started-at="2020-08-31T02:01:57Z" finished-at="2020-08-31T02:01:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_102 status=FAILURE method=홈_08_디바이스컨트롤러상세.TC_홈_102(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="TC_홈_103(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_103" duration-ms="21100" started-at="2020-08-31T02:01:58Z" description="누구앱 리그레이션 TC : 홈_103" finished-at="2020-08-31T02:02:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: btnDeviceSelect (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: btnDeviceSelect (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:141)
-	at unit.Utilities.click(Utilities.java:912)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103(홈_08_디바이스컨트롤러상세.java:415)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: btnDeviceSelect
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-UMRR3LS', ip: '172.27.24.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_103 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T02:01:58Z" finished-at="2020-08-31T02:01:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="717" started-at="2020-08-31T02:02:19Z" finished-at="2020-08-31T02:02:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_103 status=FAILURE method=홈_08_디바이스컨트롤러상세.TC_홈_103(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_홈_104(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="TC_홈_104" duration-ms="39514" started-at="2020-08-31T02:02:20Z" description="누구앱 리그레이션 TC : 홈_103" finished-at="2020-08-31T02:02:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_104(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_홈_104 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-08-31T02:02:20Z" finished-at="2020-08-31T02:02:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_104(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-31T02:02:59Z" finished-at="2020-08-31T02:02:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_홈_104 status=SUCCESS method=홈_08_디바이스컨트롤러상세.TC_홈_104(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="FAIL" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-08-31T02:02:59Z" finished-at="2020-08-31T02:02:59Z">
+        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef]" name="tearDownClass" is-config="true" duration-ms="52617" started-at="2020-09-10T00:13:29Z" finished-at="2020-09-10T00:14:21Z">
           <params>
             <param index="0">
               <value>
@@ -984,50 +797,19 @@ Driver info: driver.version: unknown
             </param>
             <param index="13">
               <value>
-                <![CDATA[ALDESWE8NYHZ14E582BC]]>
+                <![CDATA[ALDFCNQ7OS4WD3E316BC]]>
               </value>
             </param>
             <param index="14">
               <value>
-                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
+                <![CDATA[35CC4E84BB1D4735AA0955FDCB75D88C]]>
               </value>
             </param>
           </params>
-          <exception class="java.io.IOException">
-            <message>
-              <![CDATA[Unexpected code Response{protocol=http/1.1, code=401, message=, url=https://api.sktnugu.com/v1/setting/deviceGateway/directive}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.IOException: Unexpected code Response{protocol=http/1.1, code=401, message=, url=https://api.sktnugu.com/v1/setting/deviceGateway/directive}
-	at unit.Utilities.sendPost(Utilities.java:1290)
-	at unit.TestCase.tearDownClass(TestCase.java:168)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.IOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세 -->
+      </class> <!-- NUGUAPP_004_메뉴.메뉴_03_이용권 -->
     </test> <!-- Test_Project -->
   </suite> <!-- ExtentReport -->
 </testng-results>

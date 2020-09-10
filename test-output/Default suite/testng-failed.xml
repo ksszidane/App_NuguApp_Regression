@@ -3,20 +3,29 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러PoC별상세"/>
+      <class name="NUGUAPP_004_메뉴.메뉴_03_이용권"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러PoC별상세">
+      <class name="NUGUAPP_004_메뉴.메뉴_03_이용권">
         <methods>
-          <include name="TC_홈_80"/>
-          <include name="TC_홈_81"/>
-          <include name="TC_홈_83"/>
-          <include name="TC_홈_85"/>
-          <include name="TC_홈_87"/>
+          <include name="TC_메뉴_040"/>
+          <include name="TC_메뉴_037"/>
+          <include name="TC_메뉴_031"/>
+          <include name="TC_메뉴_042"/>
+          <include name="TC_메뉴_030"/>
+          <include name="TC_메뉴_041"/>
+          <include name="TC_메뉴_032"/>
+          <include name="TC_메뉴_043"/>
+          <include name="TC_메뉴_034"/>
+          <include name="TC_메뉴_028"/>
+          <include name="TC_메뉴_039"/>
+          <include name="TC_메뉴_036"/>
+          <include name="TC_메뉴_038"/>
+          <include name="TC_메뉴_029"/>
         </methods>
-      </class> <!-- NUGUAPP_003_홈.홈_08_디바이스컨트롤러PoC별상세 -->
+      </class> <!-- NUGUAPP_004_메뉴.메뉴_03_이용권 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

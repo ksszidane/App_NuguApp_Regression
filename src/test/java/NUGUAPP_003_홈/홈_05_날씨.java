@@ -31,6 +31,9 @@ public class 홈_05_날씨 extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 허용 "); 
 	    util.switchTo().alert().dismiss();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	}

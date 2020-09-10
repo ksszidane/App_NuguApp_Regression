@@ -30,6 +30,9 @@ public class 홈_07_미디어컨트롤러 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "테스트를 위한 볼륨1 설정"); 
 	    util.sendPost("볼륨 1", ksszidane, NU100_4228C8_did, ServerName, Place, NU100_4228C8_token);
 	    
@@ -324,7 +327,6 @@ public class 홈_07_미디어컨트롤러 extends TestCase {
 	    Assert.assertTrue(제공처.contains("탕카"));
 	    
 	    test.log(Status.INFO, "에피소드명 [있음] 확인"); 
-	    //String 노래제목 = util.getText(By.xpath("//android.widget.TextView[contains(text(),'Get Lucky')]"));
 	    boolean 세션명 = util.isElementPresent(By.xpath("//android.view.ViewGroup/"
 	    		+ "android.widget.RelativeLayout/android.widget.FrameLayout/"
 	    		+ "android.widget.RelativeLayout/android.widget.TextView[1]"));
@@ -436,7 +438,7 @@ public class 홈_07_미디어컨트롤러 extends TestCase {
 	    Thread.sleep(1000);
 	    
 	    test.log(Status.INFO, "재생 확인");
-	    String PLAYING = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+	    String PLAYING = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
 	    Assert.assertTrue(PLAYING.contains("PLAYING"));
 	    
 	    test.log(Status.INFO, "다음버튼 클릭"); 

@@ -46,6 +46,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 취소 "); 
 	    util.switchTo().alert().dismiss();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "첫번째 홈카드 이동");
 	    util.swipe(200, 650, 900, 650);
 	    
@@ -107,6 +110,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 	    //test.log(Status.INFO, "퍼미션 위치 권한 취소 "); 
 	    //util.switchTo().alert().dismiss();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice_SkipCheck();
 	    	    
@@ -150,6 +156,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
         
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
@@ -658,6 +667,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
         test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
@@ -712,6 +724,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
         
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
@@ -847,6 +862,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
@@ -934,6 +952,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
@@ -970,6 +991,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
         
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();

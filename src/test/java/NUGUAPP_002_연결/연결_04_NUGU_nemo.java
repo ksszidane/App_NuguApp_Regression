@@ -30,6 +30,9 @@ public class 연결_04_NUGU_nemo extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 취소 "); 
 	    util.switchTo().alert().dismiss();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "디바이스 연결 플로팅메뉴 확인 및 클릭"); 
 	    util.click(By.id("ibDeviceFab"));
 	    

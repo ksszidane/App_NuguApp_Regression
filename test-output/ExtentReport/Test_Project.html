@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test_Project</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 31 01:55:36 KST 2020</td>
+<td>Started on:</td><td>Thu Sep 10 00:07:33 KST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>480 seconds (480174 ms)</td>
+<tr><td>Total time:</td><td>408 seconds (408816 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,50 +68,6 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.tearDownClass()'><b>tearDownClass</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Parameters: PRD, out, ce12160cb994301d04, ALDF3NYA6C0D0C654DD2, ALDF5TR5SNGZ8175DA16, ALDEPCKHWOK47386BED6, 15F42AF9FF6F4099827D12877DCDB8AA, ALDF2JWHQFXIBE9E95DB, 2C66A81F08264E2B87CD8F859E506624, ALDESWE8NYHZ14E582BC, B4072E607BBF4109AFCBEE4FAAA9559B, ALDFKDH4BQFP7307628C, ECCAA143358A4F1AB9735A1A02D41F68, ALDESWE8NYHZ14E582BC, ECCAA143358A4F1AB9735A1A02D41F68</td>
-<td><div><pre>java.io.IOException: Unexpected code Response{protocol=http/1.1, code=401, message=, url=https://api.sktnugu.com/v1/setting/deviceGateway/directive}
-	at unit.Utilities.sendPost(Utilities.java:1290)
-	at unit.TestCase.tearDownClass(TestCase.java:168)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace44833154", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace44833154'><pre>java.io.IOException: Unexpected code Response{protocol=http/1.1, code=401, message=, url=https://api.sktnugu.com/v1/setting/deviceGateway/directive}
-	at unit.Utilities.sendPost(Utilities.java:1290)
-	at unit.TestCase.tearDownClass(TestCase.java:168)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>0</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -119,66 +75,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085()'><b>TC_홈_085</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_085<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at unit.Utilities.isElementPresent(Utilities.java:568)
-	at unit.Utilities.connectingDevice(Utilities.java:586)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085(홈_08_디바이스컨트롤러상세.java:104)
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038()'><b>TC_메뉴_038</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_038<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038(메뉴_03_이용권.java:243)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1603884642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1603884642'><pre>org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at unit.Utilities.isElementPresent(Utilities.java:568)
-	at unit.Utilities.connectingDevice(Utilities.java:586)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_085(홈_08_디바이스컨트롤러상세.java:104)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1808757081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1808757081'><pre>junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at junit.framework.Assert.assertFalse(Assert.java:41)
+	at NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_038(메뉴_03_이용권.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -200,197 +114,8 @@ Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>5</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102()'><b>TC_홈_102</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_102<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//android.widget.TextView[@text=&apos;&apos;B tv (AI 2_23A4) &apos;]) (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:141)
-	at unit.Utilities.click(Utilities.java:912)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102(홈_08_디바이스컨트롤러상세.java:391)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.InvalidSelectorException: java.lang.IllegalArgumentException: Unable to compile &apos;(//android.widget.TextView[@text=&apos;&apos;B tv (AI 2_23A4) &apos;])&apos;. See Cause.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
-*** Element info: {Using=xpath, value=(//android.widget.TextView[@text=&apos;&apos;B tv (AI 2_23A4) &apos;])}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:53)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:178)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:155)
-	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:211)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:49)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:173)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1452833515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1452833515'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//android.widget.TextView[@text=&apos;&apos;B tv (AI 2_23A4) &apos;]) (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:141)
-	at unit.Utilities.click(Utilities.java:912)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_102(홈_08_디바이스컨트롤러상세.java:391)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.InvalidSelectorException: java.lang.IllegalArgumentException: Unable to compile &apos;(//android.widget.TextView[@text=&apos;&apos;B tv (AI 2_23A4) &apos;])&apos;. See Cause.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: unit.Utilities
-Capabilities {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., databaseEnabled: false, desired: {appActivity: com.skt.nugu.ui.LoginActivity, appPackage: com.skt.aladdin, automationName: UIAutomator2, chromedriverArgs: {browserName: chrome, goog:chromeOptions: {args: [], extensions: [], w3c: false}}, chromedriverExecutable: C:\chromedriver_win32\chrom..., deviceName: Android, platformName: android, showChromedriverLog: true, udid: ce12160cb994301d04}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G955N, deviceName: ce12160cb994301d04, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce12160cb994301d04, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, showChromedriverLog: true, statBarHeight: 63, takesScreenshot: true, udid: ce12160cb994301d04, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 69af0fd1-c87c-4ab1-8ab9-8b68085de42b
-*** Element info: {Using=xpath, value=(//android.widget.TextView[@text=&apos;&apos;B tv (AI 2_23A4) &apos;])}
-	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at unit.Utilities.execute(Utilities.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:53)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:178)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:155)
-	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:211)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:49)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:173)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-</pre></div></td>
-<td>64</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103()'><b>TC_홈_103</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_103<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: btnDeviceSelect (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:141)
-	at unit.Utilities.click(Utilities.java:912)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103(홈_08_디바이스컨트롤러상세.java:415)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: btnDeviceSelect
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1840365082", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1840365082'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: btnDeviceSelect (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at unit.Utilities.WaitfindElement(Utilities.java:141)
-	at unit.Utilities.click(Utilities.java:912)
-	at NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_103(홈_08_디바이스컨트롤러상세.java:415)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: btnDeviceSelect
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-UMRR3LS&apos;, ip: &apos;172.27.24.217&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 23 more
-</pre></div></td>
-<td>21</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>48</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -400,85 +125,90 @@ Driver info: driver.version: unknown
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_080()'><b>TC_홈_080</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_080<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_080(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_028()'><b>TC_메뉴_028</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_028<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_028(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>37</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>41</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_081()'><b>TC_홈_081</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_080<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_081(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>1</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_083()'><b>TC_홈_083</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_083<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_083(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>17</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_087()'><b>TC_홈_087</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_087<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_087(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>22</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_088()'><b>TC_홈_088</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_088<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_088(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_029()'><b>TC_메뉴_029</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_029<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_029(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
 <td>3</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_090()'><b>TC_홈_090</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_090<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_090(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>23</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_091()'><b>TC_홈_091</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_091<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_091(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>10</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_092()'><b>TC_홈_092</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_092<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_092(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>11</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_093()'><b>TC_홈_093</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_093<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_093(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>10</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_096()'><b>TC_홈_096</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_096<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_096(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>14</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_097()'><b>TC_홈_097</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_097<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_097(java.lang.reflect.Method) throws java.lang.Exception</td>
-<td></td>
-<td>15</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
-<tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_098()'><b>TC_홈_098</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_098<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_098(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_030()'><b>TC_메뉴_030</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_030<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_030(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
 <td>17</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_099()'><b>TC_홈_099</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_099<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_099(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_031()'><b>TC_메뉴_031</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_031<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_031(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>16</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>1</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_100()'><b>TC_홈_100</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_100<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_100(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_032()'><b>TC_메뉴_032</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_032<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_032(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>58</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>2</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_101()'><b>TC_홈_101</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_101<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_101(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_034()'><b>TC_메뉴_034</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_034<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_034(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>19</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>0</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 <tr>
-<td title='NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_104()'><b>TC_홈_104</b><br>Test class: NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세<br>Test method: 누구앱 리그레이션 TC : 홈_103<br>Parameters: public void NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세.TC_홈_104(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_036()'><b>TC_메뉴_036</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_036<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_036(java.lang.reflect.Method) throws java.lang.Exception</td>
 <td></td>
-<td>39</td>
-<td>NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세@467aecef</td></tr>
+<td>7</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_037()'><b>TC_메뉴_037</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_037<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_037(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>12</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_039()'><b>TC_메뉴_039</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_039<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_039(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>56</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_040()'><b>TC_메뉴_040</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_040<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_040(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>35</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_041()'><b>TC_메뉴_041</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_041<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_041(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>22</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_042()'><b>TC_메뉴_042</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_042<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_042(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_043()'><b>TC_메뉴_043</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_043<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_043(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>36</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_044()'><b>TC_메뉴_044</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_044<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_044(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>36</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_045()'><b>TC_메뉴_045</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_045<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_045(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_046_from_047()'><b>TC_메뉴_046_from_047</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_046~047<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_046_from_047(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>0</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
+<tr>
+<td title='NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_048()'><b>TC_메뉴_048</b><br>Test class: NUGUAPP_004_메뉴.메뉴_03_이용권<br>Test method: 누구앱 리그레이션 TC : 메뉴_048<br>Parameters: public void NUGUAPP_004_메뉴.메뉴_03_이용권.TC_메뉴_048(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>NUGUAPP_004_메뉴.메뉴_03_이용권@467aecef</td></tr>
 </table><p>
 </body>
 </html>

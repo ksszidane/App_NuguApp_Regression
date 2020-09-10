@@ -32,6 +32,9 @@ public class 홈_01_홈카드 extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 허용 "); 
 	    util.switchTo().alert().accept();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "디바이스메세지 카드 유무 확인 "); 
 	    boolean 디바이스메세지 = util.isElementPresent(By.id("deviceMessageViewPager"));
 	    Assert.assertTrue(디바이스메세지);

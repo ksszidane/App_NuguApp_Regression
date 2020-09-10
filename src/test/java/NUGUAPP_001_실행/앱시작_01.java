@@ -14,8 +14,56 @@ import unit.TestCase;
 
 public class 앱시작_01 extends TestCase {
 	
+	@Test(description = "누구앱 리그레이션 TC : 실행_002")
+	public void TC_앱실행_002(Method method) throws Exception {
+
+		test.log(Status.INFO, "AppActivity으로 화면 확인");
+	    util.switchContext("NATIVE_APP");
+		
+		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
+        util.click(By.id("loginButton"));
+        
+        test.log(Status.INFO, "앱 위치 권한 On");
+		adb.NUGUAPP_permission_LOCATION_On(udid);
+        
+        test.log(Status.INFO, "WEBVIEW로 화면 전환");
+        util.switchContext("WEBVIEW");
+        
+        test.log(Status.INFO, "저장된 간편로그인 유효성 체크 및 클릭");
+	    util.click(By.xpath("//ul[@class='account-list']/li[1]"));
+        
+		test.log(Status.INFO, "정상로그인 확인"); 
+	    util.switchContext("NATIVE_APP");
+	    
+	    if(util.isElementPresent(By.id("dialogLayout"))) {
+	    	test.log(Status.INFO, "공지 안내 팝업 [있음] - 자세히보기 클릭 ");
+			util.click(By.id("positiveButton"));
+			
+			Thread.sleep(1500);
+			test.log(Status.INFO, "공지 상세 페이지 이동 확인 ");
+		    boolean 공지사항상세 = util.isElementPresent(By.xpath("//android.widget.TextView[@text='공지사항 상세']"));
+		    Assert.assertTrue(공지사항상세);
+		    
+		    test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
+		    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
+			
+		} else {
+			test.log(Status.SKIP, "공지 안내 팝업 [없음]"); 
+    		throw new SkipException("공지 안내 팝업 [없음]");
+			
+		}
+	    
+	    test.log(Status.INFO, "앱 위치 권한 Off");
+		adb.NUGUAPP_permission_LOCATION_Off(udid);
+
+	}
+	
+	
 	@Test(description = "누구앱 리그레이션 TC : 실행_004")
 	public void TC_앱실행_004(Method method) throws Exception {
+		
+		test.log(Status.INFO, "앱 재 실행");
+		util.resetApp();
 
 		test.log(Status.INFO, "AppActivity으로 화면 확인");
 	    util.switchContext("NATIVE_APP");
@@ -194,6 +242,9 @@ public class 앱시작_01 extends TestCase {
 	    test.log(Status.INFO, "퍼미션 위치 권한 확인"); 
 	    util.switchTo().alert().accept();
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인"); 
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
@@ -263,6 +314,9 @@ public class 앱시작_01 extends TestCase {
 		
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
@@ -325,6 +379,9 @@ public class 앱시작_01 extends TestCase {
 		
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
@@ -394,6 +451,9 @@ public class 앱시작_01 extends TestCase {
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
 	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
+	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
 	    
@@ -460,6 +520,9 @@ public class 앱시작_01 extends TestCase {
       
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
+	    
+	    test.log(Status.INFO, "공지 안내 팝업 유무 확인");
+	    util.notice_popup_check();
 	    
 	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
 	    util.connectingDevice();
