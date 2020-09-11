@@ -12,7 +12,7 @@ import unit.TestCase;
 
 public class 메뉴_03_이용권 extends TestCase {
 	
-	//@Test(description = "누구앱 리그레이션 TC : 메뉴_028")
+	@Test(description = "누구앱 리그레이션 TC : 메뉴_028")
 	public void TC_메뉴_028(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -65,7 +65,7 @@ public class 메뉴_03_이용권 extends TestCase {
 
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 메뉴_029")
+	@Test(description = "누구앱 리그레이션 TC : 메뉴_029")
 	public void TC_메뉴_029(Method method) throws Exception {
 		
 		test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
@@ -101,7 +101,7 @@ public class 메뉴_03_이용권 extends TestCase {
 
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 메뉴_031")
+	@Test(description = "누구앱 리그레이션 TC : 메뉴_031")
 	public void TC_메뉴_031(Method method) throws Exception {
 		
 		test.log(Status.INFO, "[쿠폰등록] 버튼 클릭"); 
@@ -143,7 +143,7 @@ public class 메뉴_03_이용권 extends TestCase {
 		
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 메뉴_034")
+	@Test(description = "누구앱 리그레이션 TC : 메뉴_034")
 	public void TC_메뉴_034(Method method) throws Exception {
 		
 		test.log(Status.INFO, "보유중인 이용권 없을대 안내 확인"); 
@@ -151,7 +151,7 @@ public class 메뉴_03_이용권 extends TestCase {
 		Assert.assertEquals(이용중인이용권, "현재 이용중인 이용권이 없습니다.");
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 메뉴_036")
+	@Test(description = "누구앱 리그레이션 TC : 메뉴_036")
 	public void TC_메뉴_036(Method method) throws Exception {
 		
 		test.log(Status.INFO, "판매중인 [이용권 리스트] 영역 노출 상세 확인"); 
@@ -169,7 +169,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    }
 	}
 	
-	//@Test(description = "누구앱 리그레이션 TC : 메뉴_037")
+	@Test(description = "누구앱 리그레이션 TC : 메뉴_037")
 	public void TC_메뉴_037(Method method) throws Exception {
 		
 		test.log(Status.INFO, "이용중인 NUGU 이용권 영역 클릭"); 
@@ -537,7 +537,7 @@ public class 메뉴_03_이용권 extends TestCase {
 		    
 		    Thread.sleep(1500);
 		    test.log(Status.INFO, "멜론 [연결해제]버튼 클릭");
-		    util.click((By.xpath("//android.webkit.WebView/android.view.View/android.view.View/android.widget.Button")));
+		    util.click((By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.widget.Button")));
 		    
 		    test.log(Status.INFO, "멜론 [연결해제]팝업에서 [확인]클릭");
 		    util.click((By.id("positiveButton")));
@@ -737,9 +737,9 @@ public class 메뉴_03_이용권 extends TestCase {
 	    	test.log(Status.INFO, "멜론 사용자 계정 클릭");
 		    util.click((By.id("serviceGuideLayout")));
 		    
-		    Thread.sleep(1500);
+		    Thread.sleep(2000);
 		    test.log(Status.INFO, "멜론 [연결해제]버튼 클릭");
-		    util.click((By.xpath("//android.webkit.WebView/android.view.View/android.view.View/android.widget.Button")));
+		    util.click((By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.widget.Button")));
 		    
 		    test.log(Status.INFO, "멜론 [연결해제]팝업에서 [확인]클릭");
 		    util.click((By.id("positiveButton")));
@@ -792,7 +792,58 @@ public class 메뉴_03_이용권 extends TestCase {
 		test.log(Status.INFO, "이용권 상세 페이지 이동 확인"); 
 		boolean 이용권상세페이지 = util.isElementPresent(By.xpath("//android.view.ViewGroup/android.widget.TextView[@text='NUGU 이용권 상세']"));
 		Assert.assertTrue(이용권상세페이지);
-
+		
+		test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
+	    
+	    test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
+	    
+	    test.log(Status.INFO, "멜론 도메인 클릭");
+	    util.click((By.xpath("//android.widget.TextView[@text='멜론']")));
+	    
+	    test.log(Status.INFO, "멜론 사용자 계정 클릭");
+	    util.click((By.id("serviceGuideLayout")));
+	    
+	    Thread.sleep(1500);
+	    test.log(Status.INFO, "멜론 [연결해제]버튼 클릭");
+	    util.click((By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.widget.Button")));
+	    
+	    test.log(Status.INFO, "멜론 [연결해제]팝업에서 [확인]클릭");
+	    util.click((By.id("positiveButton")));
+	    
+	    test.log(Status.INFO, "멜론 사용자 계정 클릭");
+	    util.click((By.id("serviceGuideLayout")));
+	    
+	    test.log(Status.INFO, "멜론로그인");
+	    util.type(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]"
+	    		+ "/android.view.View/android.widget.EditText"), "tjdtn10!!");
+	    
+	    util.type(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]"
+	    		+ "/android.view.View/android.widget.EditText"), "ksszidan");
+	    util.click(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]"
+	    		+ "/android.view.View/android.widget.EditText"));
+	    util.AndroidKey_e();
+	    
+	    util.click((By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.widget.Button")));
+	    
+	    test.log(Status.INFO, "기존 뮤직 서비스 설정 취소");
+	    util.click((By.id("negativeButton")));
+	    
+	    test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
+	    
+	    test.log(Status.INFO, "[이용권] 버튼 클릭");
+	    util.click(By.id("ticketButton"));
+	    
+	    test.log(Status.INFO, "페이지 연결 로딩 확인");
+	    util.ProgressBar_Loading();
 	}
 
 }
