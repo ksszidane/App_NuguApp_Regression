@@ -53,9 +53,13 @@
 			<class name="NUGUAPP_004_메뉴.메뉴_03_이용권" />
 			<class name="NUGUAPP_004_메뉴.메뉴_04_구매내역" />
 			<class name="NUGUAPP_004_메뉴.메뉴_05_자주사용하는서비스" />
+			<class name="NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시" />
+			<class name="NUGUAPP_004_메뉴.메뉴_07_자주묻는질문" />
+			<class name="NUGUAPP_004_메뉴.메뉴_08_이벤트_공지사항" />
+			<class name="NUGUAPP_004_메뉴.메뉴_09_설정_일반미디어" />
 			-->
-			
-			<class name="NUGUAPP_004_메뉴.메뉴_05_자주사용하는서비스" />
+		
+			<class name="NUGUAPP_004_메뉴.메뉴_09_설정_일반미디어" />
 			
 
 			

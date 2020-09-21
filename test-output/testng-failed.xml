@@ -37,7 +37,7 @@
     <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
     <parameter name="oAuth_Token_AI2" value="35CC4E84BB1D4735AA0955FDCB75D88C"/>
     <classes>
-      <class name="NUGUAPP_004_메뉴.메뉴_05_자주사용하는서비스"/>
+      <class name="NUGUAPP_004_메뉴.메뉴_09_설정_일반미디어"/>
     </classes>
   </test> <!-- Test_Project -->
   <test name="Test_Project(failed)" parallel="tests">
@@ -58,15 +58,16 @@
     <parameter name="oAuth_Token_NU200_95C146" value="B4072E607BBF4109AFCBEE4FAAA9559B"/>
     <parameter name="oAuth_Token_AI2" value="35CC4E84BB1D4735AA0955FDCB75D88C"/>
     <classes>
-      <class name="NUGUAPP_004_메뉴.메뉴_05_자주사용하는서비스">
+      <class name="NUGUAPP_004_메뉴.메뉴_09_설정_일반미디어">
         <methods>
-          <include name="TC_메뉴_084_02" invocation-numbers="0"/>
+          <include name="TC_메뉴_122" invocation-numbers="0"/>
           <include name="AfterMethod"/>
           <include name="setupClass"/>
           <include name="tearDownClass"/>
+          <include name="TC_메뉴_120" invocation-numbers="0"/>
           <include name="BeforeMethod"/>
         </methods>
-      </class> <!-- NUGUAPP_004_메뉴.메뉴_05_자주사용하는서비스 -->
+      </class> <!-- NUGUAPP_004_메뉴.메뉴_09_설정_일반미디어 -->
     </classes>
   </test> <!-- Test_Project(failed) -->
 </suite> <!-- Failed suite [ExtentReport] -->
