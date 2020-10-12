@@ -13,13 +13,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  
+
   
 	<repositories>
  		<repository>
     	<id>Applium-unit-lib</id>
-    	<url>https://raw.github.com/ksszidane/Applium-unit-lib/mvn-repo</url>
+    	<url>https://github.com/ksszidane/Applium-unit-lib/tree/mvn-repo</url>
     	<snapshots>
         	<enabled>true</enabled>
         	<updatePolicy>always</updatePolicy>
