@@ -185,9 +185,9 @@ public class 메뉴_06_연결된다비이스표시 extends TestCase {
 	    util.click(By.id("deviceNameTextView"));
 	    
 	    test.log(Status.INFO, "연결된 디바이스 목록 스크롤 다운");
-	    util.swipe(700, 1220, 700, 830, 1);
+	    util.swipe(700, 1220, 700, 830, 2);
 	    
-	    test.log(Status.INFO, "T map (iOS) PoC 버튼 클릭"); 
+	    test.log(Status.INFO, "JLR T map (Android) PoC 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.TextView[@text='JLR T map (Android) ']")));
 	    
 	    test.log(Status.INFO, "JLR T map 길안내 도메인 표시 확인"); 
@@ -254,7 +254,7 @@ public class 메뉴_06_연결된다비이스표시 extends TestCase {
 	    test.log(Status.INFO, "연결된 디바이스 이름 클릭");
 	    util.click(By.id("deviceNameTextView"));
 	    
-	    test.log(Status.INFO, "T map (iOS) PoC 버튼 클릭"); 
+	    test.log(Status.INFO, "NUGU (NUGU_4228C8) PoC 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.TextView[@text='NUGU (NUGU_4228C8) ']")));
 	    
 	    test.log(Status.INFO, "스크롤 다운 이동");
@@ -275,12 +275,22 @@ public class 메뉴_06_연결된다비이스표시 extends TestCase {
 		boolean 정보_생활 = util.isElementPresent(By.xpath("//android.widget.TextView[@text='정보/생활']"));
 	    Assert.assertTrue(정보_생활);
 	    
+	    if(util.isElementPresent(By.xpath("//android.widget.TextView[@text='유용한 기능']"))) {
+	    	
+	    	test.log(Status.INFO, "유용한기능 카테고리 확인"); 
+			boolean 유용한기능 = util.isElementPresent(By.xpath("//android.widget.TextView[@text='유용한 기능']"));
+		    Assert.assertTrue(유용한기능);
+	    } 
+	    
 	    test.log(Status.INFO, "스크롤 다운 동작"); 
 	    util.scrollDown(1);
 	    
-	    test.log(Status.INFO, "유용한기능 카테고리 확인"); 
-		boolean 유용한기능 = util.isElementPresent(By.xpath("//android.widget.TextView[@text='유용한 기능']"));
-	    Assert.assertTrue(유용한기능);
+	    if(util.isElementPresent(By.xpath("//android.widget.TextView[@text='유용한 기능']"))) {
+	    	
+	    	test.log(Status.INFO, "유용한기능 카테고리 확인"); 
+			boolean 유용한기능 = util.isElementPresent(By.xpath("//android.widget.TextView[@text='유용한 기능']"));
+		    Assert.assertTrue(유용한기능);
+	    } 
 	    
 	    test.log(Status.INFO, "스크롤 다운 동작"); 
 	    util.scrollDown(1);
@@ -292,28 +302,51 @@ public class 메뉴_06_연결된다비이스표시 extends TestCase {
 	    test.log(Status.INFO, "비즈니스/경제 카테고리 확인"); 
 		boolean 비즈니스_경제  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='비즈니스/경제']"));
 	    Assert.assertTrue(비즈니스_경제);
-	    	    
-	    test.log(Status.INFO, "종교 카테고리 확인"); 
-		boolean 종교  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='종교']"));
-	    Assert.assertTrue(종교);
+	    
+	    if(util.isElementPresent(By.xpath("//android.widget.TextView[@text='종교']"))) {
+	    	
+	    	test.log(Status.INFO, "종교 카테고리 확인"); 
+			boolean 종교  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='종교']"));
+		    Assert.assertTrue(종교);
+	    } 
 	    
 	    test.log(Status.INFO, "스크롤 다운 동작"); 
 	    util.scrollDown(1);
+	    
+	    if(util.isElementPresent(By.xpath("//android.widget.TextView[@text='종교']"))) {
+	    	
+	    	test.log(Status.INFO, "종교 카테고리 확인"); 
+			boolean 종교  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='종교']"));
+		    Assert.assertTrue(종교);
+	    } 
 	    
 	    test.log(Status.INFO, "게임 카테고리 확인"); 
 		boolean 게임  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='게임']"));
 	    Assert.assertTrue(게임);
 	    
+	    test.log(Status.INFO, "스크롤 다운 동작"); 
+	    util.scrollDown(1);
+	    
 	    test.log(Status.INFO, "스마트홈기능 카테고리 확인"); 
 		boolean 스마트홈기능  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='스마트홈 기능']"));
 	    Assert.assertTrue(스마트홈기능);
 	    
+	    if(util.isElementPresent(By.xpath("//android.widget.TextView[@text='기타']"))) {
+	    	
+	    	test.log(Status.INFO, "기타 카테고리 확인"); 
+			boolean 기타  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='기타']"));
+		    Assert.assertTrue(기타);
+	    } 
+	    
 	    test.log(Status.INFO, "스크롤 다운 동작"); 
 	    util.scrollDown(1);
 	    
-	    test.log(Status.INFO, "기타 카테고리 확인"); 
-		boolean 기타  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='기타']"));
-	    Assert.assertTrue(기타);
+	    if(util.isElementPresent(By.xpath("//android.widget.TextView[@text='기타']"))) {
+	    	
+	    	test.log(Status.INFO, "기타 카테고리 확인"); 
+			boolean 기타  = util.isElementPresent(By.xpath("//android.widget.TextView[@text='기타']"));
+		    Assert.assertTrue(기타);
+	    } 
 	       
 	}
 	

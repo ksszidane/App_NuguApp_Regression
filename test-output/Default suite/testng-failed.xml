@@ -3,29 +3,34 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="NUGUAPP_004_메뉴.메뉴_03_이용권"/>
+      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="NUGUAPP_004_메뉴.메뉴_03_이용권">
+      <class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세">
         <methods>
-          <include name="TC_메뉴_040"/>
-          <include name="TC_메뉴_037"/>
-          <include name="TC_메뉴_031"/>
-          <include name="TC_메뉴_042"/>
-          <include name="TC_메뉴_030"/>
-          <include name="TC_메뉴_041"/>
-          <include name="TC_메뉴_032"/>
-          <include name="TC_메뉴_043"/>
-          <include name="TC_메뉴_034"/>
-          <include name="TC_메뉴_028"/>
-          <include name="TC_메뉴_039"/>
-          <include name="TC_메뉴_036"/>
-          <include name="TC_메뉴_038"/>
-          <include name="TC_메뉴_029"/>
+          <include name="TC_홈_102"/>
+          <include name="TC_홈_088"/>
+          <include name="TC_홈_099"/>
+          <include name="TC_홈_104"/>
+          <include name="TC_홈_101"/>
+          <include name="TC_홈_087"/>
+          <include name="TC_홈_098"/>
+          <include name="TC_홈_100"/>
+          <include name="TC_홈_097"/>
+          <include name="TC_홈_083"/>
+          <include name="TC_홈_080"/>
+          <include name="TC_홈_091"/>
+          <include name="TC_홈_085"/>
+          <include name="TC_홈_096"/>
+          <include name="TC_홈_093"/>
+          <include name="TC_홈_090"/>
+          <include name="TC_홈_103"/>
+          <include name="TC_홈_081"/>
+          <include name="TC_홈_092"/>
         </methods>
-      </class> <!-- NUGUAPP_004_메뉴.메뉴_03_이용권 -->
+      </class> <!-- NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

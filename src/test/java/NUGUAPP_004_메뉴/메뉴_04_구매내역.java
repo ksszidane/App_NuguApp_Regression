@@ -55,7 +55,7 @@ public class 메뉴_04_구매내역 extends TestCase {
 	    test.log(Status.INFO, "필터 리스트 클릭"); 
 	    util.click(By.id("layerTicketPurchaseAgent"));
 	    
-	    test.log(Status.INFO, "[FLO] 리스트 클릭"); 
+	    test.log(Status.INFO, "[멜론] 리스트 클릭"); 
 		util.click((By.xpath("//android.widget.TextView[@text='멜론']")));
 		
 		test.log(Status.INFO, "페이지 연결 로딩 확인");

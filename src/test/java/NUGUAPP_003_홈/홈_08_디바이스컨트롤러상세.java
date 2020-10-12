@@ -181,8 +181,9 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		test.log(Status.INFO, "디바이스 컨트롤 [블루투스]버튼 클릭 (On)");
 		util.click(By.id("btnBluetooth"));
 		
+		Thread.sleep(5000);
 		test.log(Status.INFO, "블루투스 on TTS 확인");
-		String tts = util.TTS_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
+		String tts = util.TTS_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 7);
 	    Assert.assertTrue(tts.contains("블루투스 연결이 준비되었습니다. 연결하려는 디바이스에서"));
 	    
 	}
@@ -206,7 +207,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		util.click(By.id("btnMic"));
 		
 		test.log(Status.INFO, "마이크 Off context 확인");
-		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
 	    Assert.assertTrue(mic_off.contains("micStatus\":\"OFF"));
 	    
 	}
@@ -218,7 +219,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		util.click(By.id("btnMic"));
 		
 		test.log(Status.INFO, "마이크 on context 확인");
-		String mic_on = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+		String mic_on = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
 	    Assert.assertTrue(mic_on.contains("micStatus\":\"ON"));
 	    
 	}
@@ -230,7 +231,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		util.click(By.id("btnLight"));
 		
 		test.log(Status.INFO, "무드등 on context 확인");
-		String moodlight_on = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 5);
+		String moodlight_on = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 8);
 	    Assert.assertTrue(moodlight_on.contains("TurnOnLightSucceeded"));
 	    
 	}
@@ -243,7 +244,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 		util.click(By.id("btnLight"));
 		
 		test.log(Status.INFO, "무드등 off context 확인");
-		String moodlight_off = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+		String moodlight_off = util.event_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 8);
 	    Assert.assertTrue(moodlight_off.contains("TurnOffLightSucceeded"));
 	    
 	}
@@ -393,6 +394,7 @@ public class 홈_08_디바이스컨트롤러상세 extends TestCase {
 	    test.log(Status.INFO, "NU110 디바이스 선택 디바이스 변경 시, Home 화면 전체 Refresh되며 홈 화면으로 이동"); 
 	    util.click(By.xpath("(//android.widget.TextView[@text='B tv (AI 2_23A4) '])"));
 	    
+	    Thread.sleep(1500);
 	    test.log(Status.INFO, "메인 홈으로 이동 확인"); 
 	    boolean 메인홈2 = util.isElementPresent(By.id("layerHomeMain"));
 	    Assert.assertTrue(메인홈2);

@@ -181,8 +181,8 @@ public class 메뉴_07_자주묻는질문 extends TestCase {
 	    	String 키워드리스트 = util.fast_getText(By.xpath("//androidx.recyclerview.widget.RecyclerView"
 	    	+"/android.widget.RelativeLayout["+j+"]/android.widget.TextView"));
 		    System.out.println(i + "번 : " + 키워드리스트);
-		    	
-		    Assert.assertTrue(키워드리스트.contains(NUGU_data.data.자주묻는질문키워드[i-1]));
+		    
+		    Assert.assertTrue(util.dataCheck_Equals(키워드리스트, data.자주묻는질문키워드_set));
 	    }
 
 	}

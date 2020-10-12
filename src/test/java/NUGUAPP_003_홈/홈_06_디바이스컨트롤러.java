@@ -337,7 +337,7 @@ public class 홈_06_디바이스컨트롤러 extends TestCase {
 		util.click(By.id("btnMic"));
 		
 		test.log(Status.INFO, "마이크 Off context 확인");
-		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 2);
+		String mic_off = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4 );
 		Assert.assertTrue(mic_off.contains("micStatus\":\"OFF"));
 		
 		test.log(Status.INFO, "디바이스 컨트롤 [마이크]버튼 클릭 (On)");

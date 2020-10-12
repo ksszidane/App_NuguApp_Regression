@@ -275,7 +275,7 @@ public class 홈_09_미디어컨트롤러상세 extends TestCase {
 		boolean 미디어플레이어 = util.isElementPresent(By.id("mediaLayout"));
 	    Assert.assertFalse(미디어플레이어);
 	    
-	    String 뉴스동작확인 = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+	    String 뉴스동작확인 = util.context_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 6);
 	    Assert.assertTrue(뉴스동작확인.contains("playServiceId\":\"nugu.builtin.news"));
 
 
@@ -423,9 +423,10 @@ public class 홈_09_미디어컨트롤러상세 extends TestCase {
 	    test.log(Status.INFO, "미디어 플레이어 [이전] 클릭"); 
 	    util.click(By.id("prevButton"));
 	    
+	    Thread.sleep(1500);
 	    test.log(Status.INFO, "가수명 체크"); 
 		String 가수3 = util.getText(By.xpath("//android.widget.TextView[@text='아이유']"));
-	    Assert.assertTrue(가수1.contains("아이유"));
+	    Assert.assertTrue(가수3.contains("아이유"));
 	    
 	    test.log(Status.INFO, "아티스트 음악재생으로 이전곡 후 가수명 같음 확인"); 
 	    Assert.assertEquals(가수1, 가수3);
@@ -447,7 +448,7 @@ public class 홈_09_미디어컨트롤러상세 extends TestCase {
 	    Thread.sleep(1000);
 		
 	    test.log(Status.INFO, "일시정지 확인");
-	    String PAUSED = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 2);
+	    String PAUSED = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
 	    Assert.assertTrue(PAUSED.contains("PAUSED"));
 	}
 	
@@ -459,7 +460,7 @@ public class 홈_09_미디어컨트롤러상세 extends TestCase {
 	    Thread.sleep(1000);
 	    
 	    test.log(Status.INFO, "재생 확인");
-	    String PLAYING = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 2);
+	    String PLAYING = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
 	    Assert.assertTrue(PLAYING.contains("PLAYING"));
 	}
 	

@@ -430,7 +430,7 @@ public class 홈_07_미디어컨트롤러 extends TestCase {
 	    Thread.sleep(1000);
 		
 	    test.log(Status.INFO, "일시정지 확인");
-	    String PAUSED = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 4);
+	    String PAUSED = util.audio_activity_JsonParsing(ksszidane, NU100_4228C8_did, ServerName, Place, 7);
 	    Assert.assertTrue(PAUSED.contains("PAUSED"));
 	    
 	    test.log(Status.INFO, "재생버튼 클릭");

@@ -100,7 +100,7 @@ public class 메뉴_08_이벤트_공지사항 extends TestCase {
 	    test.log(Status.INFO, "상세 이벤트 타이틀 확인"); 
 	    String 상세이벤트타이틀 = util.getText(By.xpath("//android.webkit.WebView/android.webkit.WebView"
 	    		+ "/android.view.View/android.view.View/android.view.View[1]"));
-	    Assert.assertEquals(이벤트타이틀, 상세이벤트타이틀);
+	    Assert.assertTrue(이벤트타이틀.contains(상세이벤트타이틀));
 	    
 	    test.log(Status.INFO, "상세 이벤트 날짜/상태 확인"); 
 	    String 날짜와상태 = util.getText(By.xpath("//android.webkit.WebView/android.webkit.WebView"

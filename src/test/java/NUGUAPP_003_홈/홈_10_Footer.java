@@ -79,7 +79,7 @@ public class 홈_10_Footer extends TestCase {
 	public void TC_홈_134(Method method) throws Exception {
 		
 		test.log(Status.INFO, "홈카드 스크롤 다운"); 
-	    util.scrollDown(2);
+	    util.scrollDown(3);
 		
 		test.log(Status.INFO, "사업자 확인"); 
 	    String 사업자 = util.getText(By.id("expandButton"));
@@ -92,6 +92,9 @@ public class 홈_10_Footer extends TestCase {
 		
 		test.log(Status.INFO, "사업자 확인 펼침"); 
 		util.click(By.id("expandButton"));
+		
+		test.log(Status.INFO, "홈카드 스크롤 다운"); 
+	    util.scrollDown(1);
 		
 		test.log(Status.INFO, "사업자 확인 펼침 내용 확인"); 
 	    String 사업자상세 = util.getText(By.id("contentTextView"));

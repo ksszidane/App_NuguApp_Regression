@@ -235,17 +235,17 @@ public class 메뉴_03_이용권 extends TestCase {
 	    test.log(Status.INFO, "페이지 연결 로딩 확인");
 	    util.ProgressBar_Loading();
 	    
-	    test.log(Status.INFO, "첫번째 [FLO 이용권] 버튼 클릭");
-	    util.click(By.id("ticketAgentNameAndIconLayout"));
+	    test.log(Status.INFO, "[FLO 이용권] 버튼 클릭");
+	    util.click(By.xpath("//android.widget.TextView[@text='FLO 이용권']"));
 	    
 	    test.log(Status.INFO, "선택 선택디바스의 이용 가능한 이용권 안내 비활성화 확인"); 
 		boolean 현재선택디바이스이용권안내 = util.isElementPresent(By.id("tvTicketListHeader"));
 		Assert.assertFalse(현재선택디바이스이용권안내);
 		
-		test.log(Status.INFO, "모바일 전용 이용권 노출 확인"); 
-		String 모바일전용이용권 = util.getText(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]"
+		test.log(Status.INFO, "FLO 전용 이용권 노출 확인"); 
+		String FLO전용이용권 = util.getText(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]"
 				+ "/android.widget.TextView"));
-	    Assert.assertEquals(모바일전용이용권, "FLO NUGU 무제한 이용권 (모바일 전용)");
+		Assert.assertTrue(FLO전용이용권.contains("FLO NUGU 무제한 이용권"));
 	    
 	}
 	
@@ -301,7 +301,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    util.ProgressBar_Loading();
 	    
 	    test.log(Status.INFO, "[오디오북 이용권] 버튼 클릭");
-	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[4]"));
+	    util.click(By.xpath("//android.widget.TextView[@text='오디오북 이용권']"));
 	    
 	    test.log(Status.INFO, "선택 선택디바스의 이용 가능한 이용권 안내 활성화 확인"); 
 	    String 현재선택디바이스이용권안내 = util.getText(By.id("tvTicketListHeader"));
@@ -353,7 +353,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    util.ProgressBar_Loading();
 	    
 	    test.log(Status.INFO, "[오디오북 이용권] 버튼 클릭");
-	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[4]"));
+	    util.click(By.xpath("//android.widget.TextView[@text='오디오북 이용권']"));
 	    
 	    test.log(Status.INFO, "선택 선택디바스의 이용 가능한 이용권 안내 활성화 확인"); 
 	    String 현재선택디바이스이용권안내 = util.getText(By.id("tvTicketListHeader"));
@@ -395,7 +395,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    util.ProgressBar_Loading();
 	    
 	    test.log(Status.INFO, "[FLO 이용권] 버튼 클릭");
-	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]"));
+	    util.click(By.xpath("//android.widget.TextView[@text='FLO 이용권']"));
 	    
 	    test.log(Status.INFO, "선택 선택디바스의 이용 가능한 이용권 안내 활성화 확인"); 
 	    String 현재선택디바이스이용권안내 = util.getText(By.id("tvTicketListHeader"));
@@ -434,12 +434,12 @@ public class 메뉴_03_이용권 extends TestCase {
 	    
 	    test.log(Status.INFO, "[FLO 이용권] 멤버쉽아이콘 노출 확인"); 
 	    boolean 멤버쉽아이콘 = util.isElementPresent(By.xpath("//android.webkit.WebView/android.webkit.WebView"
-	    		+ "/android.view.View/android.view.View/android.view.View/android.widget.Image"));
+	    		+ "/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.widget.Image"));
 	    Assert.assertTrue(멤버쉽아이콘);
 	    
 	    test.log(Status.INFO, "[FLO 이용권] 멤버쉽할인 노출 확인"); 
 	    boolean 멤버쉽할인 = util.isElementPresent(By.xpath("//android.webkit.WebView/android.webkit.WebView"
-	    		+ "/android.view.View/android.view.View/android.view.View/android.view.View[4]"));
+	    		+ "/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View"));
 	    Assert.assertTrue(멤버쉽할인);
 	    
 	    test.log(Status.INFO, "[FLO 이용권] 할인전가격 노출 확인"); 
@@ -528,6 +528,9 @@ public class 메뉴_03_이용권 extends TestCase {
 	    test.log(Status.INFO, "멜론 도메인 클릭");
 	    util.click((By.xpath("//android.widget.TextView[@text='멜론']")));
 	    
+	    test.log(Status.INFO, "연결을 기다리는 디바이스 유무 확인"); 
+	    util.connectingDevice();
+	    
 	    String 멜론로그인 = "멜론 로그인    후";
 	    
 	    if(!멜론로그인.equals(util.getText(By.id("serviceGuide")))) {
@@ -553,7 +556,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    util.ProgressBar_Loading();
 	    
 	    test.log(Status.INFO, "[멜론 이용권] 버튼 클릭");
-	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]"));
+	    util.click(By.xpath("//android.widget.TextView[@text='멜론 이용권']"));
 	    
 	    test.log(Status.INFO, "[멜론 이용권] 상세 버튼 클릭");
 	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]"));
@@ -571,13 +574,13 @@ public class 메뉴_03_이용권 extends TestCase {
 		
 	    test.log(Status.INFO, "멜론로그인");
 	    util.type(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]"
-	    		+ "/android.view.View/android.widget.EditText"), "tjdtn10!!");
+	    		+ "/android.view.View/android.widget.EditText"), "dbswjd12");
 	    
 	    util.type(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]"
-	    		+ "/android.view.View/android.widget.EditText"), "ksszidan");
+	    		+ "/android.view.View/android.widget.EditText"), "blingy");
 	    util.click(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]"
 	    		+ "/android.view.View/android.widget.EditText"));
-	    util.AndroidKey_e();
+	    util.AndroidKey_j();
 	    
 	    
 	    util.click((By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.widget.Button")));
@@ -618,6 +621,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    util.click((By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[10]")));
 	    
 	    test.log(Status.INFO, "동의 철회 버튼 클릭"); 
+	    Thread.sleep(1000);
 	    util.touchTab(560, 1800);
 	    
 	    test.log(Status.INFO, "동의 철회 [확인]클릭");
@@ -642,7 +646,7 @@ public class 메뉴_03_이용권 extends TestCase {
 	    util.ProgressBar_Loading();
 	    
 	    test.log(Status.INFO, "[멜론 이용권] 버튼 클릭");
-	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]"));
+	    util.click(By.xpath("//android.widget.TextView[@text='멜론 이용권']"));
 	    
 	    test.log(Status.INFO, "[멜론 이용권] 상세 버튼 클릭");
 	    util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]"));
@@ -702,13 +706,6 @@ public class 메뉴_03_이용권 extends TestCase {
 		test.log(Status.INFO, "다음 버튼 클릭"); 
 		util.click(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View"
 	    		+ "/android.widget.Button"));
-		
-		test.log(Status.INFO, "현재 이용중인 이용권 안내 팝업"); 
-		String 이용중인이용권 = util.getText(By.id("contentTextView"));
-		Assert.assertEquals(이용중인이용권, "현재 이용 중인 이용권이 있으므로 구매하지 않아도 서비스를 이용할 수 있습니다.");
-		
-		test.log(Status.INFO, "팝업 [확인]클릭");
-	    util.click((By.id("positiveButton")));
 
 	}
 	
@@ -718,6 +715,8 @@ public class 메뉴_03_이용권 extends TestCase {
 		test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
 	    
+	    test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
+	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
 	    test.log(Status.INFO, "뒤로가기 버튼 클릭"); 
 	    util.click((By.xpath("//android.widget.ImageButton[@content-desc='뒤로가기']")));
 	    

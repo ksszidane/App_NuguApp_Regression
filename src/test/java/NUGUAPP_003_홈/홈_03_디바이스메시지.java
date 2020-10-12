@@ -633,9 +633,6 @@ public class 홈_03_디바이스메시지 extends TestCase {
 
 	    test.log(Status.INFO, "\"내폰 찾아줘\" [발화 커맨트] 텍스트 입력"); 
 	    util.sendPost("내폰 찾아줘", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
-	          
-	    test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
-	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 	    
 	    test.log(Status.INFO, "폰찾기 팝업 확인");
 	    boolean 폰찾기팝업 = util.isElementPresent(By.xpath("(//android.widget.TextView[@text='NUGU에서 폰찾기를 요청했습니다.'])"));
@@ -643,6 +640,9 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		
 		test.log(Status.INFO, "폰찾기 팝업 확인");
 		util.click(By.id("positiveButton"));
+		
+		test.log(Status.INFO, "\"그만\" [발화 커맨트] 텍스트 입력"); 
+	    util.sendPost("그만", ksszidane10, NU200_3F2B99_did, ServerName, Place, NU200_3F2B99_token);
 		
 	}
 	
@@ -987,7 +987,7 @@ public class 홈_03_디바이스메시지 extends TestCase {
 		adb.NUGUAPP_permission_LOCATION_On(udid);
 	    
 	    test.log(Status.INFO, "저장된 간편로그인 유효성 체크 및 클릭");
-        util.click(By.xpath("//ul[@class='account-list']/li[3]"));
+        util.click(By.xpath("//ul[@class='account-list']/li[2]"));
         
 		test.log(Status.INFO, "정상로그인 확인"); 
 	    util.switchContext("NATIVE_APP");
