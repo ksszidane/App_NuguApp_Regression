@@ -225,6 +225,34 @@ public class 연결_08_NUGU_TmapforCar extends TestCase {
 	    
 	    test.log(Status.INFO, "(이전설정으로 복귀)연결해제 완료 클릭"); 
 	    util.click(By.id("positiveButton"));
+	    
+	    test.log(Status.INFO, "디바이스 연결 플로팅메뉴 확인 및 클릭"); 
+	    util.click(By.id("ibDeviceFab"));
+	    
+	    test.log(Status.INFO, "TMap for Car 재규어실행 후 연결 로딩 확인");
+		util.ProgressBar_Loading();
+	    
+	    test.log(Status.INFO, "+ 디바이스 추가 연결버튼 확인 및 클릭"); 
+		util.click(By.id("ivHeaderAddDevice"));
+		    
+		test.log(Status.INFO, "스크롤 이동");
+		util.scrollDown(1);
+		    
+	    test.log(Status.INFO, "TMap for Car PoC 버튼 클릭");
+		util.click(By.xpath("//android.widget.TextView[@text='T map for Car']"));
+		
+		test.log(Status.INFO, "지원 차량 목록 재규어 버튼 > 클릭");
+		util.click(By.xpath("//androidx.recyclerview.widget.RecyclerView/"
+											+"android.widget.LinearLayout[1]/android.widget.TextView[2]"));;
+											
+		test.log(Status.INFO, "TMap for Car 재규어 PoC 연결 버튼 클릭");
+		util.click(By.id("nextButton"));
+											
+		test.log(Status.INFO, "TMap for Car 재규어실행 후 연결 로딩 확인");
+		util.ProgressBar_Loading();
+		
+		test.log(Status.INFO, "NUGU 서비스 시작하기 버튼 클릭");
+		util.click(By.id("startButton"));
 		
 	}
 	
