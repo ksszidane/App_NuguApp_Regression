@@ -147,7 +147,7 @@ public class 앱시작_01 extends TestCase {
         
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_010")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_010")
 	public void TC_앱실행_010(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
