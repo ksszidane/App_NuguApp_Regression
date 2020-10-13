@@ -45,7 +45,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 12, 2020 08:16:44 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 13, 2020 05:57:53 PM</span>
 				</a>
 			</li>
 			<li>
@@ -71,6 +71,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -131,10 +132,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>18</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>3</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='25%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -146,10 +147,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='9.424%'><span class='strong'>18</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='11.111%'><span class='strong'>3</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='90.576%'>173</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='88.889%'>24</span> others
 				</div>
 			</div>
 		</div>
@@ -164,17 +165,17 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>TC_연결_338 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:17:08 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>TC_앱실행_002 | Android</span>
+						<span class='test-time'>Oct 13, 2020 05:58:21 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:17:08 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:17:36 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 28s+484ms</span>
+	<span class='label start-time'>Oct 13, 2020 05:58:21 PM</span>
+	<span class='label end-time'>Oct 13, 2020 05:58:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 26s+648ms</span>
 </div>
 	<div class='test-desc'>PRD </div>
 	<div class='test-attributes'>
@@ -194,63 +195,43 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:08 PM</td>
+					<td class='timestamp'>5:58:21 PM</td>
+					<td class='step-details'>AppActivity으로 화면 확인</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:58:26 PM</td>
 					<td class='step-details'>인트로 화면에서 로그인 이동</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:09 PM</td>
+					<td class='timestamp'>5:58:28 PM</td>
+					<td class='step-details'>앱 위치 권한 On</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:58:30 PM</td>
 					<td class='step-details'>WEBVIEW로 화면 전환</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:20 PM</td>
+					<td class='timestamp'>5:58:41 PM</td>
 					<td class='step-details'>저장된 간편로그인 유효성 체크 및 클릭</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:21 PM</td>
+					<td class='timestamp'>5:58:42 PM</td>
 					<td class='step-details'>정상로그인 확인</td>
 				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:26 PM</td>
-					<td class='step-details'>퍼미션 위치 권한 취소</td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>5:58:48 PM</td>
+					<td class='step-details'>공지 안내 팝업 [없음]</td>
 				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:27 PM</td>
-					<td class='step-details'>공지 안내 팝업 유무 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:29 PM</td>
-					<td class='step-details'>디바이스 연결 플로팅메뉴 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:29 PM</td>
-					<td class='step-details'>+ 디바이스 추가 연결버튼 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:31 PM</td>
-					<td class='step-details'>스크롤 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:34 PM</td>
-					<td class='step-details'>TMap for Car PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:36 PM</td>
-					<td class='step-details'>TMap for Car PoC 연결 문구 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:17:36 PM</td>
-					<td class='step-details'>테스트 성공.</td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>5:58:48 PM</td>
+					<td class='step-details'>테스트 스킵.</td>
 				</tr>
 			</tbody>
 		</table>
@@ -261,15 +242,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
-						<span class='test-name'>TC_연결_339 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:17:36 PM</span>
+						<span class='test-name'>TC_앱실행_004 | Android</span>
+						<span class='test-time'>Oct 13, 2020 05:58:48 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:17:36 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:17:39 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+577ms</span>
+	<span class='label start-time'>Oct 13, 2020 05:58:48 PM</span>
+	<span class='label end-time'>Oct 13, 2020 05:59:11 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 22s+628ms</span>
 </div>
 	<div class='test-desc'>PRD </div>
 	<div class='test-attributes'>
@@ -289,27 +270,32 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:36 PM</td>
-					<td class='step-details'>TMap for Car PoC 연결 문구 확인</td>
+					<td class='timestamp'>5:58:48 PM</td>
+					<td class='step-details'>앱 재 실행</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:37 PM</td>
-					<td class='step-details'>T map for Car 지원 차량 타이틀</td>
+					<td class='timestamp'>5:58:50 PM</td>
+					<td class='step-details'>AppActivity으로 화면 확인</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:38 PM</td>
-					<td class='step-details'>지원 차량 목록 재규어</td>
+					<td class='timestamp'>5:58:54 PM</td>
+					<td class='step-details'>인트로 화면에서 로그인 이동</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:38 PM</td>
-					<td class='step-details'>지원 차량 목록 재규어 네비박스</td>
+					<td class='timestamp'>5:58:55 PM</td>
+					<td class='step-details'>WEBVIEW로 화면 전환</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:59:10 PM</td>
+					<td class='step-details'>로그인 화면 이동 확인</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:17:39 PM</td>
+					<td class='timestamp'>5:59:11 PM</td>
 					<td class='step-details'>테스트 성공.</td>
 				</tr>
 			</tbody>
@@ -321,15 +307,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
-						<span class='test-name'>TC_연결_340 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:17:39 PM</span>
+						<span class='test-name'>TC_앱실행_005 | Android</span>
+						<span class='test-time'>Oct 13, 2020 05:59:11 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:17:39 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:17:46 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 6s+906ms</span>
+	<span class='label start-time'>Oct 13, 2020 05:59:11 PM</span>
+	<span class='label end-time'>Oct 13, 2020 05:59:12 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+268ms</span>
 </div>
 	<div class='test-desc'>PRD </div>
 	<div class='test-attributes'>
@@ -349,27 +335,22 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:39 PM</td>
-					<td class='step-details'>NUGU 연결하기  화면 이동 위한 Back 키</td>
+					<td class='timestamp'>5:59:11 PM</td>
+					<td class='step-details'>인트로 화면 이동 위한 Back 키</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:39 PM</td>
-					<td class='step-details'>NUGU inside 연결하기 페이지 진입 확인</td>
+					<td class='timestamp'>5:59:11 PM</td>
+					<td class='step-details'>NATIVE_APP으로 화면 전환</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:41 PM</td>
-					<td class='step-details'>스크롤 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:45 PM</td>
-					<td class='step-details'>TMap for Car PoC 버튼 클릭</td>
+					<td class='timestamp'>5:59:11 PM</td>
+					<td class='step-details'>인트로 화면 이동 확인</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:17:46 PM</td>
+					<td class='timestamp'>5:59:12 PM</td>
 					<td class='step-details'>테스트 성공.</td>
 				</tr>
 			</tbody>
@@ -381,15 +362,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
-						<span class='test-name'>TC_연결_341 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:17:46 PM</span>
+						<span class='test-name'>TC_앱실행_010 | Android</span>
+						<span class='test-time'>Oct 13, 2020 05:59:12 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:17:46 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:17:51 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+707ms</span>
+	<span class='label start-time'>Oct 13, 2020 05:59:12 PM</span>
+	<span class='label end-time'>Oct 13, 2020 05:59:39 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 26s+730ms</span>
 </div>
 	<div class='test-desc'>PRD </div>
 	<div class='test-attributes'>
@@ -409,1342 +390,55 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:46 PM</td>
-					<td class='step-details'>지원 차량 목록 재규어 버튼 > 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:47 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 연결 문구 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:48 PM</td>
-					<td class='step-details'>지원 차량 목록  화면 이동 위한 Back 키</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:48 PM</td>
-					<td class='step-details'>지원 차량 목록 르노 버튼 > 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:49 PM</td>
-					<td class='step-details'>TMap for Car 르노 PoC 연결 문구 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:51 PM</td>
-					<td class='step-details'>지원 차량 목록  화면 이동 위한 Back 키</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:17:51 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_연결_342 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:17:51 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:17:51 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:17:54 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+348ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:51 PM</td>
-					<td class='step-details'>지원 차량 목록 재규어 버튼 > 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:52 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 연결 문구 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:53 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 가이드 연결 문구 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:53 PM</td>
-					<td class='step-details'>TMap for Car 재규어 ImageView 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:54 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 연결 버튼 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:17:54 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_연결_343_and_362_form_371 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:17:54 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:17:54 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:19:07 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 13s+72ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:54 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 연결 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:55 PM</td>
-					<td class='step-details'>TMap for Car 재규어실행 후 연결 로딩 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:58 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 연결 완료 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:58 PM</td>
-					<td class='step-details'>TMap PoC 가이드 문구 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:59 PM</td>
-					<td class='step-details'>NUGU 서비스 시작하기 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:17:59 PM</td>
-					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:07 PM</td>
-					<td class='step-details'>메뉴 > 설정 > 사용자설정 > 뮤직기본서비스 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:07 PM</td>
-					<td class='step-details'>메뉴 버튼클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:09 PM</td>
-					<td class='step-details'>설정 버튼클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:11 PM</td>
-					<td class='step-details'>사용자설정 버튼클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:12 PM</td>
-					<td class='step-details'>사용자 설정 연결 로딩 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:15 PM</td>
-					<td class='step-details'>뮤직기본서비스 버튼클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:17 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 버튼클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:18 PM</td>
-					<td class='step-details'>뮤직기본서비스 멜론클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:21 PM</td>
-					<td class='step-details'>홈 화면 이동 위한 뒤로가기 키</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:21 PM</td>
-					<td class='step-details'>사용자 설정 연결 로딩 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:24 PM</td>
-					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:37 PM</td>
-					<td class='step-details'>디바이스 연결 플로팅메뉴 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:40 PM</td>
-					<td class='step-details'>연결된 PoC TMap 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:41 PM</td>
-					<td class='step-details'>(이전설정으로 복귀)디바이스 설정 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:42 PM</td>
-					<td class='step-details'>(이전설정으로 복귀) 별명수정하기 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:43 PM</td>
-					<td class='step-details'>(이전설정으로 복귀) 수정할 별명 입력 후 완료 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:46 PM</td>
-					<td class='step-details'>(이전설정으로 복귀)연결해제 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:47 PM</td>
-					<td class='step-details'>(이전설정으로 복귀)연결해제 완료 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:48 PM</td>
-					<td class='step-details'>디바이스 연결 플로팅메뉴 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:51 PM</td>
-					<td class='step-details'>TMap for Car 재규어실행 후 연결 로딩 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:54 PM</td>
-					<td class='step-details'>+ 디바이스 추가 연결버튼 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:56 PM</td>
-					<td class='step-details'>스크롤 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:18:59 PM</td>
-					<td class='step-details'>TMap for Car PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:01 PM</td>
-					<td class='step-details'>지원 차량 목록 재규어 버튼 > 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:02 PM</td>
-					<td class='step-details'>TMap for Car 재규어 PoC 연결 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:03 PM</td>
-					<td class='step-details'>TMap for Car 재규어실행 후 연결 로딩 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:06 PM</td>
-					<td class='step-details'>NUGU 서비스 시작하기 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:19:07 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_연결_344 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:19:07 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:19:07 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:19:23 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+51ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:07 PM</td>
-					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:13 PM</td>
-					<td class='step-details'>디바이스 연결 플로팅메뉴 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:15 PM</td>
-					<td class='step-details'>+ 디바이스 추가 연결버튼 확인 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:16 PM</td>
-					<td class='step-details'>스크롤 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:19 PM</td>
-					<td class='step-details'>TMap for Car PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:20 PM</td>
-					<td class='step-details'>지원 차량 목록 르노 버튼 > 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:21 PM</td>
-					<td class='step-details'>TMap for Car 르노 PoC 연결 문구 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:22 PM</td>
-					<td class='step-details'>TMap for Car 르노 ImageView 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:22 PM</td>
-					<td class='step-details'>TMap for Car 르노 PoC 연결 버튼 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:19:23 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_연결_346_form_349 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:19:23 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:19:23 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:19:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+862ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:23 PM</td>
-					<td class='step-details'>TMap for Car 르노 PoC 연결 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:24 PM</td>
-					<td class='step-details'>인증번호 입력 필드 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:25 PM</td>
-					<td class='step-details'>인증번호 6자리 입력</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:28 PM</td>
-					<td class='step-details'>인증번호 7번째 자리수 입력</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:29 PM</td>
-					<td class='step-details'>처음 6자리만 입력되고 7번째 자리수 입력안됨 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:29 PM</td>
-					<td class='step-details'>기타 영역 클릭하여 입력 키패드 숨김</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:34 PM</td>
-					<td class='step-details'>하단 연결버튼비활성화 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:34 PM</td>
-					<td class='step-details'>인증번호 입력 필드 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:34 PM</td>
-					<td class='step-details'>인증번호 실패 팝업 메시지</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:35 PM</td>
-					<td class='step-details'>인증번호 실패 팝업 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:19:36 PM</td>
-					<td class='step-details'>입력된 숫자 제거 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:19:37 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_085 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:21:05 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:21:05 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:21:42 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 36s+815ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:05 PM</td>
+					<td class='timestamp'>5:59:12 PM</td>
 					<td class='step-details'>인트로 화면에서 로그인 이동</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:06 PM</td>
+					<td class='timestamp'>5:59:12 PM</td>
 					<td class='step-details'>WEBVIEW로 화면 전환</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:16 PM</td>
-					<td class='step-details'>앱 위치 권한 On</td>
+					<td class='timestamp'>5:59:27 PM</td>
+					<td class='step-details'>다른아이디 로그인 버튼 유효성 체크 및 클릭</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:18 PM</td>
-					<td class='step-details'>저장된 간편로그인 유효성 체크 및 클릭</td>
+					<td class='timestamp'>5:59:30 PM</td>
+					<td class='step-details'>아이디 찾기버튼 유효성 체크 및 클릭</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:19 PM</td>
-					<td class='step-details'>정상로그인 확인</td>
+					<td class='timestamp'>5:59:31 PM</td>
+					<td class='step-details'>NATIVE_APP으로 화면 전환</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:24 PM</td>
-					<td class='step-details'>공지 안내 팝업 유무 확인</td>
+					<td class='timestamp'>5:59:38 PM</td>
+					<td class='step-details'>화면캡쳐</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:26 PM</td>
-					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
+					<td class='timestamp'>5:59:38 PM</td>
+					<td class='step-details'>Snapshot below: com.aventstack.extentreports.ExtentTest@54e649bf</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:38 PM</td>
-					<td class='step-details'>메뉴 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:40 PM</td>
-					<td class='step-details'>디바이스정보 미표시 확인</td>
+					<td class='timestamp'>5:59:38 PM</td>
+					<td class='step-details'>인트로 화면 이동 위한 Back 키</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:21:42 PM</td>
+					<td class='timestamp'>5:59:39 PM</td>
 					<td class='step-details'>테스트 성공.</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_086 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:21:42 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:21:42 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:21:55 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+406ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:42 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:48 PM</td>
-					<td class='step-details'>구글캘린더 도메인 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:53 PM</td>
-					<td class='step-details'>디바이스 연결 필요 안내 노출 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:21:55 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_089 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:21:55 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:21:55 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:23:00 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 5s+26ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:55 PM</td>
-					<td class='step-details'>앱 재 실행</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:58 PM</td>
-					<td class='step-details'>인트로 화면에서 로그인 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:21:59 PM</td>
-					<td class='step-details'>WEBVIEW로 화면 전환</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:14 PM</td>
-					<td class='step-details'>앱 위치 권한 On</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:15 PM</td>
-					<td class='step-details'>저장된 간편로그인 유효성 체크 및 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:17 PM</td>
-					<td class='step-details'>정상로그인 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:22 PM</td>
-					<td class='step-details'>공지 안내 팝업 유무 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:23 PM</td>
-					<td class='step-details'>연결을 기다리는 디바이스 유무 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:31 PM</td>
-					<td class='step-details'>메뉴 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:35 PM</td>
-					<td class='step-details'>연결된 디바이스 이름 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:36 PM</td>
-					<td class='step-details'>연결된 디바이스 목록 스크롤 다운</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:44 PM</td>
-					<td class='step-details'>B tv (AI 2_23A4) PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:45 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:53 PM</td>
-					<td class='step-details'>SK스토아 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:22:57 PM</td>
-					<td class='step-details'>CJ오쇼핑 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:23:00 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_090 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:23:00 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:23:00 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:23:33 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 33s+204ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:00 PM</td>
-					<td class='step-details'>스크롤 업 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:10 PM</td>
-					<td class='step-details'>연결된 디바이스 이름 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:11 PM</td>
-					<td class='step-details'>연결된 디바이스 목록 스크롤 다운</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:20 PM</td>
-					<td class='step-details'>T map (iOS) PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:21 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:29 PM</td>
-					<td class='step-details'>SK스토아 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:31 PM</td>
-					<td class='step-details'>CJ오쇼핑 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:23:33 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_092 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:23:33 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:23:33 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:24:06 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 32s+222ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:33 PM</td>
-					<td class='step-details'>스크롤 업 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:43 PM</td>
-					<td class='step-details'>연결된 디바이스 이름 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:44 PM</td>
-					<td class='step-details'>T map (iOS) PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:23:46 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:04 PM</td>
-					<td class='step-details'>[이런 서비스도 있어요] 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:24:06 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_093 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:24:06 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:24:06 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:24:17 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+365ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:06 PM</td>
-					<td class='step-details'>[이런 서비스도 있어요] 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:09 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:12 PM</td>
-					<td class='step-details'>스타벅스 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:24:17 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_094 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:24:17 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:24:17 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:25:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 16s+565ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:17 PM</td>
-					<td class='step-details'>스크롤 업 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:40 PM</td>
-					<td class='step-details'>연결된 디바이스 이름 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:41 PM</td>
-					<td class='step-details'>연결된 디바이스 목록 스크롤 다운</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:50 PM</td>
-					<td class='step-details'>JLR T map (Android) PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:51 PM</td>
-					<td class='step-details'>JLR T map 길안내 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:55 PM</td>
-					<td class='step-details'>FLO 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:24:58 PM</td>
-					<td class='step-details'>멜론 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:01 PM</td>
-					<td class='step-details'>ASMR 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:03 PM</td>
-					<td class='step-details'>멜론 어린이 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:06 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:09 PM</td>
-					<td class='step-details'>[NUGU play] 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:11 PM</td>
-					<td class='step-details'>[이런 서비스도 있어요] 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:14 PM</td>
-					<td class='step-details'>[이런 서비스도 있어요] 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:17 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:20 PM</td>
-					<td class='step-details'>스타벅스 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:24 PM</td>
-					<td class='step-details'>스타벅스 도메인 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:27 PM</td>
-					<td class='step-details'>사용할 수 없는 서비스 안내 노출 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:32 PM</td>
-					<td class='step-details'>뒤로가기 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:25:34 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_095 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:25:34 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:25:34 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:27:14 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 40s+519ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:34 PM</td>
-					<td class='step-details'>스크롤 업 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:43 PM</td>
-					<td class='step-details'>연결된 디바이스 이름 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:45 PM</td>
-					<td class='step-details'>NUGU (NUGU_4228C8) PoC 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:25:47 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:05 PM</td>
-					<td class='step-details'>[NUGU Play] 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:07 PM</td>
-					<td class='step-details'>[NUGU Play] 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:10 PM</td>
-					<td class='step-details'>뮤직/엔터 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:12 PM</td>
-					<td class='step-details'>정보/생활 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:17 PM</td>
-					<td class='step-details'>스크롤 다운 동작</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:26 PM</td>
-					<td class='step-details'>유용한기능 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:29 PM</td>
-					<td class='step-details'>스크롤 다운 동작</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:32 PM</td>
-					<td class='step-details'>교육/유아 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:36 PM</td>
-					<td class='step-details'>비즈니스/경제 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:41 PM</td>
-					<td class='step-details'>스크롤 다운 동작</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:49 PM</td>
-					<td class='step-details'>종교 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:51 PM</td>
-					<td class='step-details'>게임 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:54 PM</td>
-					<td class='step-details'>스크롤 다운 동작</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:26:58 PM</td>
-					<td class='step-details'>스마트홈기능 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:04 PM</td>
-					<td class='step-details'>기타 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:06 PM</td>
-					<td class='step-details'>스크롤 다운 동작</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:12 PM</td>
-					<td class='step-details'>기타 카테고리 확인</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:27:14 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_096 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:27:14 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:27:14 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:27:18 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+160ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:14 PM</td>
-					<td class='step-details'>NUGU 활용하기 Tip</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:17 PM</td>
-					<td class='step-details'>NUGU 활용하기 Tip 상세</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:27:18 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='18'>
-					<div class='test-heading'>
-						<span class='test-name'>TC_메뉴_097 | Android</span>
-						<span class='test-time'>Oct 12, 2020 08:27:18 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 08:27:18 PM</span>
-	<span class='label end-time'>Oct 12, 2020 08:27:44 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+232ms</span>
-</div>
-	<div class='test-desc'>PRD </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>NUGU_App|Android|PRD</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:18 PM</td>
-					<td class='step-details'>스크롤 다운 동작</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:22 PM</td>
-					<td class='step-details'>[이런 서비스도 있어요] 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:24 PM</td>
-					<td class='step-details'>스크롤 다운 이동</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:28 PM</td>
-					<td class='step-details'>스타벅스 도메인 표시 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:33 PM</td>
-					<td class='step-details'>스타벅스 도메인 클릭</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:37 PM</td>
-					<td class='step-details'>사용할 수 없는 서비스 안내 노출 확인</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>8:27:42 PM</td>
-					<td class='step-details'>뒤로가기 버튼 클릭</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:27:44 PM</td>
-					<td class='step-details'>테스트 성공.</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='.\ErrorScreenshots\screenShotName.png' width='10%' src='.\ErrorScreenshots\screenShotName.png' data-src='.\ErrorScreenshots\screenShotName.png'></li>
+							</ul>
 					</div>
 				</li>
 			</ul>
@@ -1801,14 +495,15 @@
 					<div class='category-heading'>
 						<span class='category-name'>NUGU_App|Android|PRD</span>
 						<span class='category-status right'>
-							<span class='label pass'>18</span>
+							<span class='label pass'>3</span>
+							<span class='label others'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 18</span>
+							<span class='label green accent-4 white-text'>Passed: 3</span>
 							
-							
+							<span class='label yellow darken-2 white-text'>Others: 1</span>
 						</div>
 					
 						<div class='category-tests'>
@@ -1822,93 +517,23 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 12, 2020 08:17:08 PM</td>
-										<td class='linked' test-id='1'>TC_연결_338 | Android</td>
+										<td>Oct 13, 2020 05:58:21 PM</td>
+										<td class='linked' test-id='1'>TC_앱실행_002 | Android</td>
+										<td><span class='test-status skip'>skip</span></td>
+									</tr>
+									<tr>
+										<td>Oct 13, 2020 05:58:48 PM</td>
+										<td class='linked' test-id='2'>TC_앱실행_004 | Android</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 12, 2020 08:17:36 PM</td>
-										<td class='linked' test-id='2'>TC_연결_339 | Android</td>
+										<td>Oct 13, 2020 05:59:11 PM</td>
+										<td class='linked' test-id='3'>TC_앱실행_005 | Android</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 12, 2020 08:17:39 PM</td>
-										<td class='linked' test-id='3'>TC_연결_340 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:17:46 PM</td>
-										<td class='linked' test-id='4'>TC_연결_341 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:17:51 PM</td>
-										<td class='linked' test-id='5'>TC_연결_342 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:17:54 PM</td>
-										<td class='linked' test-id='6'>TC_연결_343_and_362_form_371 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:19:07 PM</td>
-										<td class='linked' test-id='7'>TC_연결_344 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:19:23 PM</td>
-										<td class='linked' test-id='8'>TC_연결_346_form_349 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:21:05 PM</td>
-										<td class='linked' test-id='9'>TC_메뉴_085 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:21:42 PM</td>
-										<td class='linked' test-id='10'>TC_메뉴_086 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:21:55 PM</td>
-										<td class='linked' test-id='11'>TC_메뉴_089 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:23:00 PM</td>
-										<td class='linked' test-id='12'>TC_메뉴_090 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:23:33 PM</td>
-										<td class='linked' test-id='13'>TC_메뉴_092 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:24:06 PM</td>
-										<td class='linked' test-id='14'>TC_메뉴_093 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:24:17 PM</td>
-										<td class='linked' test-id='15'>TC_메뉴_094 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:25:34 PM</td>
-										<td class='linked' test-id='16'>TC_메뉴_095 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:27:14 PM</td>
-										<td class='linked' test-id='17'>TC_메뉴_096 | Android</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 08:27:18 PM</td>
-										<td class='linked' test-id='18'>TC_메뉴_097 | Android</td>
+										<td>Oct 13, 2020 05:59:12 PM</td>
+										<td class='linked' test-id='4'>TC_앱실행_010 | Android</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1937,31 +562,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>18</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>191</div>
+					<div class='panel-lead'>27</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 12, 2020 08:16:44 PM</div>
+					<div class='panel-lead'>Oct 13, 2020 05:57:53 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 12, 2020 08:28:30 PM</div>
+			 		<div class='panel-lead'>Oct 13, 2020 06:00:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>705,740ms</div>
+					<div class='panel-lead'>151,880ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1977,9 +602,9 @@
 						</tr>
 						<tr>
 							<td>NUGU_App|Android|PRD</td>
-							<td>18</td>
+							<td>3</td>
 							<td>0</td>
-							<td>0</td>
+							<td>1</td>
 						</tr>
 					</table>
 				</div>
@@ -1994,22 +619,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 18,
+				passParent: 3,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 0,
-				exceptionsParent: 0,
+				skipParent: 1,
+				exceptionsParent: 1,
 				
-				passChild: 18,
+				passChild: 3,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 0,
-				infoChild: 173,
-				exceptionsChild: 0,
+				skipChild: 2,
+				infoChild: 22,
+				exceptionsChild: 2,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
