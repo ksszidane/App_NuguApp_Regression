@@ -18,7 +18,7 @@
 	<repositories>
  		<repository>
     	<id>Applium-unit-lib</id>
-    	<url>https://github.com/ksszidane/Applium-unit-lib/tree/mvn-repo</url>
+    	<url>https://github.com/ksszidane/Applium-unit-lib/tree/mvn-repo/</url>
     	<snapshots>
         	<enabled>true</enabled>
         	<updatePolicy>always</updatePolicy>
