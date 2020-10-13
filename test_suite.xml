@@ -64,8 +64,34 @@
 	
 		
 			
+			<class name="NUGUAPP_001_실행.앱시작_01" />
+			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
+			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini" />
+			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
+			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
+			<class name="NUGUAPP_002_연결.연결_05_NUGU_Btv" />
+			<class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI" />
+			<class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap" />
 			<class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar" />
+			<class name="NUGUAPP_003_홈.홈_01_홈카드" />
+			<class name="NUGUAPP_003_홈.홈_02_홈카드" />
+			<class name="NUGUAPP_003_홈.홈_03_디바이스메시지" />
+			<class name="NUGUAPP_003_홈.홈_04_최근인기대화" />
+			<class name="NUGUAPP_003_홈.홈_05_날씨" />
+			<class name="NUGUAPP_003_홈.홈_06_디바이스컨트롤러" />
+			<class name="NUGUAPP_003_홈.홈_07_미디어컨트롤러" />
+			<class name="NUGUAPP_003_홈.홈_08_디바이스컨트롤러상세" />
+			<class name="NUGUAPP_003_홈.홈_09_미디어컨트롤러상세" />
+			<class name="NUGUAPP_003_홈.홈_10_Footer" />
+			<class name="NUGUAPP_004_메뉴.메뉴_01_메뉴패널" />
+			<class name="NUGUAPP_004_메뉴.메뉴_02_주문내역" />
+			<class name="NUGUAPP_004_메뉴.메뉴_03_이용권" />
+			<class name="NUGUAPP_004_메뉴.메뉴_04_구매내역" />
+			<class name="NUGUAPP_004_메뉴.메뉴_05_자주사용하는서비스" />
 			<class name="NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시" />
+			<class name="NUGUAPP_004_메뉴.메뉴_07_자주묻는질문" />
+			<class name="NUGUAPP_004_메뉴.메뉴_08_이벤트_공지사항" />
+			<class name="NUGUAPP_004_메뉴.메뉴_09_설정_일반미디어" />
 			
 			
 			
