@@ -6,15 +6,14 @@
   <artifactId>android_nuguApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
-  <name>android_sample</name>
+	
+  <name>ndroid_nuguApp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  
 	<repositories>
  		<repository>
     	<id>Applium-unit-lib</id>
@@ -26,15 +25,13 @@
 		</repository>
 	</repositories>
 
-
-	
   <dependencies>	
     
     <!-- -->
   	<dependency>
   		<groupId>com.github.ksszidane</groupId>
   		<artifactId>Applium-unit-lib</artifactId>
-  		<version>0.0.03</version>
+  		<version>0.0.04</version>
 	</dependency>
 	
 	<dependency>
