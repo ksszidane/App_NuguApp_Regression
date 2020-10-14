@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="18" passed="18">
+<testng-results skipped="1" failed="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ExtentReport" duration-ms="721299" started-at="2020-10-12T11:16:35Z" finished-at="2020-10-12T11:28:37Z">
+  <suite name="ExtentReport" duration-ms="135641" started-at="2020-10-13T09:09:52Z" finished-at="2020-10-13T09:12:07Z">
     <groups>
     </groups>
-    <test name="Test_Project" duration-ms="721299" started-at="2020-10-12T11:16:35Z" finished-at="2020-10-12T11:28:37Z">
-      <class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="setupClass" is-config="true" duration-ms="32766" started-at="2020-10-12T20:16:35Z" finished-at="2020-10-12T20:17:08Z">
+    <test name="Test_Project" duration-ms="135641" started-at="2020-10-13T09:09:52Z" finished-at="2020-10-13T09:12:07Z">
+      <class name="NUGUAPP_001_실행.앱시작_01">
+        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="setupClass" is-config="true" duration-ms="32276" started-at="2020-10-13T18:09:52Z" finished-at="2020-10-13T18:10:24Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[ce12160cb994301d04]]>
+                <![CDATA[1bdbf9cc7f0c7ece]]>
               </value>
             </param>
             <param index="6">
@@ -103,271 +103,103 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="8" started-at="2020-10-12T20:17:08Z" finished-at="2020-10-12T20:17:08Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="10" started-at="2020-10-13T18:10:24Z" finished-at="2020-10-13T18:10:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_338(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_002(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_338(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_338" duration-ms="28479" started-at="2020-10-12T20:17:08Z" description="누구앱 리그레이션 TC : 연결_338" finished-at="2020-10-12T20:17:36Z">
+        <test-method status="SKIP" signature="TC_앱실행_002(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="TC_앱실행_002" duration-ms="26122" started-at="2020-10-13T18:10:24Z" description="누구앱 리그레이션 TC : 실행_002" finished-at="2020-10-13T18:10:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_338(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_002(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[공지 안내 팝업 [없음]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 공지 안내 팝업 [없음]
+	at NUGUAPP_001_실행.앱시작_01.TC_앱실행_002(앱시작_01.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_연결_338 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:17:36Z" finished-at="2020-10-12T20:17:36Z">
+        </test-method> <!-- TC_앱실행_002 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-13T18:10:50Z" finished-at="2020-10-13T18:10:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_연결_338 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_338(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
+                <![CDATA[[TestResult name=TC_앱실행_002 status=SKIP method=앱시작_01.TC_앱실행_002(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:17:36Z" finished-at="2020-10-12T20:17:36Z">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-13T18:10:50Z" finished-at="2020-10-13T18:10:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_339(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_339(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_339" duration-ms="2575" started-at="2020-10-12T20:17:36Z" description="누구앱 리그레이션 TC : 연결_339" finished-at="2020-10-12T20:17:39Z">
+        <test-method status="PASS" signature="TC_앱실행_004(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="TC_앱실행_004" duration-ms="24767" started-at="2020-10-13T18:10:50Z" description="누구앱 리그레이션 TC : 실행_004" finished-at="2020-10-13T18:11:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_339(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void NUGUAPP_001_실행.앱시작_01.TC_앱실행_004(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_연결_339 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:17:39Z" finished-at="2020-10-12T20:17:39Z">
+        </test-method> <!-- TC_앱실행_004 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-13T18:11:15Z" finished-at="2020-10-13T18:11:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_연결_339 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_339(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:17:39Z" finished-at="2020-10-12T20:17:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_340(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_340(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_340" duration-ms="6904" started-at="2020-10-12T20:17:39Z" description="누구앱 리그레이션 TC : 연결_340" finished-at="2020-10-12T20:17:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_340(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_연결_340 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:17:46Z" finished-at="2020-10-12T20:17:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_연결_340 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_340(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
+                <![CDATA[[TestResult name=TC_앱실행_004 status=SUCCESS method=앱시작_01.TC_앱실행_004(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:17:46Z" finished-at="2020-10-12T20:17:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_341(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_341(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_341" duration-ms="4705" started-at="2020-10-12T20:17:46Z" description="누구앱 리그레이션 TC : 연결_341" finished-at="2020-10-12T20:17:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_341(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_연결_341 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:17:51Z" finished-at="2020-10-12T20:17:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_연결_341 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_341(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_연결_342(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_342" duration-ms="3347" started-at="2020-10-12T20:17:51Z" description="누구앱 리그레이션 TC : 연결_342" finished-at="2020-10-12T20:17:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_342(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_연결_342 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:17:51Z" finished-at="2020-10-12T20:17:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_342(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:17:54Z" finished-at="2020-10-12T20:17:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_연결_342 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_342(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:17:54Z" finished-at="2020-10-12T20:17:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_343_and_362_form_371(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_343_and_362_form_371" duration-ms="73070" started-at="2020-10-12T20:17:54Z" description="누구앱 리그레이션 TC : 연결_343" finished-at="2020-10-12T20:19:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_연결_343_and_362_form_371 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:19:07Z" finished-at="2020-10-12T20:19:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_연결_343_and_362_form_371 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_343_and_362_form_371(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:19:07Z" finished-at="2020-10-12T20:19:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_344(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_344" duration-ms="16050" started-at="2020-10-12T20:19:07Z" description="누구앱 리그레이션 TC : 연결_344" finished-at="2020-10-12T20:19:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_344(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_연결_344 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:19:23Z" finished-at="2020-10-12T20:19:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_연결_344 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_344(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:19:23Z" finished-at="2020-10-12T20:19:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_연결_346_form_349(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="TC_연결_346_form_349" duration-ms="13860" started-at="2020-10-12T20:19:23Z" description="누구앱 리그레이션 TC : 연결_346 ~ 연결_349" finished-at="2020-10-12T20:19:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_002_연결.연결_08_NUGU_TmapforCar.TC_연결_346_form_349(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_연결_346_form_349 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:19:37Z" finished-at="2020-10-12T20:19:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_연결_346_form_349 status=SUCCESS method=연결_08_NUGU_TmapforCar.TC_연결_346_form_349(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_002_연결.연결_08_NUGU_TmapforCar@481a15ff]" name="tearDownClass" is-config="true" duration-ms="53892" started-at="2020-10-12T20:19:37Z" finished-at="2020-10-12T20:20:31Z">
+        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_001_실행.앱시작_01@481a15ff]" name="tearDownClass" is-config="true" duration-ms="52432" started-at="2020-10-13T18:11:15Z" finished-at="2020-10-13T18:12:07Z">
           <params>
             <param index="0">
               <value>
@@ -381,7 +213,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[ce12160cb994301d04]]>
+                <![CDATA[1bdbf9cc7f0c7ece]]>
               </value>
             </param>
             <param index="3">
@@ -448,516 +280,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- NUGUAPP_002_연결.연결_08_NUGU_TmapforCar -->
-      <class name="NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시">
-        <test-method status="PASS" signature="setupClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="setupClass" is-config="true" duration-ms="34094" started-at="2020-10-12T20:20:31Z" finished-at="2020-10-12T20:21:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://0.0.0.0:4723/wd/hub]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[PRD]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NUGU_App]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[in]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ce12160cb994301d04]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[ALDF5TR5SNGZ8175DA16]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[ALDEPCKHWOK47386BED6]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[ALDF2JWHQFXIBE9E95DB]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[2C66A81F08264E2B87CD8F859E506624]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ALDESWE8NYHZ14E582BC]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[B4072E607BBF4109AFCBEE4FAAA9559B]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[ALDFKDH4BQFP7307628C]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[ALDFCNQ7OS4WD3E316BC]]>
-              </value>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[35CC4E84BB1D4735AA0955FDCB75D88C]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:21:05Z" finished-at="2020-10-12T20:21:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_085(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_메뉴_085(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_085" duration-ms="36814" started-at="2020-10-12T20:21:05Z" description="누구앱 리그레이션 TC : 메뉴_085" finished-at="2020-10-12T20:21:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_085(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_085 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:21:42Z" finished-at="2020-10-12T20:21:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_085 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_085(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:21:42Z" finished-at="2020-10-12T20:21:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_086(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_메뉴_086(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_086" duration-ms="13404" started-at="2020-10-12T20:21:42Z" description="누구앱 리그레이션 TC : 메뉴_086" finished-at="2020-10-12T20:21:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_086(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_086 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:21:55Z" finished-at="2020-10-12T20:21:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_086 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_086(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_메뉴_089(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_089" duration-ms="65024" started-at="2020-10-12T20:21:55Z" description="누구앱 리그레이션 TC : 메뉴_089" finished-at="2020-10-12T20:23:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_089(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_089 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:21:55Z" finished-at="2020-10-12T20:21:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_089(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:23:00Z" finished-at="2020-10-12T20:23:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_089 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_089(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:23:00Z" finished-at="2020-10-12T20:23:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_090(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_메뉴_090(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_090" duration-ms="33202" started-at="2020-10-12T20:23:00Z" description="누구앱 리그레이션 TC : 메뉴_090" finished-at="2020-10-12T20:23:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_090(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_090 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:23:33Z" finished-at="2020-10-12T20:23:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_092(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_메뉴_092(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_092" duration-ms="32221" started-at="2020-10-12T20:23:33Z" description="누구앱 리그레이션 TC : 메뉴_092" finished-at="2020-10-12T20:24:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_092(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_092 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:23:33Z" finished-at="2020-10-12T20:23:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_090 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_090(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:24:06Z" finished-at="2020-10-12T20:24:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_092 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_092(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_메뉴_093(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_093" duration-ms="11364" started-at="2020-10-12T20:24:06Z" description="누구앱 리그레이션 TC : 메뉴_093" finished-at="2020-10-12T20:24:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_093(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_093 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:24:06Z" finished-at="2020-10-12T20:24:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_093(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:24:17Z" finished-at="2020-10-12T20:24:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_093 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_093(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_메뉴_094(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_094" duration-ms="76564" started-at="2020-10-12T20:24:17Z" description="누구앱 리그레이션 TC : 메뉴_094" finished-at="2020-10-12T20:25:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_094(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_094 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:24:17Z" finished-at="2020-10-12T20:24:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_094(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:25:34Z" finished-at="2020-10-12T20:25:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_094 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_094(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:25:34Z" finished-at="2020-10-12T20:25:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_095(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_메뉴_095(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_095" duration-ms="100518" started-at="2020-10-12T20:25:34Z" description="누구앱 리그레이션 TC : 메뉴_095" finished-at="2020-10-12T20:27:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_095(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_095 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:27:14Z" finished-at="2020-10-12T20:27:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_095 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_095(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:27:14Z" finished-at="2020-10-12T20:27:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_096(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TC_메뉴_096(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_096" duration-ms="4158" started-at="2020-10-12T20:27:14Z" description="누구앱 리그레이션 TC : 메뉴_096" finished-at="2020-10-12T20:27:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_096(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_096 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-10-12T20:27:18Z" finished-at="2020-10-12T20:27:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_096 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_096(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TC_메뉴_097(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="TC_메뉴_097" duration-ms="25231" started-at="2020-10-12T20:27:18Z" description="누구앱 리그레이션 TC : 메뉴_096" finished-at="2020-10-12T20:27:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_097(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_메뉴_097 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:27:18Z" finished-at="2020-10-12T20:27:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시.TC_메뉴_097(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="tearDownClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="tearDownClass" is-config="true" duration-ms="52987" started-at="2020-10-12T20:27:44Z" finished-at="2020-10-12T20:28:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[PRD]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[in]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ce12160cb994301d04]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ALDF3NYA6C0D0C654DD2]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[ALDF5TR5SNGZ8175DA16]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ALDEPCKHWOK47386BED6]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[15F42AF9FF6F4099827D12877DCDB8AA]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[ALDF2JWHQFXIBE9E95DB]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[2C66A81F08264E2B87CD8F859E506624]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[ALDESWE8NYHZ14E582BC]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[B4072E607BBF4109AFCBEE4FAAA9559B]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[ALDFKDH4BQFP7307628C]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ECCAA143358A4F1AB9735A1A02D41F68]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[ALDFCNQ7OS4WD3E316BC]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[35CC4E84BB1D4735AA0955FDCB75D88C]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-12T20:27:44Z" finished-at="2020-10-12T20:27:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_메뉴_097 status=SUCCESS method=메뉴_06_연결된다비이스표시.TC_메뉴_097(java.lang.reflect.Method)[pri:0, instance:NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시@78186a70] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- NUGUAPP_004_메뉴.메뉴_06_연결된다비이스표시 -->
+      </class> <!-- NUGUAPP_001_실행.앱시작_01 -->
     </test> <!-- Test_Project -->
   </suite> <!-- ExtentReport -->
 </testng-results>

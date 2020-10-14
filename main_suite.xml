@@ -7,7 +7,7 @@
 	<test name="Test_Project" preserve-order="true">
 		<parameter name="OS" value="Android" />
 		<parameter name="Server" value="PRD" /> <!-- 서버값 대문자로  : PRD, STG -->
-		<parameter name="TestPlace" value="out" /> <!-- 사내 : in  // 사외 : out-->
+		<parameter name="TestPlace" value="in" /> <!-- 사내 : in  // 사외 : out-->
 		<parameter name="oAuth_Token_NU100_4228C8" value="15F42AF9FF6F4099827D12877DCDB8AA"/> 
 		<parameter name="deviceID_NU100_4228C8" value="ALDEPCKHWOK47386BED6"/>
 		<parameter name="oAuth_Token_NU200_3F2B99" value="2C66A81F08264E2B87CD8F859E506624"/> 
@@ -20,7 +20,7 @@
 		<parameter name="deviceID_smart3" value="ALDFKDH4BQFP7307628C"/>
 		<parameter name="userID_ksszidane" value="ALDF3NYA6C0D0C654DD2"/>
 		<parameter name="userID_ksszidane10" value="ALDF5TR5SNGZ8175DA16"/>
-		<parameter name="MobileDevice" value="ce06171633774e37027e"/>
+		<parameter name="MobileDevice" value="ce12160cb994301d04"/>
 		
 		
 		<!--
@@ -63,21 +63,18 @@
 			
 			-->
 		
-			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
-		
-			
-<<<<<<< HEAD
 			<class name="NUGUAPP_001_실행.앱시작_01" />
+			<class name="NUGUAPP_002_연결.연결_01_NUGU" />
+			<class name="NUGUAPP_002_연결.연결_02_NUGU_mini" />
+			<class name="NUGUAPP_002_연결.연결_03_NUGU_candle" />
+			<class name="NUGUAPP_002_연결.연결_04_NUGU_nemo" />
+			<class name="NUGUAPP_002_연결.연결_05_NUGU_Btv" />
+			<class name="NUGUAPP_002_연결.연결_06_NUGU_albertAI" />
+			<class name="NUGUAPP_002_연결.연결_07_NUGU_Tmap" />
+			<class name="NUGUAPP_002_연결.연결_08_NUGU_TmapforCar" />
 		
 			
-			
-			
-			
-			
-			
-=======
 
->>>>>>> branch 'master' of https://github.com/ksszidane/App_NuguApp_Regression
 			
 
 			

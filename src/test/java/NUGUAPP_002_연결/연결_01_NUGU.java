@@ -218,7 +218,7 @@ public class 연결_01_NUGU extends TestCase {
 		
 		test.log(Status.INFO, "퍼미션 위치 권한 확인 ");
 		String 얼럿문구 = util.switchTo().alert().getText();
-		Assert.assertTrue(얼럿문구.contains("NUGU에서 내 기기 위치에 액세스하도록 허용하시겠습니까?"));
+		Assert.assertTrue(얼럿문구.contains("NUGU에서 내 기기 위치에 액세스하도록"));
 	    util.switchTo().alert().accept();
 		
 	    test.log(Status.INFO, "디바이스 선택 화면 확인");

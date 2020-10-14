@@ -64,7 +64,10 @@ public class 앱시작_01 extends TestCase {
 		
 		test.log(Status.INFO, "앱 재 실행");
 		util.resetApp();
-
+		
+		test.log(Status.INFO, "앱 위치 권한 On");
+		adb.NUGUAPP_permission_LOCATION_On(udid);
+		
 		test.log(Status.INFO, "AppActivity으로 화면 확인");
 	    util.switchContext("NATIVE_APP");
 		
@@ -80,7 +83,7 @@ public class 앱시작_01 extends TestCase {
 
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_005")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_005")
 	public void TC_앱실행_005(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
@@ -95,7 +98,7 @@ public class 앱시작_01 extends TestCase {
         
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_007")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_007")
 	public void TC_앱실행_007(Method method) throws Exception {
 		
 		
@@ -131,7 +134,7 @@ public class 앱시작_01 extends TestCase {
         */
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_008")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_008")
 	public void TC_앱실행_008(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면 이동 위한 Back 키");
@@ -144,7 +147,7 @@ public class 앱시작_01 extends TestCase {
         
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_010")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_010")
 	public void TC_앱실행_010(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -172,7 +175,7 @@ public class 앱시작_01 extends TestCase {
 
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_011")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_011")
 	public void TC_앱실행_011(Method method) throws Exception {
 
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -200,7 +203,7 @@ public class 앱시작_01 extends TestCase {
 
 	}
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_012~13")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_012~13")
 	public void TC_앱실행_012_from_013(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -273,7 +276,7 @@ public class 앱시작_01 extends TestCase {
 
     }
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_014~15")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_014~15")
 	public void TC_앱실행_014_from_015(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -345,7 +348,7 @@ public class 앱시작_01 extends TestCase {
 		
     }
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_016")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_016")
 	public void TC_앱실행_016(Method method) throws Exception {
 		
 		test.log(Status.INFO, "인트로 화면에서 로그인 이동");
@@ -419,7 +422,7 @@ public class 앱시작_01 extends TestCase {
 
     }
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_017~018")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_017~018")
 	public void TC_앱실행_017_from_018(Method method) throws Exception {
         
 		test.log(Status.INFO, "앱 재 실행");
@@ -500,7 +503,7 @@ public class 앱시작_01 extends TestCase {
 
     }
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_020")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_020")
 	public void TC_앱실행_020(Method method) throws Exception {
 
 		test.log(Status.INFO, "앱 재 실행");
@@ -560,7 +563,7 @@ public class 앱시작_01 extends TestCase {
 
     }
 	
-	@Test(description = "누구앱 리그레이션 TC : 실행_021")
+	//@Test(description = "누구앱 리그레이션 TC : 실행_021")
 	public void TC_앱실행_021(Method method) throws Exception {
         
         test.log(Status.INFO, "와이파이 / 셀룰러 데이터 Off");
