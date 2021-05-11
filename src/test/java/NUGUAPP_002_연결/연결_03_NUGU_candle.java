@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import junit.framework.Assert;
-import unit.TestCase;
+import unit.NUGU_TestCase;
 
-public class 연결_03_NUGU_candle extends TestCase {
+public class 연결_03_NUGU_candle extends NUGU_TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_123")
 	public void TC_연결_123(Method method) throws Exception {

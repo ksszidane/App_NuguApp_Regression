@@ -6,6 +6,7 @@
 	<parameter name="Project" value="NUGU_App"/>
 	<test name="Test_Project" preserve-order="true">
 		<parameter name="OS" value="Android" />
+		<parameter name="AppName" value="NUGU" />
 		<parameter name="Server" value="PRD" /> <!-- 서버값 대문자로  : PRD, STG -->
 		<parameter name="TestPlace" value="in" /> <!-- 사내 : in  // 사외 : out-->
 		<parameter name="oAuth_Token_NU100_4228C8" value="15F42AF9FF6F4099827D12877DCDB8AA"/> 

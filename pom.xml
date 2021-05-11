@@ -34,7 +34,7 @@
   	<dependency>
   		<groupId>com.github.ksszidane</groupId>
   		<artifactId>Applium-unit-lib</artifactId>
-  		<version>0.0.04</version>
+  		<version>0.0.06</version>
 	</dependency>
 	
 	<dependency>

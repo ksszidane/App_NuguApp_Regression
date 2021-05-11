@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import junit.framework.Assert;
-import unit.TestCase;
+import unit.NUGU_TestCase;
 
-public class 홈_08_디바이스컨트롤러상세 extends TestCase {
+public class 홈_08_디바이스컨트롤러상세 extends NUGU_TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 홈_080")
 	public void TC_홈_080(Method method) throws Exception {

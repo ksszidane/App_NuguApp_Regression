@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import junit.framework.Assert;
-import unit.TestCase;
+import unit.NUGU_TestCase;
 
-public class 홈_01_홈카드 extends TestCase {
+public class 홈_01_홈카드 extends NUGU_TestCase {
 	
 	int eventbanner;
 	

@@ -9,9 +9,9 @@ import com.aventstack.extentreports.Status;
 
 import io.appium.java_client.android.nativekey.AndroidKey;
 import junit.framework.Assert;
-import unit.TestCase;
+import unit.NUGU_TestCase;
 
-public class 연결_05_NUGU_Btv extends TestCase {
+public class 연결_05_NUGU_Btv extends NUGU_TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_218 | 중복 : 연결_248, 연결_260, 연결_267")
 	public void TC_연결_218(Method method) throws Exception {

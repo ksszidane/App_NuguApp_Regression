@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import junit.framework.Assert;
-import unit.TestCase;
+import unit.NUGU_TestCase;
 import NUGUAPP_001_실행.디폴트로그인;
 
-public class 연결_02_NUGU_mini extends TestCase {
+public class 연결_02_NUGU_mini extends NUGU_TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_068")
 	public void TC_연결_068(Method method) throws Exception {

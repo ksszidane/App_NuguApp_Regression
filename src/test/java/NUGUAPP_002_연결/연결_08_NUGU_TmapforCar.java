@@ -9,9 +9,9 @@ import com.aventstack.extentreports.Status;
 
 import io.appium.java_client.android.nativekey.AndroidKey;
 import junit.framework.Assert;
-import unit.TestCase;
+import unit.NUGU_TestCase;
 
-public class 연결_08_NUGU_TmapforCar extends TestCase {
+public class 연결_08_NUGU_TmapforCar extends NUGU_TestCase {
 	
 	@Test(description = "누구앱 리그레이션 TC : 연결_338")
 	public void TC_연결_338(Method method) throws Exception {
